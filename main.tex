@@ -1,0 +1,106 @@
+\documentclass[a4paper,justified,openany]{tufte-book}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\usepackage{soul}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage{graphicx}
+\graphicspath{{graphics/}}
+\usepackage{upgreek}
+\usepackage{amssymb}
+\usepackage{esint}
+
+\usepackage[caption=false]{subfig}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{pdfpages}
+\usepackage[version=3]{mhchem}
+
+\usepackage{booktabs} % book-quality tables
+\usepackage{multicol} % multiple column layout facilities
+%\fvset{fontsize=\normalsize}% default font size for fancy-verbatim environments
+
+% Formatting headers
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Physique 3 - Ondes}
+\lhead{\leftmark}
+\cfoot{\thepage}
+
+% Numbering chapters and sections
+\setcounter{secnumdepth}{1}
+
+\definecolor{bleuclair}{rgb}{0.7, 0.7, 1.0}
+\usepackage[french]{babel}
+% --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+%%%%% REMARQUES GENERALES CONCERNANT CE FICHIER : 
+
+%%%%%% Toute personne modifiant ce fichier est priée d'indiquer son nom, ses sources et la date d'édition  (voir exemple pour Champs électromagnétiques) devant ce qu'il a produit de "nouveau"
+
+%%%%%% Quand l'attention des professeurs est requise pour - un approfondissement - une vérification - (autre) : veuillez le signaler en commentaire avec, pour commencer :  /!\ PROFESSEURS 
+
+%%%%%% Si vous désirez seulement ajouter des commentaires à ce qui a été écrit à un endroit : veuillez le signaler en commentaire avec, pour commencer : /!\ COMMENT 
+
+%%%%%% Merci de votre compréhension et faisons de ce document un réel investissement collectif! 
+
+% --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+	
+	\title{Physique 3 - Ondes}
+	\author{Martin Braquet\\Jérôme Louveaux\\Claude Oestges\\Balazs Udvarhelyi\\Guillaume Van Dessel}
+	\publisher{École Polytechnique de Louvain}
+	
+	% Prints the month name (e.g., January) and the year (e.g., 2008)
+	\newcommand{\monthyear}{%
+		\ifcase\month\or January\or February\or March\or April\or May\or June\or
+		July\or August\or September\or October\or November\or
+		December\fi\space\number\year
+	}
+	
+	
+	% Prints an epigraph and speaker in sans serif, all-caps type.
+	\newcommand{\openepigraph}[2]{%
+		%\sffamily\fontsize{14}{16}\selectfont
+		\begin{fullwidth}
+			\sffamily\large
+			\begin{doublespace}
+				\noindent\allcaps{#1}\\% epigraph
+				\noindent\allcaps{#2}% author
+			\end{doublespace}
+		\end{fullwidth}
+	}
+	
+	\maketitle
+	\vfill
+	\openepigraph{
+		Ce syllabus a été réalisé à l'issue du premier comité de  quadrimestre 2015 dans l'optique de créer un support de cours davantage formel et complet qui puisse aider les étudiants à approfondir leur compréhension de la matière. Il a été décidé qu' une collaboration étroite entre les étudiants et les professeurs du cours de Physique 3 soit établie afin de rendre ce document 
+		le plus valable possible. \\
+		Ce document est par conséquent modifiable par les étudiants et les professeurs; ces derniers vérifieront de temps à autre 
+		son contenu et ajouteront des notes si nécessaire. \\
+		Sous la supervision des professeurs, ce syllabus a été rédigé en majorité par trois étudiants: Martin Braquet (chapitres 5 et 6), Balazs Udvarhelyi (chapitres 4, 7 et l'annexe) et Guillaume Van Dessel (chapitres 1,2,3,4 et 8).
+	}{ }
+	\vfill
+	\begin{figure*}
+		\centering
+		\includegraphics[width=150pt]{epl.png}
+	\end{figure*}
+	\vfill
+	
+	\tableofcontents
+	\input{contents/chapitre1.tex}
+	\input{contents/chapitre2.tex}
+	\input{contents/chapitre3.tex}
+	\input{contents/chapitre4.tex}
+	\input{contents/chapitre5.tex}
+	\input{contents/chapitre6.tex}
+	\input{contents/chapitre7.tex}
+	\input{contents/chapitre8.tex}
+	\input{contents/annexe.tex}
+\end{document}
