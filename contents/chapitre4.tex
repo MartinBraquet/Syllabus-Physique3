@@ -88,7 +88,7 @@ Une onde, lorsqu'elle passe d'un milieu à un autre, conserve sa \textbf{fréque
 par le changement de milieu car ils dépendent directement de la vitesse de l'onde.
 
 
-Afin de clarifier les choses, les différentes notations que nous allons utiliser sont reprises dans la figure 3.
+Afin de clarifier les choses, les différentes notations que nous allons utiliser sont reprises à la figure \ref{fig_CM4_conventions_k}.
 \begin{marginfigure}
 \includegraphics[width = \linewidth]{CM4_conventions_k}
 \caption{Le plan d'incidence est le plan qui est formé de deux des 3 vecteurs d'ondes. (Ces 3 vecteurs d'onde sont coplanaires, le plan d'incidence sera donc la même si l'on prend le vecteur incident et réfléchi ou incident et transmis par exemple.)\\
@@ -96,6 +96,7 @@ Les caractéristiques de l'onde \textbf{incidente} seront notés avec un indice 
 Les caractéristiques de l'onde \textbf{réfléchie} seront notés avec un indice $1r$ ou $r$. \\
 Les caractéristiques de l'onde \textbf{transmise} seront notés avec un indice $2$ ou $2t$. \\
 \textbf{Les angles sont toujours mesurés par rapport à la normale de l'interface!}}
+\label{fig_CM4_conventions_k}
 \end{marginfigure}
 
 On peut tout d'abord montrer que l'angle d'\textit{incidence} vaut l'angle de \textit{réflexion}. 
@@ -128,23 +129,25 @@ Tout d'abord, la relation permettant de calculer (de \textit{manière générale
 
 \[\vec{H}(\vec{r},t) = \frac{1}{Z}\vec{1_k} \times \vec{E}(\vec{r},t) \]%= \frac{n}{c\epsilon}\vec{H}(\vec{r},t) = \frac{c\mu}{n}\vec{H}(\vec{r},t)\]
 
-Nous pouvons alors décomposer ce dernier en une composante \textit{parallèle} au plan d'incidence et une autre \textit{perpendiculaire} à ce dernier. La composante appartenant au plan d'incidence peut elle même être décomposée comme montré sur la figure 4.7, dans le plan xz.\\ 
+Nous pouvons alors décomposer ce dernier en une composante \textit{parallèle} au plan d'incidence et une autre \textit{perpendiculaire} à ce dernier. La composante appartenant au plan d'incidence peut elle même être décomposée comme montré sur la figure \ref{decomp}, dans le plan $xz$.\\ 
 
 Nous pouvons décomposer chaque onde selon trois composantes polarisées linéairement dans les directions $\hat{x}, \hat{y}, \hat{z}$ sur la figure. \\
-Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibrante concernant l'amplitude de chacune de ces composantes. Il est avant tout important de spécifier les conventions prises pour la suite. Celles-ci sont précisées aux figures 5, 6 et 7.
+Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibrante concernant l'amplitude de chacune de ces composantes. Il est avant tout important de spécifier les conventions prises pour la suite. Celles-ci sont précisées aux figures \ref{fig_convention1}, \ref{fig_convention2} et \ref{decomp}.
 \begin{marginfigure}[-4cm]
 \includegraphics[width=\linewidth]{convention1}
 \caption{Convention prise pour les champs électriques incidents parallèles à l'interface}
+\label{fig_convention1}
 \end{marginfigure}
 \begin{marginfigure}
-	\includegraphics[width=\linewidth]{convention2}
-	\caption{Convention prise pour les champs H incidents parallèles à l'interface}
+\includegraphics[width=\linewidth]{convention2}
+\caption{Convention prise pour les champs H incidents parallèles à l'interface}
+\label{fig_convention2}
 \end{marginfigure}
 \begin{marginfigure}
-	\includegraphics[width=\linewidth]{CM4_planincident}
-	\includegraphics[width=\linewidth]{explicationsmall}
-	\caption{Décomposition du vecteur champ électrique par rapport au plan incident (haut) et projection du vecteur // au plan incident sur le plan xz (bas)}
-	\label{decomp}
+\includegraphics[width=\linewidth]{CM4_planincident}
+\includegraphics[width=\linewidth]{explicationsmall}
+\caption{Décomposition du vecteur champ électrique par rapport au plan incident (haut) et projection du vecteur // au plan incident sur le plan xz (bas)}
+\label{decomp}
 \end{marginfigure}
  Commençons par écrire les ondes \textit{réfléchie} et \textit{transmise} en fonction de l'onde \textit{incidente}.\\
 \textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{//}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{//} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
@@ -242,19 +245,21 @@ Les deux formes des coefficients de Fresnel sont évidemment équivalentes si $\
 \section{Conséquences des équations de Fresnel}
 Supposons une interface entre deux milieux non-magnétiques (pour simplifier l'analyse), par exemple, une interface air-lucite (la lucite est le nom correct du plexiglas, qui est à la base une marque de produit).
 
-Lorsqu'une onde EM passe de l'air vers la lucite, à incidence normale ($\theta_1=0^\circ$ ; cercle bleu sur la figure 8), nous remarquons que les coefficients de réfraction sont négatifs. \textit{La réflexion change donc le sens du champ électrique} en lui appliquant un déphasage de $180^\circ$.\sidenote{Attention, il ne s'agit pas d'une histoire de conventions, le déphasage est bien réel. Pour s'en convaincre, il suffit de regarder les figures 5 et 6 en imaginant $\theta_1=0^\circ$. Nous pouvons remarquer que dans ce cas les vecteurs se confondent.} Avec une analyse similaire, on peut déterminer que la transmission ne change pas le sens du champ électrique.\\
+Lorsqu'une onde EM passe de l'air vers la lucite, à incidence normale ($\theta_1=0^\circ$ ; cercle bleu sur la figure \ref{fig_ref2}), nous remarquons que les coefficients de réfraction sont négatifs. \textit{La réflexion change donc le sens du champ électrique} en lui appliquant un déphasage de $180^\circ$.\sidenote{Attention, il ne s'agit pas d'une histoire de conventions, le déphasage est bien réel. Pour s'en convaincre, il suffit de regarder les figures \ref{fig_convention1} et \ref{fig_convention2} en imaginant $\theta_1=0^\circ$. Nous pouvons remarquer que dans ce cas les vecteurs se confondent.} Avec une analyse similaire, on peut déterminer que la transmission ne change pas le sens du champ électrique.\\
 Toujours dans le même cas (air $\rightarrow$ lucite), nous observons qu'à incidence rasante ($\theta_1$ proche de $90^\circ$), le coefficient de réfléxion tend vers 1 et le coefficient de transmission vers zéro. \textit{A incidence rasante, la réflexion est totale.}\\
 
-Dans le cas inverse, visible à la figure 9, où $n_1>n_2$ (lucite $\rightarrow$ air), nous pouvons observer que tant le champ électrique transmis que réfléchi est du même sens que le champ électrique incident. Une remarque importante s'impose quant à la définition du sens des champs. Ces champs sont des ondes sinusoïdales, dont l'orientation change toutes les demi-périodes. Par sens, on entend bien le sens pris au même moment, à l'interface. Autrement dit, si un coefficient de Fresnel est positif pour les sens définis aux figures 5 et 6, cela signifie qu'à un moment fixé, au point de réflexion, les champs ont le sens tel qu'indiqué sur la figure. Une demi-période plus tard, les champs seront tous (en même temps) dans le sens opposé. 
+Dans le cas inverse, visible à la figure \ref{fig_ref3}, où $n_1>n_2$ (lucite $\rightarrow$ air), nous pouvons observer que tant le champ électrique transmis que réfléchi est du même sens que le champ électrique incident. Une remarque importante s'impose quant à la définition du sens des champs. Ces champs sont des ondes sinusoïdales, dont l'orientation change toutes les demi-périodes. Par sens, on entend bien le sens pris au même moment, à l'interface. Autrement dit, si un coefficient de Fresnel est positif pour les sens définis aux figures \ref{fig_convention1} et \ref{fig_convention2}, cela signifie qu'à un moment fixé, au point de réflexion, les champs ont le sens tel qu'indiqué sur la figure. Une demi-période plus tard, les champs seront tous (en même temps) dans le sens opposé. 
 
 \section{Angles particuliers}
 \begin{marginfigure}%[-9cm]
 	\includegraphics[width=\linewidth]{ref2}
 	\caption{Coefficients de réflexion parallèle et perpendiculaire lorsque $n_1<n_2$ (air $\rightarrow$ lucite)}
+	\label{fig_ref2}
 \end{marginfigure} 
 \begin{marginfigure}%[-9cm]
 	\includegraphics[width=\linewidth]{trans2}
 	\caption{Coefficients de transmission parallèle et perpendiculaire lorsque $n_1<n_2$ (air $\rightarrow$ lucite)}
+	\label{fig_trans2}
 \end{marginfigure} 
 
 \subsection{Angle de \textit{Brewster} et transmission totale}
@@ -289,6 +294,7 @@ Ces principes sont à la base du fonctionnement des polariseurs, c'est-a-dire de
 \begin{marginfigure}%[-9cm]
 	\includegraphics[width=\linewidth]{ref1}
 	\caption{Coefficients de réflexion parallèle et perpendiculaire lorsque $n_1>n_2$ (lucite $\rightarrow$ air)}
+	\label{fig_ref3}
 \end{marginfigure} 
 \begin{marginfigure}%[-9cm]
 	\includegraphics[width=\linewidth]{trans1}
