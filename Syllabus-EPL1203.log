@@ -1,0 +1,4473 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.6)  11 AUG 2018 20:59
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**Syllabus-EPL1203.tex
+(./Syllabus-EPL1203.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(./tufte-book.cls
+Document Class: tufte-book 2015/06/30 v3.5.3 Tufte-book class
+(./tufte-common.def
+File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count79
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count80
+\calc@Bcount=\count81
+\calc@Adimen=\dimen102
+\calc@Bdimen=\dimen103
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count82
+\calc@Cskip=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 67.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+runsystem(uname -s > "Syllabus-EPL1203.w18")...executed.
+
+
+(./Syllabus-EPL1203.w18)
+runsystem(rm -- "Syllabus-EPL1203.w18")...executed.
+
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\hw@charcount=\count83
+\hw@wordcount=\count84
+\hw@maxprintline=\count85
+
+(|kpsewhich -var-value=max_print_line))
+Class tufte-book Info: Passing openany to the `book' class.
+Class tufte-book Info: Loading the base class `book'
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count86
+\c@chapter=\count87
+\c@section=\count88
+\c@subsection=\count89
+\c@subsubsection=\count90
+\c@paragraph=\count91
+\c@subparagraph=\count92
+\c@figure=\count93
+\c@table=\count94
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks16
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count95
+\Hy@pagecounter=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count97
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count98
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count99
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count100
+\c@Item=\count101
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen115
+\Gm@wd@mp=\dimen116
+\Gm@odd@mp=\dimen117
+\Gm@even@mp=\dimen118
+\Gm@layoutwidth=\dimen119
+\Gm@layoutheight=\dimen120
+\Gm@layouthoffset=\dimen121
+\Gm@layoutvoffset=\dimen122
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count107
+\cp@tempcnt=\count108
+)
+\@tufte@overhang=\skip63
+\@tufte@fullwidth=\skip64
+\@tufte@caption@fill=\skip65
+
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip66
+\plpartopsep=\skip67
+\plitemsep=\skip68
+\plparsep=\skip69
+\pl@lab=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/letterspace.sty
+Package: letterspace 2018/01/14 v2.7a Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 345.
+LaTeX Info: Redefining \lslig on input line 346.
+LaTeX Info: Redefining \textls on input line 371.
+\MT@outer@kern=\dimen123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip70
+\bibsep=\skip71
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+No file Syllabus-EPL1203.bbl.
+\c@@tufte@num@bibkeys=\count110
+(/usr/share/texlive/texmf-dist/tex/latex/sauerj/optparams.sty
+Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
+)
+\@tufte@sidenote@vertical@offset=\skip72
+
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\@tufte@margin@floatbox=\box27
+\@tufte@figure@box=\box28
+\@tufte@caption@box=\box29
+\@tufte@caption@vertical@offset=\skip73
+\@tufte@float@contents@width=\skip74
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
+)
+\tufteskipamount=\skip84
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count111
+\mult@box=\box30
+\multicol@leftmargin=\dimen124
+\c@unbalance=\count112
+\c@collectmore=\count113
+\doublecol@number=\count114
+\multicoltolerance=\count115
+\multicolpretolerance=\count116
+\full@width=\dimen125
+\page@free=\dimen126
+\premulticols=\dimen127
+\postmulticols=\dimen128
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen129
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count117
+\c@finalcolumnbadness=\count118
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count119
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks21
+\SOUL@lasttoken=\toks22
+\SOUL@cmds=\toks23
+\SOUL@buffer=\toks24
+\SOUL@token=\toks25
+\SOUL@spaceskip=\skip87
+\SOUL@ttwidth=\dimen133
+\SOUL@uldp=\dimen134
+\SOUL@ulht=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip88
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen136
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count120
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count121
+\leftroot@=\count122
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count123
+\DOTSCASE@=\count124
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count125
+\c@MaxMatrixCols=\count126
+\dotsspace@=\muskip11
+\c@parentequation=\count127
+\dspbrk@lvl=\count128
+\tag@help=\toks27
+\row@=\count129
+\column@=\count130
+\maxfields@=\count131
+\andhelp@=\toks28
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks29
+\multlinegap=\skip89
+\multlinetaggap=\skip90
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box58
+\UL@hyphenbox=\box59
+\UL@skip=\skip91
+\UL@hook=\toks31
+\UL@height=\dimen145
+\UL@pe=\count132
+\UL@pixel=\dimen146
+\ULC@box=\box60
+Package: ulem 2012/05/18
+\ULdepth=\dimen147
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup8
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+)
+\c@KVtest=\count133
+\sf@farskip=\skip92
+\sf@captopadj=\dimen157
+\sf@capskip=\skip93
+\sf@nearskip=\skip94
+\c@subfigure=\count134
+\c@subfigure@save=\count135
+\c@lofdepth=\count136
+\c@subtable=\count137
+\c@subtable@save=\count138
+\c@lotdepth=\count139
+\sf@top=\skip95
+\sf@bottom=\skip96
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box61
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count140
+\c@pgf@countb=\count141
+\c@pgf@countc=\count142
+\c@pgf@countd=\count143
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count144
+\pgfsyssoftpath@bigbuffer@items=\count145
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen168
+\pgfmath@count=\count146
+\pgfmath@box=\box62
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count147
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen169
+\pgf@picmaxx=\dimen170
+\pgf@picminy=\dimen171
+\pgf@picmaxy=\dimen172
+\pgf@pathminx=\dimen173
+\pgf@pathmaxx=\dimen174
+\pgf@pathminy=\dimen175
+\pgf@pathmaxy=\dimen176
+\pgf@xx=\dimen177
+\pgf@xy=\dimen178
+\pgf@yx=\dimen179
+\pgf@yy=\dimen180
+\pgf@zx=\dimen181
+\pgf@zy=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen183
+\pgf@path@lasty=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen185
+\pgf@shorten@start@additional=\dimen186
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count148
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen188
+\pgf@pt@y=\dimen189
+\pgf@pt@temp=\dimen190
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen192
+\pgf@sys@shading@range@num=\count149
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box67
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count150
+\pgfplotmarksize=\dimen197
+)
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen256
+\tikz@lastysaved=\dimen257
+\tikzleveldistance=\dimen258
+\tikzsiblingdistance=\dimen259
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count151
+\tikznumberofchildren=\count152
+\tikznumberofcurrentchild=\count153
+\tikz@fig@count=\count154
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count155
+\pgfmatrixcurrentcolumn=\count156
+\pgf@matrix@numberofcolumns=\count157
+)
+\tikz@expandcount=\count158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+\AM@pagewidth=\dimen260
+\AM@pageheight=\dimen261
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box72
+\AM@global@opts=\toks44
+\AM@toc@title=\toks45
+\c@AM@survey=\count160
+\AM@templatesizebox=\box73
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2017/07/24 v4.07 for typesetting chemical formulae
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count161
+\l_tmpa_int=\count162
+\l_tmpb_int=\count163
+\g_tmpa_int=\count164
+\g_tmpb_int=\count165
+\g__intarray_font_int=\count166
+\g__prg_map_int=\count167
+\c_log_iow=\count168
+\l_iow_line_count_int=\count169
+\l__iow_line_target_int=\count170
+\l__iow_one_indent_int=\count171
+\l__iow_indent_int=\count172
+\c_zero_dim=\dimen262
+\c_max_dim=\dimen263
+\l_tmpa_dim=\dimen264
+\l_tmpb_dim=\dimen265
+\g_tmpa_dim=\dimen266
+\g_tmpb_dim=\dimen267
+\c_zero_skip=\skip97
+\c_max_skip=\skip98
+\l_tmpa_skip=\skip99
+\l_tmpb_skip=\skip100
+\g_tmpa_skip=\skip101
+\g_tmpb_skip=\skip102
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count173
+\c__fp_leading_shift_int=\count174
+\c__fp_middle_shift_int=\count175
+\c__fp_trailing_shift_int=\count176
+\c__fp_big_leading_shift_int=\count177
+\c__fp_big_middle_shift_int=\count178
+\c__fp_big_trailing_shift_int=\count179
+\c__fp_Bigg_leading_shift_int=\count180
+\c__fp_Bigg_middle_shift_int=\count181
+\c__fp_Bigg_trailing_shift_int=\count182
+\c__fp_rand_size_int=\count183
+\c__fp_rand_four_int=\count184
+\c__fp_rand_eight_int=\count185
+\l__sort_length_int=\count186
+\l__sort_min_int=\count187
+\l__sort_top_int=\count188
+\l__sort_max_int=\count189
+\l__sort_true_max_int=\count190
+\l__sort_block_int=\count191
+\l__sort_begin_int=\count192
+\l__sort_end_int=\count193
+\l__sort_A_int=\count194
+\l__sort_B_int=\count195
+\l__sort_C_int=\count196
+\l__tl_build_start_index_int=\count197
+\l__tl_build_index_int=\count198
+\l__tl_analysis_normal_int=\count199
+\l__tl_analysis_index_int=\count266
+\l__tl_analysis_nesting_int=\count267
+\l__tl_analysis_type_int=\count268
+\l__regex_internal_a_int=\count269
+\l__regex_internal_b_int=\count270
+\l__regex_internal_c_int=\count271
+\l__regex_balance_int=\count272
+\l__regex_group_level_int=\count273
+\l__regex_mode_int=\count274
+\c__regex_cs_in_class_mode_int=\count275
+\c__regex_cs_mode_int=\count276
+\l__regex_catcodes_int=\count277
+\l__regex_default_catcodes_int=\count278
+\c__regex_catcode_D_int=\count279
+\c__regex_catcode_S_int=\count280
+\c__regex_catcode_L_int=\count281
+\c__regex_catcode_O_int=\count282
+\c__regex_catcode_A_int=\count283
+\c__regex_all_catcodes_int=\count284
+\l__regex_show_lines_int=\count285
+\l__regex_min_state_int=\count286
+\l__regex_max_state_int=\count287
+\l__regex_left_state_int=\count288
+\l__regex_right_state_int=\count289
+\l__regex_capturing_group_int=\count290
+\l__regex_min_pos_int=\count291
+\l__regex_max_pos_int=\count292
+\l__regex_curr_pos_int=\count293
+\l__regex_start_pos_int=\count294
+\l__regex_success_pos_int=\count295
+\l__regex_curr_char_int=\count296
+\l__regex_curr_catcode_int=\count297
+\l__regex_last_char_int=\count298
+\l__regex_case_changed_char_int=\count299
+\l__regex_curr_state_int=\count300
+\l__regex_step_int=\count301
+\l__regex_min_active_int=\count302
+\l__regex_max_active_int=\count303
+\l__regex_replacement_csnames_int=\count304
+\l__regex_match_count_int=\count305
+\l__regex_min_submatch_int=\count306
+\l__regex_submatch_int=\count307
+\l__regex_zeroth_submatch_int=\count308
+\g__regex_trace_regex_int=\count309
+\c_empty_box=\box74
+\l_tmpa_box=\box75
+\l_tmpb_box=\box76
+\g_tmpa_box=\box77
+\g_tmpb_box=\box78
+\l__box_top_dim=\dimen268
+\l__box_bottom_dim=\dimen269
+\l__box_left_dim=\dimen270
+\l__box_right_dim=\dimen271
+\l__box_top_new_dim=\dimen272
+\l__box_bottom_new_dim=\dimen273
+\l__box_left_new_dim=\dimen274
+\l__box_right_new_dim=\dimen275
+\l__box_internal_box=\box79
+\l__coffin_internal_box=\box80
+\l__coffin_internal_dim=\dimen276
+\l__coffin_offset_x_dim=\dimen277
+\l__coffin_offset_y_dim=\dimen278
+\l__coffin_x_dim=\dimen279
+\l__coffin_y_dim=\dimen280
+\l__coffin_x_prime_dim=\dimen281
+\l__coffin_y_prime_dim=\dimen282
+\c_empty_coffin=\box81
+\l__coffin_aligned_coffin=\box82
+\l__coffin_aligned_internal_coffin=\box83
+\l_tmpa_coffin=\box84
+\l_tmpb_coffin=\box85
+\l__coffin_display_coffin=\box86
+\l__coffin_display_coord_coffin=\box87
+\l__coffin_display_pole_coffin=\box88
+\l__coffin_display_offset_dim=\dimen283
+\l__coffin_display_x_dim=\dimen284
+\l__coffin_display_y_dim=\dimen285
+\l__coffin_bounding_shift_dim=\dimen286
+\l__coffin_left_corner_dim=\dimen287
+\l__coffin_right_corner_dim=\dimen288
+\l__coffin_bottom_corner_dim=\dimen289
+\l__coffin_top_corner_dim=\dimen290
+\l__coffin_scaled_total_height_dim=\dimen291
+\l__coffin_scaled_width_dim=\dimen292
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count310
+\l__driver_tmp_box=\box89
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count311
+\g__xparse_grabber_int=\count312
+\l__xparse_m_args_int=\count313
+\l__xparse_mandatory_args_int=\count314
+\l__xparse_v_nesting_int=\count315
+)
+Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
+stry (CN)
+\l__chemgreek_tmpa_int=\count316
+\g__chemgreek_tmpa_int=\count317
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count318
+\__mhchem_arrow_extPgfLength_skip=\skip103
+\mhchem@minispace@tmp=\skip104
+\mhchem@minibackspace@tmp=\skip105
+\mhchem@bondwidth=\skip106
+\mhchem@bondheight=\skip107
+\mhchem@smallbondwidth@tmpA=\skip108
+\mhchem@smallbondwidth@tmpB=\skip109
+\mhchem@smallbondwidth=\skip110
+\mhchem@bondtmp@minussidebearingleft=\skip111
+\mhchem@bondtmp@minussidebearingright=\skip112
+\l__mhchem_option_version_int=\count319
+\mhchem@option@minusmathsidebearingleft=\dimen293
+\mhchem@option@minusmathsidebearingright=\dimen294
+\mhchem@option@minustextsidebearingleft=\dimen295
+\mhchem@option@minustextsidebearingright=\dimen296
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen297
+\lightrulewidth=\dimen298
+\cmidrulewidth=\dimen299
+\belowrulesep=\dimen300
+\belowbottomsep=\dimen301
+\aboverulesep=\dimen302
+\abovetopsep=\dimen303
+\cmidrulesep=\dimen304
+\cmidrulekern=\dimen305
+\defaultaddspace=\dimen306
+\@cmidla=\count320
+\@cmidlb=\count321
+\@aboverulesep=\dimen307
+\@belowrulesep=\dimen308
+\@thisruleclass=\count322
+\@lastruleclass=\count323
+\@thisrulewidth=\dimen309
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2018/02/04 v3.4b French support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count324
+\U@D=\dimen310
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count325
+)
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count326
+Package babel Info: Making : an active character on input line 411.
+Package babel Info: Making ; an active character on input line 412.
+Package babel Info: Making ! an active character on input line 413.
+Package babel Info: Making ? an active character on input line 414.
+\FBguill@level=\count327
+\FB@everypar=\toks46
+\FB@Mht=\dimen311
+\mc@charclass=\count328
+\mc@charfam=\count329
+\mc@charslot=\count330
+\std@mcc=\count331
+\dec@mcc=\count332
+\c@FBcaption@count=\count333
+\listindentFB=\skip113
+\descindentFB=\skip114
+\labelwidthFB=\skip115
+\leftmarginFB=\skip116
+\parindentFFN=\dimen312
+\FBfnindent=\skip117
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+No file Syllabus-EPL1203.aux.
+\openout1 = `Syllabus-EPL1203.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 53.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+\AtBeginShipoutBox=\box90
+Package hyperref Info: Link coloring OFF on input line 53.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count334
+)
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
+\@outlinefile=\write4
+\openout4 = `Syllabus-EPL1203.out'.
+
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 53.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(70.56284pt, 304.44447pt, 222.50056pt)
+* v-part:(T,H,B)=(77.96053pt, 686.0pt, 81.08632pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=304.44447pt
+* \textheight=686.0pt
+* \oddsidemargin=-1.70715pt
+* \evensidemargin=-1.70715pt
+* \topmargin=-36.30946pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count335
+\scratchdimen=\dimen313
+\scratchbox=\box91
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen314
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\langwohyphens=\language84
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `upgreek' on line 53.
+.................................................
+LaTeX Info: Redefining \degres on input line 53.
+LaTeX Info: Redefining \dots on input line 53.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 53.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 53.
+LaTeX Info: Redefining \up on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 56.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 79.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 79.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.19989pt on input line 79.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 32.39978pt on input line 79.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.59991pt on input line 79.
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 87.
+
+Overfull \hbox (36.27805pt too wide) in paragraph at lines 87--87
+\T1/phv/m/n/10.95/200ls 6), BA-LAZS UD-VA-RHE-LYI (CHA-PITRES 4, 7 ET L'AN-NEXE
+) ET GUILLAUME VAN DES-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+<graphics/epl.png, id=13, 232.87pt x 143.53625pt>
+File: graphics/epl.png Graphic file (type png)
+<use graphics/epl.png>
+Package pdftex.def Info: graphics/epl.png  used on input line 91.
+(pdftex.def)             Requested size: 150.0pt x 92.4608pt.
+[2
+
+ <./graphics/epl.png>]
+\tf@toc=\write5
+\openout5 = `Syllabus-EPL1203.toc'.
+
+ (./contents/chapitre1.tex [3
+
+]
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <10> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 29.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 29.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 29.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 29.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 29.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 29.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 29.
+LaTeX Font Info:    Try loading font information for U+esint on input line 29.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 29.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 29.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 29.
+
+Overfull \hbox (8.7415pt too wide) in paragraph at lines 29--32
+[]\T1/pplj/m/n/20.74 2 \T1/pplj/m/n/10 : Des cou-rants constants[] créent un \T
+1/pplj/b/it/10 champ ma-gné-tique[] \T1/pplj/m/n/10 constant. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4
+
+]
+Overfull \hbox (17.53542pt too wide) in paragraph at lines 47--50
+[]\T1/pplj/m/n/10 Cette loi tra-duit le fait que le champ ma-gné-tique (\T1/ppl
+j/m/it/10 in-duit \T1/pplj/m/n/10 ou d'\T1/pplj/m/it/10 excitation\T1/pplj/m/n/
+10 )
+ []
+
+
+Overfull \hbox (8.2953pt too wide) in paragraph at lines 69--71
+\T1/pplj/m/n/10 tique d'ex-ci-ta-tion au cou-rant tra-ver-sant la sur-face dé-c
+rite par le contour
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+<graphics/rep_div.png, id=43, 349.305pt x 363.3575pt>
+File: graphics/rep_div.png Graphic file (type png)
+<use graphics/rep_div.png>
+Package pdftex.def Info: graphics/rep_div.png  used on input line 84.
+(pdftex.def)             Requested size: 142.26378pt x 147.98508pt.
+
+Overfull \hbox (3.47519pt too wide) in paragraph at lines 83--85
+ [] 
+ []
+
+[5 <./graphics/rep_div.png>]
+<graphics/rep_rot.png, id=60, 323.70938pt x 321.45094pt>
+File: graphics/rep_rot.png Graphic file (type png)
+<use graphics/rep_rot.png>
+Package pdftex.def Info: graphics/rep_rot.png  used on input line 100.
+(pdftex.def)             Requested size: 142.26378pt x 141.27208pt.
+
+Overfull \hbox (1.70718pt too wide) in paragraph at lines 100--101
+[] 
+ []
+
+
+Overfull \hbox (1.46521pt too wide) in paragraph at lines 116--118
+\T1/pplj/m/n/10 ra-teurs dif-fé-ren-tiels que nous avons étu-diées au se-cond q
+ua-dri-mestre. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
+ []
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/it' in size <8> not available
+(Font)              Font shape `T1/pplj/b/it' tried instead on input line 130.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+ []
+
+
+LaTeX Warning: Marginpar on page 6 moved.
+
+[6 <./graphics/rep_rot.png>]
+Underfull \hbox (badness 1092) in paragraph at lines 161--161
+\T1/pplj/m/n/8 que les par-ti-cules char-gées po-si-ti-ve-
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+<graphics/circ_ampere_naif.png, id=70, 190.21063pt x 196.23312pt>
+File: graphics/circ_ampere_naif.png Graphic file (type png)
+<use graphics/circ_ampere_naif.png>
+Package pdftex.def Info: graphics/circ_ampere_naif.png  used on input line 166.
+
+(pdftex.def)             Requested size: 142.26378pt x 146.77322pt.
+
+Overfull \hbox (3.47519pt too wide) in paragraph at lines 165--167
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+<graphics/circ_ampere_bug.png, id=71, 192.21812pt x 196.23312pt>
+File: graphics/circ_ampere_bug.png Graphic file (type png)
+<use graphics/circ_ampere_bug.png>
+Package pdftex.def Info: graphics/circ_ampere_bug.png  used on input line 170.
+(pdftex.def)             Requested size: 142.26378pt x 145.24614pt.
+
+Overfull \hbox (3.47519pt too wide) in paragraph at lines 169--171
+ [] 
+ []
+
+
+LaTeX Warning: Marginpar on page 7 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+ []
+
+[7 <./graphics/circ_ampere_naif.png> <./graphics/circ_ampere_bug.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[][]\T1/pplj/m/n/8 .Certaines lettres re-pré-sentent les
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 189--189
+\T1/pplj/m/n/8 normes de vec-teurs qui leurs sont
+ []
+
+
+LaTeX Warning: Marginpar on page 8 moved.
+
+[8]
+
+LaTeX Warning: Marginpar on page 9 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+LaTeX Warning: Reference `interface1' on page 9 undefined on input line 267.
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 297--298
+[]\T1/pplj/m/n/10 En l'ab-sence de charges et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
+
+ []
+
+) (./contents/chapitre2.tex [9]
+Chapitre 2.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 10.
+(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)
+LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 10.
+
+Underfull \hbox (badness 1168) in paragraph at lines 10--10
+\T1/pplj/m/n/8 slides et de \T1/pplj/m/it/8 wi-ki-pé-dia \T1/pplj/m/n/8 : []$\T
+1/fvm/m/n/8 https : / / fr .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/fvm/m/n/8 wikipedia . org / wiki / Établissement _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\T1/fvm/m/n/8 de _ l % 27équation _ de _ propagation _ à _
+ []
+
+
+LaTeX Warning: Marginpar on page 10 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 71.
+
+Overfull \hbox (2.23598pt too wide) in paragraph at lines 70--72
+\T1/pplj/m/n/10 notre dé-ve-lop-pe-ment, nous pou-vons com-men-cer à com-bi-ner
+ les équa-
+ []
+
+[10
+
+]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+[11]
+<graphics/ondeEM.png, id=115, 401.5pt x 99.37125pt>
+File: graphics/ondeEM.png Graphic file (type png)
+<use graphics/ondeEM.png>
+Package pdftex.def Info: graphics/ondeEM.png  used on input line 117.
+(pdftex.def)             Requested size: 300.0215pt x 100.00328pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+[12 <./graphics/ondeEM.png>]
+
+LaTeX Warning: Marginpar on page 13 moved.
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 187--187
+[][]\T1/pplj/m/n/8 .Les grands voya-geurs parmi vous
+ []
+
+
+Overfull \hbox (0.6456pt too wide) in paragraph at lines 185--188
+[]\T1/pplj/m/n/10 elles \T1/pplj/b/n/10 obéissent toutes deux à une même équa-t
+ion d'onde de type \T1/pplj/m/n/10 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
+
+ []
+
+[13]
+
+LaTeX Warning: Marginpar on page 14 moved.
+
+[14]
+Overfull \hbox (0.648pt too wide) in paragraph at lines 240--244
+\T1/pplj/m/n/10 où $\OML/zplm/m/it/10 ^^X\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 !
+\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 t\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 k\OT
+1/pplx/m/n/10 , \OML/zplm/m/it/10 x\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 ^^^$ \T
+1/pplj/m/n/10 sont res-pec-ti-ve-ment l'élon-ga-tion maxi-male en chaque
+ []
+
+<graphics/onde.png, id=136, 1283.79625pt x 936.49875pt>
+File: graphics/onde.png Graphic file (type png)
+<use graphics/onde.png>
+Package pdftex.def Info: graphics/onde.png  used on input line 244.
+(pdftex.def)             Requested size: 140.5566pt x 102.52933pt.
+<graphics/poynting.png, id=137, 332.24126pt x 167.62625pt>
+File: graphics/poynting.png Graphic file (type png)
+<use graphics/poynting.png>
+Package pdftex.def Info: graphics/poynting.png  used on input line 275.
+(pdftex.def)             Requested size: 200.00026pt x 79.99927pt.
+
+LaTeX Warning: Reference `poynting' on page 15 undefined on input line 282.
+
+[15 <./graphics/onde.png>]
+Overfull \hbox (11.3581pt too wide) in paragraph at lines 286--287
+\T1/pplj/m/n/10 cas d'une fonc-tion si-nu-soï-dale, nous ob-te-nons (rap-pel : 
+$[][] [][]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/zplm/m/n/10 ) \OML/zplm/m/i
+t/10 dx \OT1/zplm/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+) (./contents/chapitre3.tex [16 <./graphics/poynting.png>]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--13
+
+ []
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+
+LaTeX Warning: Marginpar on page 17 moved.
+
+<graphics/SlideCM3.png, id=150, 601.24625pt x 313.17pt>
+File: graphics/SlideCM3.png Graphic file (type png)
+<use graphics/SlideCM3.png>
+Package pdftex.def Info: graphics/SlideCM3.png  used on input line 17.
+(pdftex.def)             Requested size: 243.5565pt x 126.86182pt.
+[17
+
+ <./graphics/SlideCM3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+LaTeX Warning: Reference `Force5' on page 18 undefined on input line 71.
+
+
+LaTeX Warning: Reference `Force6' on page 18 undefined on input line 71.
+
+
+LaTeX Warning: Reference `Force4' on page 18 undefined on input line 81.
+
+
+LaTeX Warning: Reference `ForceLOL' on page 18 undefined on input line 81.
+
+
+LaTeX Warning: Reference `EqOnde' on page 18 undefined on input line 81.
+
+[18]
+
+LaTeX Warning: Reference `EqOnde' on page 19 undefined on input line 87.
+
+
+Overfull \hbox (10.02776pt too wide) in paragraph at lines 104--105
+[]\T1/pplj/m/n/10 Soit donc $[]\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/pplx/m
+/n/10 , \OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML/zplm/m/it/10 ^^X[] []\OT1/
+zplm/m/n/10 (\OML/zplm/m/it/10 kx \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 !t\OT1
+/zplm/m/n/10 )[]$ \T1/pplj/m/n/10 et dès lors $[]\OT1/zplm/m/n/10 (\OML/zplm/m/
+it/10 x\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = \OML/zplm/m/i
+t/10 !^^X[] []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 kx \OMS/zplm/m/n/10 ^^@
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[][]\T1/pplj/m/n/8 .Image ti-rée de l'adresse sui-
+ []
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+<graphics/BIG.png, id=177, 556.0775pt x 515.9275pt>
+File: graphics/BIG.png Graphic file (type png)
+<use graphics/BIG.png>
+Package pdftex.def Info: graphics/BIG.png  used on input line 127.
+(pdftex.def)             Requested size: 304.44447pt x 282.46205pt.
+[20 <./graphics/BIG.png>]
+Underfull \hbox (badness 4168) in paragraph at lines 145--145
+[][]\T1/pplj/m/n/8 .Source : []$\T1/fvm/m/n/8 https : / / fr . wikiversity .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+\T1/fvm/m/n/8 org / wiki / Introduction _ à _ l %
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 147--147
+\T1/pplj/m/n/8 à []$\T1/fvm/m/n/8 https : / / fr . wikiversity . org / wiki /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+\T1/fvm/m/n/8 Introduction _ à _ l % 27acoustique /
+ []
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+LaTeX Warning: Marginpar on page 21 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
+
+ []
+
+[21]
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+[22]
+<graphics/pression.png, id=202, 559.08875pt x 239.89626pt>
+File: graphics/pression.png Graphic file (type png)
+<use graphics/pression.png>
+Package pdftex.def Info: graphics/pression.png  used on input line 208.
+(pdftex.def)             Requested size: 273.99815pt x 117.57214pt.
+ [23 <./graphics/pression.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+<graphics/doppler.png, id=216, 560.0925pt x 140.77594pt>
+File: graphics/doppler.png Graphic file (type png)
+<use graphics/doppler.png>
+Package pdftex.def Info: graphics/doppler.png  used on input line 303.
+(pdftex.def)             Requested size: 304.41313pt x 76.5162pt.
+[25]
+<graphics/audition.jpg, id=223, 465.23813pt x 349.305pt>
+File: graphics/audition.jpg Graphic file (type jpg)
+<use graphics/audition.jpg>
+Package pdftex.def Info: graphics/audition.jpg  used on input line 320.
+(pdftex.def)             Requested size: 140.5566pt x 105.52783pt.
+
+Overfull \hbox (1.768pt too wide) in paragraph at lines 319--321
+ [] 
+ []
+
+) (./contents/chapitre4.tex
+
+! Package inputenc Error: Unicode char ï»¿ (U+FEFF)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ï»¿
+       \chapter{Polarisation, rÃ©flexion, rÃ©fraction}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[26 <./graphics/doppler.png> <./graphics/audition.jpg>]
+Chapitre 4.
+
+Overfull \hbox (0.12544pt too wide) in paragraph at lines 5--9
+[]\T1/pplj/m/n/10 La \T1/pplj/m/it/10 po-la-ri-sa-tion d'une onde élec-tro-ma-g
+né-tique \T1/pplj/m/n/10 est le lieu dé-crit au cours
+ []
+
+<graphics/polarisationL.png, id=230, 307.1475pt x 236.885pt>
+File: graphics/polarisationL.png Graphic file (type png)
+<use graphics/polarisationL.png>
+Package pdftex.def Info: graphics/polarisationL.png  used on input line 12.
+(pdftex.def)             Requested size: 140.5566pt x 108.40454pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+LaTeX Warning: Marginpar on page 27 moved.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/CM4_condlimite.pdf): PDF inc
+lusion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/CM4_condlimite.pdf, id=232, 349.59006pt x 69.25374pt>
+File: graphics/CM4_condlimite.pdf Graphic file (type pdf)
+<use graphics/CM4_condlimite.pdf>
+Package pdftex.def Info: graphics/CM4_condlimite.pdf  used on input line 43.
+(pdftex.def)             Requested size: 468.3323pt x 92.7826pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+[27
+
+ <./graphics/polarisationL.png>]
+
+LaTeX Warning: Marginpar on page 28 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+[28 <./graphics/CM4_condlimite.pdf>]
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+LaTeX Warning: Reference `fig_CM4_conventions_k' on page 29 undefined on input 
+line 91.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/CM4_conventions_k.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/CM4_conventions_k.pdf, id=263, 227.13055pt x 131.28548pt>
+File: graphics/CM4_conventions_k.pdf Graphic file (type pdf)
+<use graphics/CM4_conventions_k.pdf>
+Package pdftex.def Info: graphics/CM4_conventions_k.pdf  used on input line 93.
+
+(pdftex.def)             Requested size: 140.5566pt x 81.24591pt.
+
+Underfull \hbox (badness 1028) in paragraph at lines 98--98
+\T1/pplj/m/n/8 Les ca-rac-té-ris-tiques de l'onde \T1/pplj/b/n/8 trans-
+ []
+
+<graphics/snell.png, id=264, 210.7875pt x 218.8175pt>
+File: graphics/snell.png Graphic file (type png)
+<use graphics/snell.png>
+Package pdftex.def Info: graphics/snell.png  used on input line 113.
+(pdftex.def)             Requested size: 140.5566pt x 145.91246pt.
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 120.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+
+ []
+
+[29 <./graphics/CM4_conventions_k.pdf> <./graphics/snell.png>]
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+LaTeX Warning: Reference `decomp' on page 30 undefined on input line 132.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+LaTeX Warning: Reference `fig_convention1' on page 30 undefined on input line 1
+35.
+
+
+LaTeX Warning: Reference `fig_convention2' on page 30 undefined on input line 1
+35.
+
+
+LaTeX Warning: Reference `decomp' on page 30 undefined on input line 135.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/convention1.pdf): PDF inclus
+ion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/convention1.pdf, id=298, 238.0875pt x 186.92033pt>
+File: graphics/convention1.pdf Graphic file (type pdf)
+<use graphics/convention1.pdf>
+Package pdftex.def Info: graphics/convention1.pdf  used on input line 137.
+(pdftex.def)             Requested size: 140.5566pt x 110.35333pt.
+
+Overfull \hbox (1.768pt too wide) in paragraph at lines 136--138
+ [] 
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/convention2.pdf): PDF inclus
+ion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/convention2.pdf, id=299, 213.93225pt x 186.2659pt>
+File: graphics/convention2.pdf Graphic file (type pdf)
+<use graphics/convention2.pdf>
+Package pdftex.def Info: graphics/convention2.pdf  used on input line 142.
+(pdftex.def)             Requested size: 140.5566pt x 122.38448pt.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/CM4_planincident.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/CM4_planincident.pdf, id=300, 250.89133pt x 164.71036pt>
+File: graphics/CM4_planincident.pdf Graphic file (type pdf)
+<use graphics/CM4_planincident.pdf>
+Package pdftex.def Info: graphics/CM4_planincident.pdf  used on input line 147.
+
+(pdftex.def)             Requested size: 140.5566pt x 92.27486pt.
+<graphics/explicationsmall.png, id=301, 134.00063pt x 120.45pt>
+File: graphics/explicationsmall.png Graphic file (type png)
+<use graphics/explicationsmall.png>
+Package pdftex.def Info: graphics/explicationsmall.png  used on input line 148.
+
+(pdftex.def)             Requested size: 140.5566pt x 126.34204pt.
+
+LaTeX Warning: Marginpar on page 30 moved.
+
+
+Overfull \hbox (5.96378pt too wide) in paragraph at lines 162--163
+[]\T1/pplj/m/n/10 Etant donné que $[] \OT1/zplm/m/n/10 = ([](\OML/zplm/m/it/10 
+^^R[]\OT1/zplm/m/n/10 )\OT1/pplx/m/n/10 , 0, \OMS/zplm/m/n/10 ^^@ []\OT1/zplm/m
+/n/10 (\OML/zplm/m/it/10 ^^R[]\OT1/zplm/m/n/10 ))$\T1/pplj/m/n/10 , l'ex-pres-s
+ion du champ
+ []
+
+[30 <./graphics/convention1.pdf> <./graphics/convention2.pdf> <./graphics/CM4_p
+lanincident.pdf> <./graphics/explicationsmall.png>]
+Overfull \hbox (4.9895pt too wide) in paragraph at lines 175--179
+[]\T1/pplj/m/n/10 Nous abor-dons alors réel-le-ment les équa-tions de Fres-nel.
+ La somme
+ []
+
+
+Overfull \hbox (36.70288pt too wide) detected at line 196
+[]
+ []
+
+
+Overfull \hbox (1.69435pt too wide) detected at line 223
+[] \OMS/zplm/m/n/10 ^^A [] \OT1/zplm/m/n/10 = []
+ []
+
+[31]
+Overfull \hbox (6.70523pt too wide) in paragraph at lines 246--247
+[]\T1/pplj/m/n/10 Supposons une in-ter-face entre deux mi-lieux non-magnétiques
+ (pour
+ []
+
+
+LaTeX Warning: Reference `fig_ref2' on page 32 undefined on input line 248.
+
+
+LaTeX Warning: Reference `fig_convention1' on page 32 undefined on input line 2
+48.
+
+
+LaTeX Warning: Reference `fig_convention2' on page 32 undefined on input line 2
+48.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
+
+ []
+
+
+LaTeX Warning: Marginpar on page 32 moved.
+
+
+LaTeX Warning: Reference `fig_ref3' on page 32 undefined on input line 251.
+
+
+LaTeX Warning: Reference `fig_convention1' on page 32 undefined on input line 2
+51.
+
+
+LaTeX Warning: Reference `fig_convention2' on page 32 undefined on input line 2
+51.
+
+[32]
+<graphics/ref2.png, id=389, 149.05687pt x 234.8775pt>
+File: graphics/ref2.png Graphic file (type png)
+<use graphics/ref2.png>
+Package pdftex.def Info: graphics/ref2.png  used on input line 255.
+(pdftex.def)             Requested size: 140.5566pt x 221.49449pt.
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+<graphics/trans2.png, id=390, 149.05687pt x 234.8775pt>
+File: graphics/trans2.png Graphic file (type png)
+<use graphics/trans2.png>
+Package pdftex.def Info: graphics/trans2.png  used on input line 260.
+(pdftex.def)             Requested size: 140.5566pt x 221.49449pt.
+
+Underfull \hbox (badness 3471) in paragraph at lines 261--261
+\T1/pplj/m/n/8 pa-ral-lèle et per-pen-di-cu-laire lorsque
+ []
+
+
+LaTeX Warning: Marginpar on page 33 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Overfull \hbox (19.24345pt too wide) detected at line 276
+[] \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 0 \OMS/zplm/m/n/10 , \OML/zplm/m/it/10 n
+[] [] ^^R[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 n[] [] ^^R[] \OMS/zplm/m/n/10 
+) [][] \OML/zplm/m/it/10 ^^R[] \OT1/zplm/m/n/10 = [][]
+ []
+
+
+Overfull \hbox (5.68378pt too wide) in paragraph at lines 278--280
+\T1/pplj/m/n/10 En se sou-ve-nant de l'iden-tité tri-go-no-mé-trique de base $[
+][] \OML/zplm/m/it/10  \OT1/zplm/m/n/10 + [][] \OML/zplm/m/it/10  \OT1/zplm/m
+/n/10 =
+ []
+
+[33 <./graphics/ref2.png> <./graphics/trans2.png>]
+<graphics/ref1.png, id=399, 149.05687pt x 234.8775pt>
+File: graphics/ref1.png Graphic file (type png)
+<use graphics/ref1.png>
+Package pdftex.def Info: graphics/ref1.png  used on input line 295.
+(pdftex.def)             Requested size: 140.5566pt x 221.49449pt.
+
+Underfull \hbox (badness 3471) in paragraph at lines 296--296
+\T1/pplj/m/n/8 pa-ral-lèle et per-pen-di-cu-laire lorsque
+ []
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+<graphics/trans1.png, id=400, 149.05687pt x 234.8775pt>
+File: graphics/trans1.png Graphic file (type png)
+<use graphics/trans1.png>
+Package pdftex.def Info: graphics/trans1.png  used on input line 300.
+(pdftex.def)             Requested size: 140.5566pt x 221.49449pt.
+
+Underfull \hbox (badness 4242) in paragraph at lines 301--301
+\T1/pplj/m/sc/8 Figure \T1/pplj/m/n/8 4.11: Co-ef-fi-cients de trans-
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 301--301
+\T1/pplj/m/n/8 mis-sion pa-ral-lèle et per-pen-di-cu-laire
+ []
+
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+<graphics/reflexion_tot.jpg, id=401, 1185.42876pt x 891.33pt>
+File: graphics/reflexion_tot.jpg Graphic file (type jpg)
+<use graphics/reflexion_tot.jpg>
+Package pdftex.def Info: graphics/reflexion_tot.jpg  used on input line 310.
+(pdftex.def)             Requested size: 140.5566pt x 105.67653pt.
+
+LaTeX Warning: Marginpar on page 34 moved.
+
+) (./contents/chapitre5.tex [34 <./graphics/ref1.png> <./graphics/trans1.png> <
+./graphics/reflexion_tot.jpg>]
+Chapitre 5.
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+<graphics/cuves-a-ondes.png, id=409, 602.25pt x 602.25pt>
+File: graphics/cuves-a-ondes.png Graphic file (type png)
+<use graphics/cuves-a-ondes.png>
+Package pdftex.def Info: graphics/cuves-a-ondes.png  used on input line 11.
+(pdftex.def)             Requested size: 142.26378pt x 142.26393pt.
+
+Overfull \hbox (3.47519pt too wide) in paragraph at lines 10--12
+ [] 
+ []
+
+
+Overfull \hbox (0.98596pt too wide) in paragraph at lines 17--18
+[]\T1/pplj/m/n/10 Lorsque les pointes os-cil-lent exac-te-ment en phase, les de
+ux sources
+ []
+
+[35
+
+ <./graphics/cuves-a-ondes.png>]
+<graphics/omega.png, id=417, 468.75125pt x 338.26375pt>
+File: graphics/omega.png Graphic file (type png)
+<use graphics/omega.png>
+Package pdftex.def Info: graphics/omega.png  used on input line 21.
+(pdftex.def)             Requested size: 234.37505pt x 169.13145pt.
+
+
+LaTeX Warning: Reference `omega' on page 36 undefined on input line 26.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[][]\T1/pplj/m/n/8 .[]$\T1/fvm/m/n/8 http : / / perso . uclouvain . be / alain 
+.
+ []
+
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+
+LaTeX Warning: Marginpar on page 36 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+LaTeX Warning: Reference `point' on page 36 undefined on input line 30.
+
+
+Overfull \hbox (0.2153pt too wide) in paragraph at lines 30--31
+[]\T1/pplj/m/n/10 Analysons tout d'abord le com-por-te-ment de l'onde ré-sul-ta
+nte sous
+ []
+
+<graphics/point.PNG, id=419, 426.09187pt x 338.76563pt>
+File: graphics/point.PNG Graphic file (type png)
+<use graphics/point.PNG>
+Package pdftex.def Info: graphics/point.PNG  used on input line 34.
+(pdftex.def)             Requested size: 298.26227pt x 237.13431pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[36 <./graphics/omega.png>]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+[37 <./graphics/point.PNG>]
+<graphics/M6.jpg, id=432, 196.0926pt x 143.5764pt>
+File: graphics/M6.jpg Graphic file (type jpg)
+<use graphics/M6.jpg>
+Package pdftex.def Info: graphics/M6.jpg  used on input line 62.
+(pdftex.def)             Requested size: 123.53899pt x 90.4536pt.
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+<graphics/M5.png, id=433, 205.76875pt x 154.5775pt>
+File: graphics/M5.png Graphic file (type png)
+<use graphics/M5.png>
+Package pdftex.def Info: graphics/M5.png  used on input line 68.
+(pdftex.def)             Requested size: 123.46219pt x 92.7472pt.
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+LaTeX Warning: Marginpar on page 38 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
+
+ []
+
+
+Overfull \hbox (171.02222pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[38 <./graphics/M6.jpg> <./graphics/M5.png>]
+Overfull \hbox (13.76596pt too wide) in paragraph at lines 97--98
+\T1/pplj/m/n/10 ter-fé-rences construc-tives), et l'in-té-grale sur toute la su
+r-face est constante,
+ []
+
+<graphics/M7.png, id=439, 241.8636pt x 277.035pt>
+File: graphics/M7.png Graphic file (type png)
+<use graphics/M7.png>
+Package pdftex.def Info: graphics/M7.png  used on input line 100.
+(pdftex.def)             Requested size: 120.9315pt x 138.51715pt.
+
+LaTeX Warning: Reference `fm7' on page 39 undefined on input line 105.
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 105--105
+\T1/pplj/m/n/8 lable en élec-tro-ma-gné-tisme, ce dia-
+ []
+
+<graphics/M8.png, id=440, 226.446pt x 270.7716pt>
+File: graphics/M8.png Graphic file (type png)
+<use graphics/M8.png>
+Package pdftex.def Info: graphics/M8.png  used on input line 105.
+(pdftex.def)             Requested size: 115.48592pt x 138.09167pt.
+
+Overfull \hbox (1.06958pt too wide) in paragraph at lines 105--107
+\T1/pplj/m/n/10 di-rec-tion pré-fé-ren-tielle. Un pre-mier exemple d'ap-pli-ca-
+tion de ce prin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+LaTeX Warning: Marginpar on page 39 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./graphics/M7.png> <./graphics/M8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<graphics/M9.png, id=447, 657.80449pt x 329.6397pt>
+File: graphics/M9.png Graphic file (type png)
+<use graphics/M9.png>
+Package pdftex.def Info: graphics/M9.png  used on input line 134.
+(pdftex.def)             Requested size: 263.11713pt x 131.85353pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+[40 <./graphics/M9.png>]
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+
+LaTeX Warning: Reference `3' on page 41 undefined on input line 142.
+
+<graphics/3.PNG, id=453, 310.91156pt x 200.24812pt>
+File: graphics/3.PNG Graphic file (type png)
+<use graphics/3.PNG>
+Package pdftex.def Info: graphics/3.PNG  used on input line 146.
+(pdftex.def)             Requested size: 279.8178pt x 180.22165pt.
+
+Underfull \hbox (badness 2401) in paragraph at lines 149--149
+\T1/pplj/m/sc/8 Figure \T1/pplj/m/n/8 5.6: In-ter-fé-rence entre deux
+ []
+
+
+Overfull \hbox (1.47945pt too wide) in paragraph at lines 151--152
+\T1/pplj/m/n/10 sont des droites per-pen-di-cu-laires aux fronts d'onde. Les li
+gnes noires,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+LaTeX Warning: Marginpar on page 41 moved.
+
+[41 <./graphics/3.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+ []
+
+<graphics/7.PNG, id=459, 114.4275pt x 145.29282pt>
+File: graphics/7.PNG Graphic file (type png)
+<use graphics/7.PNG>
+Package pdftex.def Info: graphics/7.PNG  used on input line 170.
+(pdftex.def)             Requested size: 114.42722pt x 145.29245pt.
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+<graphics/2.png, id=460, 90.83937pt x 123.46124pt>
+File: graphics/2.png Graphic file (type png)
+<use graphics/2.png>
+Package pdftex.def Info: graphics/2.png  used on input line 175.
+(pdftex.def)             Requested size: 90.83914pt x 123.46092pt.
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+
+LaTeX Warning: Marginpar on page 42 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+[42 <./graphics/7.PNG> <./graphics/2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+<graphics/8.PNG, id=468, 429.10312pt x 231.11343pt>
+File: graphics/8.PNG Graphic file (type png)
+<use graphics/8.PNG>
+Package pdftex.def Info: graphics/8.PNG  used on input line 187.
+(pdftex.def)             Requested size: 128.73192pt x 69.33456pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[][]\T1/pplj/m/n/8 .[]
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 188--188
+[][]\T1/pplj/m/n/8 .Médecin an-glais, sa-vant po-ly-va-lent
+ []
+
+<graphics/M10.png, id=469, 175.857pt x 104.0688pt>
+File: graphics/M10.png Graphic file (type png)
+<use graphics/M10.png>
+Package pdftex.def Info: graphics/M10.png  used on input line 188.
+(pdftex.def)             Requested size: 123.09906pt x 72.84766pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[][]\T1/pplj/m/n/8 .[]
+ []
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Reference `fig:film_mince' on page 43 undefined on input line 19
+7.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+<graphics/9.PNG, id=470, 508.90125pt x 320.69812pt>
+File: graphics/9.PNG Graphic file (type png)
+<use graphics/9.PNG>
+Package pdftex.def Info: graphics/9.PNG  used on input line 201.
+(pdftex.def)             Requested size: 305.34311pt x 192.42035pt.
+
+Overfull \hbox (0.89864pt too wide) in paragraph at lines 201--204
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `fig:film_mince' on page 43 undefined on input line 21
+7.
+
+
+Overfull \hbox (4.3677pt too wide) in paragraph at lines 217--218
+\T1/pplj/m/n/10 sont tra-cés[]. Les lignes noires sont les lignes de crête[]. C
+oncentrons-
+ []
+
+
+LaTeX Warning: Marginpar on page 43 moved.
+
+<graphics/4.PNG, id=471, 122.70844pt x 160.34906pt>
+File: graphics/4.PNG Graphic file (type png)
+<use graphics/4.PNG>
+Package pdftex.def Info: graphics/4.PNG  used on input line 220.
+(pdftex.def)             Requested size: 122.70813pt x 160.34866pt.
+[43 <./graphics/8.PNG> <./graphics/M10.png>]
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+[44 <./graphics/9.PNG> <./graphics/4.PNG>]
+Overfull \hbox (0.39526pt too wide) in paragraph at lines 242--245
+\T1/pplj/m/n/10 Les condi-tions d'in-ter-fé-rence construc-tive/destructive cor
+-res-pondent
+ []
+
+
+Overfull \hbox (23.35532pt too wide) in paragraph at lines 242--245
+\T1/pplj/m/n/10 aux cas pour les-quels cette dif-fé-rence de phase est un mul-t
+iple pair/impair
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
+
+ []
+
+<graphics/M12.png, id=486, 370.0224pt x 236.5638pt>
+File: graphics/M12.png Graphic file (type png)
+<use graphics/M12.png>
+Package pdftex.def Info: graphics/M12.png  used on input line 250.
+(pdftex.def)             Requested size: 111.00757pt x 70.96968pt.
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+[45 <./graphics/M12.png>]
+<graphics/M13.png, id=493, 201.3924pt x 307.3884pt>
+File: graphics/M13.png Graphic file (type png)
+<use graphics/M13.png>
+Package pdftex.def Info: graphics/M13.png  used on input line 255.
+(pdftex.def)             Requested size: 60.41817pt x 92.21722pt.
+
+
+LaTeX Warning: Marginpar on page 46 moved.
+
+
+LaTeX Warning: Marginpar on page 46 moved.
+
+
+LaTeX Warning: Marginpar on page 46 moved.
+
+
+LaTeX Warning: Marginpar on page 46 moved.
+
+<graphics/M14.PNG, id=494, 710.655pt x 454.69875pt>
+File: graphics/M14.PNG Graphic file (type png)
+<use graphics/M14.PNG>
+Package pdftex.def Info: graphics/M14.PNG  used on input line 263.
+(pdftex.def)             Requested size: 213.19814pt x 136.41068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+ []
+
+[46 <./graphics/M13.png> <./graphics/M14.PNG>]
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+<graphics/10.PNG, id=504, 201.75375pt x 265.74281pt>
+File: graphics/10.PNG Graphic file (type png)
+<use graphics/10.PNG>
+Package pdftex.def Info: graphics/10.PNG  used on input line 284.
+(pdftex.def)             Requested size: 80.70006pt x 106.29523pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Reference `M1' on page 47 undefined on input line 301.
+
+<graphics/M1.PNG, id=505, 222.07968pt x 256.70906pt>
+File: graphics/M1.PNG Graphic file (type png)
+<use graphics/M1.PNG>
+Package pdftex.def Info: graphics/M1.PNG  used on input line 304.
+(pdftex.def)             Requested size: 177.66397pt x 205.36751pt.
+
+LaTeX Warning: Marginpar on page 47 moved.
+
+
+LaTeX Warning: Reference `M2' on page 47 undefined on input line 309.
+
+<graphics/M2.PNG, id=506, 388.45125pt x 289.08pt>
+File: graphics/M2.PNG Graphic file (type png)
+<use graphics/M2.PNG>
+Package pdftex.def Info: graphics/M2.PNG  used on input line 312.
+(pdftex.def)             Requested size: 271.914pt x 202.35461pt.
+[47 <./graphics/10.PNG>]
+
+LaTeX Warning: Marginpar on page 48 moved.
+
+<graphics/M3.PNG, id=512, 104.64093pt x 207.77625pt>
+File: graphics/M3.PNG Graphic file (type png)
+<use graphics/M3.PNG>
+Package pdftex.def Info: graphics/M3.PNG  used on input line 318.
+(pdftex.def)             Requested size: 104.64066pt x 207.77573pt.
+
+LaTeX Warning: Reference `fm3' on page 48 undefined on input line 323.
+
+
+Overfull \hbox (10.77945pt too wide) in paragraph at lines 323--324
+\T1/pplj/m/n/10 consi-dé-rer que les fais-ceaux bleus sont pra-ti-que-ment pa-r
+al-lèles. Chaque
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+[48 <./graphics/M1.PNG> <./graphics/M2.PNG> <./graphics/M3.PNG>]
+Overfull \hbox (1.26456pt too wide) in paragraph at lines 334--337
+\T1/pplj/m/n/10 tielles $\OML/zplm/m/it/10 jk\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
+0 p \OMS/zplm/m/n/10 ^^@ \OT1/pplx/m/n/10 1\OT1/zplm/m/n/10 )\OML/zplm/m/it/10 
+d[]$\T1/pplj/m/n/10 , puis-qu'une dif-fé-rence d'une demi-longueur d'onde
+ []
+
+
+LaTeX Warning: Marginpar on page 49 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+<graphics/M15.PNG, id=525, 506.6428pt x 282.30469pt>
+File: graphics/M15.PNG Graphic file (type png)
+<use graphics/M15.PNG>
+Package pdftex.def Info: graphics/M15.PNG  used on input line 371.
+(pdftex.def)             Requested size: 151.994pt x 84.69205pt.
+
+Overfull \hbox (17.43741pt too wide) in paragraph at lines 371--371
+[][]\T1/pplj/m/n/8 .[] 
+ []
+
+
+LaTeX Warning: Marginpar on page 50 moved.
+
+[50 <./graphics/M15.PNG>]
+
+LaTeX Warning: Reference `M4' on page 51 undefined on input line 375.
+
+<graphics/M4.PNG, id=531, 855.195pt x 537.50812pt>
+File: graphics/M4.PNG Graphic file (type png)
+<use graphics/M4.PNG>
+Package pdftex.def Info: graphics/M4.PNG  used on input line 378.
+(pdftex.def)             Requested size: 282.21523pt x 177.37822pt.
+
+LaTeX Warning: Marginpar on page 51 moved.
+
+) (./contents/chapitre6.tex [51 <./graphics/M4.PNG>]
+Chapitre 6.
+<graphics/M20.png, id=537, 680.85947pt x 540.12315pt>
+File: graphics/M20.png Graphic file (type png)
+<use graphics/M20.png>
+Package pdftex.def Info: graphics/M20.png  used on input line 8.
+(pdftex.def)             Requested size: 272.33896pt x 216.04543pt.
+
+LaTeX Warning: Reference `tele' on page 52 undefined on input line 13.
+
+
+LaTeX Warning: Reference `d1' on page 52 undefined on input line 19.
+
+[52
+
+ <./graphics/M20.png>]
+<graphics/M21.PNG, id=545, 603.75563pt x 291.33844pt>
+File: graphics/M21.PNG Graphic file (type png)
+<use graphics/M21.PNG>
+Package pdftex.def Info: graphics/M21.PNG  used on input line 23.
+(pdftex.def)             Requested size: 301.87708pt x 145.66885pt.
+<graphics/M23.png, id=546, 688.82344pt x 460.72125pt>
+File: graphics/M23.png Graphic file (type png)
+<use graphics/M23.png>
+Package pdftex.def Info: graphics/M23.png  used on input line 33.
+(pdftex.def)             Requested size: 413.29726pt x 276.43488pt.
+
+Overfull \hbox (108.85278pt too wide) in paragraph at lines 33--36
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `f2' on page 53 undefined on input line 38.
+
+[53 <./graphics/M21.PNG> <./graphics/M23.png>]
+<graphics/M25.png, id=551, 383.031pt x 315.0972pt>
+File: graphics/M25.png Graphic file (type png)
+<use graphics/M25.png>
+Package pdftex.def Info: graphics/M25.png  used on input line 51.
+(pdftex.def)             Requested size: 229.82037pt x 189.05977pt.
+
+
+LaTeX Warning: Reference `f3' on page 54 undefined on input line 56.
+
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 58.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+ [54 <./graphics/M25.png>]
+
+LaTeX Warning: Reference `f4' on page 55 undefined on input line 87.
+
+<graphics/M26.PNG, id=558, 320.69812pt x 308.65312pt>
+File: graphics/M26.PNG Graphic file (type png)
+<use graphics/M26.PNG>
+Package pdftex.def Info: graphics/M26.PNG  used on input line 90.
+(pdftex.def)             Requested size: 140.5566pt x 135.2803pt.
+
+Overfull \hbox (1.768pt too wide) in paragraph at lines 89--91
+ [] 
+ []
+
+
+LaTeX Warning: Reference `d2' on page 55 undefined on input line 95.
+
+<graphics/M27.png, id=559, 686.565pt x 356.83313pt>
+File: graphics/M27.png Graphic file (type png)
+<use graphics/M27.png>
+Package pdftex.def Info: graphics/M27.png  used on input line 103.
+(pdftex.def)             Requested size: 274.62112pt x 142.73071pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+
+ []
+
+[55 <./graphics/M26.PNG> <./graphics/M27.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+<graphics/M55.PNG, id=566, 278.54062pt x 189.70876pt>
+File: graphics/M55.PNG Graphic file (type png)
+<use graphics/M55.PNG>
+Package pdftex.def Info: graphics/M55.PNG  used on input line 115.
+(pdftex.def)             Requested size: 126.50008pt x 86.1555pt.
+
+LaTeX Warning: Reference `f5' on page 56 undefined on input line 120.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./graphics/M55.PNG>]
+
+LaTeX Warning: Reference `f6' on page 57 undefined on input line 133.
+
+<graphics/M29.png, id=572, 399.23912pt x 325.56583pt>
+File: graphics/M29.png Graphic file (type png)
+<use graphics/M29.png>
+Package pdftex.def Info: graphics/M29.png  used on input line 136.
+(pdftex.def)             Requested size: 126.50008pt x 103.15486pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+LaTeX Warning: Marginpar on page 57 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+
+LaTeX Warning: Reference `d4' on page 57 undefined on input line 159.
+
+<graphics/M30.PNG, id=573, 496.10344pt x 256.70906pt>
+File: graphics/M30.PNG Graphic file (type png)
+<use graphics/M30.PNG>
+Package pdftex.def Info: graphics/M30.PNG  used on input line 163.
+(pdftex.def)             Requested size: 248.0511pt x 128.3542pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `d6' on page 57 undefined on input line 168.
+
+[57 <./graphics/M29.png>]
+<graphics/M31.png, id=580, 704.4038pt x 182.04721pt>
+File: graphics/M31.png Graphic file (type png)
+<use graphics/M31.png>
+Package pdftex.def Info: graphics/M31.png  used on input line 172.
+(pdftex.def)             Requested size: 281.75653pt x 72.81758pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+
+LaTeX Warning: Reference `d8' on page 58 undefined on input line 180.
+
+<graphics/M32.png, id=581, 622.325pt x 192.72pt>
+File: graphics/M32.png Graphic file (type png)
+<use graphics/M32.png>
+Package pdftex.def Info: graphics/M32.png  used on input line 184.
+(pdftex.def)             Requested size: 292.49278pt x 90.5784pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+<graphics/M33.PNG, id=582, 248.42813pt x 260.47313pt>
+File: graphics/M33.PNG Graphic file (type png)
+<use graphics/M33.PNG>
+Package pdftex.def Info: graphics/M33.PNG  used on input line 194.
+(pdftex.def)             Requested size: 126.50008pt x 132.63286pt.
+[58 <./graphics/M30.PNG> <./graphics/M31.png> <./graphics/M32.png>]
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+LaTeX Warning: Reference `f7' on page 59 undefined on input line 199.
+
+<graphics/M34.png, id=590, 183.5658pt x 240.9pt>
+File: graphics/M34.png Graphic file (type png)
+<use graphics/M34.png>
+Package pdftex.def Info: graphics/M34.png  used on input line 216.
+(pdftex.def)             Requested size: 126.50008pt x 166.01164pt.
+
+LaTeX Warning: Reference `f8' on page 59 undefined on input line 221.
+
+<graphics/M35.png, id=591, 441.8106pt x 330.5148pt>
+File: graphics/M35.png Graphic file (type png)
+<use graphics/M35.png>
+Package pdftex.def Info: graphics/M35.png  used on input line 230.
+(pdftex.def)             Requested size: 126.50008pt x 94.63141pt.
+
+LaTeX Warning: Reference `f9' on page 59 undefined on input line 235.
+
+
+LaTeX Warning: Marginpar on page 59 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+
+ []
+
+<graphics/M36.png, id=592, 585.81212pt x 448.92424pt>
+File: graphics/M36.png Graphic file (type png)
+<use graphics/M36.png>
+Package pdftex.def Info: graphics/M36.png  used on input line 239.
+(pdftex.def)             Requested size: 126.50008pt x 96.94153pt.
+
+LaTeX Warning: Reference `f10' on page 59 undefined on input line 244.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[59 <./graphics/M33.PNG> <./graphics/M34.png> <./graphics/M35.png> <./graphics/
+M36.png>]
+<graphics/M37.png, id=603, 337.26pt x 309.24837pt>
+File: graphics/M37.png Graphic file (type png)
+<use graphics/M37.png>
+Package pdftex.def Info: graphics/M37.png  used on input line 251.
+(pdftex.def)             Requested size: 126.50008pt x 115.99144pt.
+
+
+LaTeX Warning: Marginpar on page 60 moved.
+
+
+LaTeX Warning: Reference `d9' on page 60 undefined on input line 258.
+
+
+LaTeX Warning: Reference `d9' on page 60 undefined on input line 259.
+
+<graphics/M38.PNG, id=604, 222.8325pt x 329.73187pt>
+File: graphics/M38.PNG Graphic file (type png)
+<use graphics/M38.PNG>
+Package pdftex.def Info: graphics/M38.PNG  used on input line 265.
+(pdftex.def)             Requested size: 113.81102pt x 168.40755pt.
+<graphics/M39.PNG, id=605, 297.36093pt x 199.49532pt>
+File: graphics/M39.PNG Graphic file (type png)
+<use graphics/M39.PNG>
+Package pdftex.def Info: graphics/M39.PNG  used on input line 267.
+(pdftex.def)             Requested size: 142.26378pt x 95.44006pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60 <./graphics/M37.png>]
+<graphics/M40.png, id=612, 601.62428pt x 470.2124pt>
+File: graphics/M40.png Graphic file (type png)
+<use graphics/M40.png>
+Package pdftex.def Info: graphics/M40.png  used on input line 273.
+(pdftex.def)             Requested size: 126.50008pt x 98.86948pt.
+
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Reference `f13' on page 61 undefined on input line 278.
+
+<graphics/M48.jpg, id=613, 277.035pt x 209.28188pt>
+File: graphics/M48.jpg Graphic file (type jpg)
+<use graphics/M48.jpg>
+Package pdftex.def Info: graphics/M48.jpg  used on input line 283.
+(pdftex.def)             Requested size: 126.50008pt x 95.56189pt.
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+
+LaTeX Warning: Reference `f12' on page 61 undefined on input line 288.
+
+
+LaTeX Warning: Reference `d10' on page 61 undefined on input line 292.
+
+<graphics/M41.PNG, id=614, 374.14781pt x 274.77657pt>
+File: graphics/M41.PNG Graphic file (type png)
+<use graphics/M41.PNG>
+Package pdftex.def Info: graphics/M41.PNG  used on input line 296.
+(pdftex.def)             Requested size: 142.26378pt x 104.47906pt.
+<graphics/M42.PNG, id=615, 289.08pt x 302.63063pt>
+File: graphics/M42.PNG Graphic file (type png)
+<use graphics/M42.PNG>
+Package pdftex.def Info: graphics/M42.PNG  used on input line 298.
+(pdftex.def)             Requested size: 113.81102pt x 119.14296pt.
+[61 <./graphics/M38.PNG> <./graphics/M39.PNG> <./graphics/M40.png> <./graphics/
+M48.jpg> <./graphics/M41.PNG> <./graphics/M42.PNG>]
+Overfull \hbox (5.46649pt too wide) detected at line 311
+[][] [] [] []\OML/zplm/m/it/10 j\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 kR \OMS/zpl
+m/m/n/10 ^^@ \OML/zplm/m/it/10 !t\OT1/zplm/m/n/10 )[]\OML/zplm/m/it/10 dz [] \O
+T1/zplm/m/n/10 = [] [] []\OML/zplm/m/it/10 j\OT1/zplm/m/n/10 (\OML/zplm/m/it/10
+ kR \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 !t\OT1/zplm/m/n/10 )[][] = [](\OML/z
+plm/m/it/10 P\OT1/zplm/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
+
+ []
+
+<graphics/M43.PNG, id=632, 225.09094pt x 261.22594pt>
+File: graphics/M43.PNG Graphic file (type png)
+<use graphics/M43.PNG>
+Package pdftex.def Info: graphics/M43.PNG  used on input line 315.
+(pdftex.def)             Requested size: 126.50008pt x 146.80768pt.
+
+LaTeX Warning: Reference `f14' on page 62 undefined on input line 324.
+
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+
+Overfull \hbox (33.50256pt too wide) detected at line 336
+[]
+ []
+
+
+Overfull \hbox (14.28392pt too wide) detected at line 346
+[] \OT1/zplm/m/n/10 = [] [] []\OML/zplm/m/it/10 j\OT1/zplm/m/n/10 (\OML/zplm/m/
+it/10 kR[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 !t\OT1/zplm/m/n/10 )[][] [] [
+]\OT1/pplx/m/n/10 .
+ []
+
+[62 <./graphics/M43.PNG>]
+Overfull \hbox (77.35738pt too wide) detected at line 358
+[]
+ []
+
+
+Overfull \hbox (113.75728pt too wide) detected at line 366
+[]
+ []
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 37
+7.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 37
+7.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 37
+7.
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 37
+7.
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 396--398
+
+ []
+
+
+LaTeX Warning: Reference `d11' on page 64 undefined on input line 399.
+
+<graphics/M44.PNG, id=647, 424.58624pt x 313.9228pt>
+File: graphics/M44.PNG Graphic file (type png)
+<use graphics/M44.PNG>
+Package pdftex.def Info: graphics/M44.PNG  used on input line 403.
+(pdftex.def)             Requested size: 254.75371pt x 188.35512pt.
+
+LaTeX Warning: Marginpar on page 64 moved.
+
+
+Overfull \hbox (0.70538pt too wide) in paragraph at lines 414--415
+[]\T1/pplj/m/n/10 Les \T1/pplj/b/n/10 pe-tits zé-ros auxi-liaires \T1/pplj/m/n/
+10 sur-viennent quand le nu-mé-ra-teur s'an-
+ []
+
+
+LaTeX Warning: Reference `d12' on page 64 undefined on input line 420.
+
+<graphics/M45.PNG, id=648, 508.90125pt x 336.50719pt>
+File: graphics/M45.PNG Graphic file (type png)
+<use graphics/M45.PNG>
+Package pdftex.def Info: graphics/M45.PNG  used on input line 428.
+(pdftex.def)             Requested size: 203.55688pt x 134.60048pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `d13' on page 64 undefined on input line 433.
+
+[64 <./graphics/M44.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 455--457
+
+ []
+
+<graphics/M46.png, id=654, 520.344pt x 208.1376pt>
+File: graphics/M46.png Graphic file (type png)
+<use graphics/M46.png>
+Package pdftex.def Info: graphics/M46.png  used on input line 460.
+(pdftex.def)             Requested size: 208.1339pt x 83.25356pt.
+
+LaTeX Warning: Reference `d14' on page 65 undefined on input line 473.
+
+
+LaTeX Warning: Marginpar on page 65 moved.
+
+<graphics/M47.png, id=655, 519.3804pt x 402.7848pt>
+File: graphics/M47.png Graphic file (type png)
+<use graphics/M47.png>
+Package pdftex.def Info: graphics/M47.png  used on input line 477.
+(pdftex.def)             Requested size: 207.74847pt x 161.11105pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+
+ []
+
+[65 <./graphics/M45.PNG> <./graphics/M46.png>]
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+<graphics/M51.PNG, id=662, 618.81187pt x 398.99063pt>
+File: graphics/M51.PNG Graphic file (type png)
+<use graphics/M51.PNG>
+Package pdftex.def Info: graphics/M51.PNG  used on input line 488.
+(pdftex.def)             Requested size: 247.52036pt x 159.59341pt.
+
+LaTeX Warning: Reference `d16' on page 66 undefined on input line 493.
+
+
+LaTeX Warning: Reference `d15' on page 66 undefined on input line 493.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+LaTeX Warning: Reference `d15' on page 66 undefined on input line 495.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[][]\T1/pplj/m/n/8 .c'est-à-dire toutes les lon-gueurs
+ []
+
+[66 <./graphics/M47.png> <./graphics/M51.PNG>]
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+Overfull \hbox (6.70949pt too wide) in paragraph at lines 497--498
+\T1/pplj/m/n/10 raies d'émis-sions ca-rac-té-ris-tiques de sa com-po-si-tion at
+o-mique. Chaque
+ []
+
+
+Overfull \hbox (6.43535pt too wide) in paragraph at lines 497--498
+\T1/pplj/m/n/10 atome ex-cité émet des ondes (éner-gie) de ma-nière dis-crète (
+par quanta)
+ []
+
+
+LaTeX Warning: Reference `d15' on page 67 undefined on input line 499.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+<graphics/M49.PNG, id=670, 666.23906pt x 261.22594pt>
+File: graphics/M49.PNG Graphic file (type png)
+<use graphics/M49.PNG>
+Package pdftex.def Info: graphics/M49.PNG  used on input line 505.
+(pdftex.def)             Requested size: 233.18716pt x 91.43044pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--512
+
+ []
+
+<graphics/M50.jpg, id=671, 238.62737pt x 341.57802pt>
+File: graphics/M50.jpg Graphic file (type jpg)
+<use graphics/M50.jpg>
+Package pdftex.def Info: graphics/M50.jpg  used on input line 514.
+(pdftex.def)             Requested size: 98.38918pt x 140.8349pt.
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+
+LaTeX Warning: Reference `f15' on page 67 undefined on input line 519.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [67 <./graphics/M49.PNG> <./graphics/M50.jpg>]
+
+LaTeX Warning: Reference `d17' on page 68 undefined on input line 525.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
+
+ []
+
+
+LaTeX Warning: Reference `d17' on page 68 undefined on input line 527.
+
+<graphics/M52.PNG, id=678, 682.04813pt x 228.855pt>
+File: graphics/M52.PNG Graphic file (type png)
+<use graphics/M52.PNG>
+Package pdftex.def Info: graphics/M52.PNG  used on input line 532.
+(pdftex.def)             Requested size: 272.8144pt x 91.54037pt.
+
+Underfull \hbox (badness 1275) in paragraph at lines 535--535
+\T1/pplj/m/sc/8 Figure \T1/pplj/m/n/8 6.29: Ré-so-lu-tion chro-ma-tique
+ []
+
+[68 <./graphics/M52.PNG>]
+
+LaTeX Warning: Reference `d18' on page 69 undefined on input line 560.
+
+<graphics/M53.PNG, id=686, 572.1375pt x 362.10281pt>
+File: graphics/M53.PNG Graphic file (type png)
+<use graphics/M53.PNG>
+Package pdftex.def Info: graphics/M53.PNG  used on input line 565.
+(pdftex.def)             Requested size: 228.85094pt x 144.83855pt.
+<graphics/M54.png, id=687, 385.9218pt x 441.8106pt>
+File: graphics/M54.png Graphic file (type png)
+<use graphics/M54.png>
+Package pdftex.def Info: graphics/M54.png  used on input line 572.
+(pdftex.def)             Requested size: 115.77742pt x 132.54419pt.
+
+Underfull \hbox (badness 3189) in paragraph at lines 574--574
+\T1/pplj/m/sc/8 Figure \T1/pplj/m/n/8 6.31: centre de cap-ture de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+\T1/pplj/m/n/8 la lu-mière d'une bac-té-rie photo-
+ []
+
+
+LaTeX Warning: Reference `d19' on page 69 undefined on input line 578.
+
+) (./contents/chapitre7.tex [69 <./graphics/M53.PNG> <./graphics/M54.png>]
+Chapitre 7.
+<graphics/7_1.png, id=695, 224.33812pt x 112.92188pt>
+File: graphics/7_1.png Graphic file (type png)
+<use graphics/7_1.png>
+Package pdftex.def Info: graphics/7_1.png  used on input line 4.
+(pdftex.def)             Requested size: 142.26378pt x 71.61153pt.
+
+Overfull \hbox (3.47519pt too wide) in paragraph at lines 3--5
+ [] 
+ []
+
+<graphics/rubenstube.jpg, id=696, 873.2625pt x 602.25pt>
+File: graphics/rubenstube.jpg Graphic file (type jpg)
+<use graphics/rubenstube.jpg>
+Package pdftex.def Info: graphics/rubenstube.jpg  used on input line 13.
+(pdftex.def)             Requested size: 140.5566pt x 96.93172pt.
+
+LaTeX Warning: Marginpar on page 70 moved.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70
+
+ <./graphics/7_1.png> <./graphics/rubenstube.jpg>]
+
+LaTeX Warning: Marginpar on page 71 moved.
+
+[71]
+
+LaTeX Warning: Reference `eq:X''Cst' on page 72 undefined on input line 52.
+
+[72]
+
+LaTeX Warning: Marginpar on page 73 moved.
+
+
+Overfull \hbox (6.30528pt too wide) in paragraph at lines 66--67
+\T1/pplj/m/n/10 de-vons main-te-nant ap-pli-quer des condi-tions li-mites qui c
+or-res-pondent
+ []
+
+
+Overfull \hbox (4.07951pt too wide) in paragraph at lines 66--67
+\T1/pplj/m/n/10 à la phy-sique. Elles per-mettent de dé-ter-mi-ner la va-leur d
+es constantes. 
+ []
+
+[73]
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+
+Overfull \hbox (13.99623pt too wide) in paragraph at lines 76--77
+\T1/pplj/m/n/10 jours à pres-sion at-mo-sphé-rique, par consé-quent la sur-pres
+-sion $\OML/zplm/m/it/10 p\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x[]\OT1/pplx/m/n/
+10 , \OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
+ []
+
+
+LaTeX Warning: Marginpar on page 74 moved.
+
+[74]
+<graphics/modes.PNG, id=731, 655.69969pt x 463.7325pt>
+File: graphics/modes.PNG Graphic file (type png)
+<use graphics/modes.PNG>
+Package pdftex.def Info: graphics/modes.PNG  used on input line 96.
+(pdftex.def)             Requested size: 284.52756pt x 201.22668pt.
+
+Underfull \hbox (badness 2626) in paragraph at lines 98--98
+\T1/pplj/m/sc/8 Figure \T1/pplj/m/n/8 7.3: Les 3 pre-miers modes
+ []
+
+[75 <./graphics/modes.PNG>]
+Underfull \hbox (badness 1043) in paragraph at lines 116--116
+\T1/pplj/m/n/8 sique, celle-ci aura un son dif-fé-rent
+ []
+
+
+Overfull \hbox (15.61523pt too wide) in paragraph at lines 116--117
+\T1/pplj/m/n/10 une onde sta-tion-naire qui cor-res-pon-daient aux dif-fé-rents
+ modes propres.
+ []
+
+
+LaTeX Warning: Marginpar on page 76 moved.
+
+
+Overfull \hbox (9.75066pt too wide) detected at line 117
+\OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/pplx/m/n/10 , \O
+ML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) = [](\OML/zplm/m/it/10 A[] []\OT1/zplm/m/n/
+10 (\OML/zplm/m/it/10 k[]x\OT1/zplm/m/n/10 ) + \OML/zplm/m/it/10 B[] []\OT1/zpl
+m/m/n/10 (\OML/zplm/m/it/10 k[]x\OT1/zplm/m/n/10 ))(\OML/zplm/m/it/10 C[] []\OT
+1/zplm/m/n/10 (\OML/zplm/m/it/10 ![]t\OT1/zplm/m/n/10 ) + \OML/zplm/m/it/10 D[]
+cos\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ![]t\OT1/zplm/m/n/10 ))\OT1/pplx/m/n/10 
+,
+ []
+
+
+Overfull \hbox (1.77237pt too wide) in paragraph at lines 128--131
+\T1/pplj/m/n/10 ré-pé-tant le pro-ces-sus jus-qu'à ob-te-nir 4 fonc-tions tels 
+que $\OML/zplm/m/it/10 ^^^\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 x\OT1/pplx/m/n/10
+ , \OML/zplm/m/it/10 y\OT1/pplx/m/n/10 , \OML/zplm/m/it/10 z\OT1/pplx/m/n/10 , 
+\OML/zplm/m/it/10 t\OT1/zplm/m/n/10 ) =
+ []
+
+[76]
+Package epstopdf Info: Source file: <graphics/modes2.eps>
+(epstopdf)                    date: 2018-08-10 21:59:38
+(epstopdf)                    size: 211954 bytes
+(epstopdf)             Output file: <graphics/modes2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-08-10 21:59:38
+(epstopdf)                    size: 78904 bytes
+(epstopdf)             Command: <epstopdf --outfile=graphics/modes2-eps-convert
+ed-to.pdf graphics/modes2.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./graphics/modes2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<graphics/modes2-eps-converted-to.pdf, id=744, 89.39157pt x 356.09988pt>
+File: graphics/modes2-eps-converted-to.pdf Graphic file (type pdf)
+<use graphics/modes2-eps-converted-to.pdf>
+Package pdftex.def Info: graphics/modes2-eps-converted-to.pdf  used on input li
+ne 132.
+(pdftex.def)             Requested size: 140.55647pt x 512.20203pt.
+
+Underfull \hbox (badness 2173) in paragraph at lines 134--134
+\T1/pplj/m/n/8 voir une vue de haut et à droite
+ []
+
+
+Underfull \hbox (badness 1297) in paragraph at lines 134--134
+\T1/pplj/m/n/8 une vue en 3D. De haut en bas ,
+ []
+
+
+LaTeX Warning: Marginpar on page 77 moved.
+
+
+LaTeX Warning: Reference `eq:onde3D' on page 77 undefined on input line 140.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
+
+ []
+
+[77 <./graphics/modes2-eps-converted-to.pdf>]
+Overfull \hbox (6.29532pt too wide) in paragraph at lines 159--160
+[]\T1/pplj/m/n/10 Calculons ma-thé-ma-ti-que-ment le ré-sul-tat du mé-lange de 
+deux ondes
+ []
+
+
+LaTeX Warning: Reference `fig:battement' on page 78 undefined on input line 165
+.
+
+<graphics/battement2.png, id=759, 166.32pt x 140.085pt>
+File: graphics/battement2.png Graphic file (type png)
+<use graphics/battement2.png>
+Package pdftex.def Info: graphics/battement2.png  used on input line 169.
+(pdftex.def)             Requested size: 140.5566pt x 118.3888pt.
+) (./contents/chapitre8.tex [78 <./graphics/battement2.png>]
+Chapitre 8.
+
+Underfull \hbox (badness 3514) in paragraph at lines 53--53
+[][]\T1/pplj/m/n/8 .Il uti-li-sait pour cela une bo-bine
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 53--53
+\T1/pplj/m/n/8 teur. Celle-ci se base sur le même
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 53--53
+\T1/pplj/m/n/8 tuels à ceci près qu'à son en-trée,
+ []
+
+
+LaTeX Warning: Reference `fig:expHertz' on page 79 undefined on input line 53.
+
+<graphics/hertz1.jpg, id=766, 352.31625pt x 371.3875pt>
+File: graphics/hertz1.jpg Graphic file (type jpg)
+<use graphics/hertz1.jpg>
+Package pdftex.def Info: graphics/hertz1.jpg  used on input line 57.
+(pdftex.def)             Requested size: 134.96211pt x 142.26378pt.
+<graphics/hertz2.jpg, id=767, 507.8975pt x 407.5225pt>
+File: graphics/hertz2.jpg Graphic file (type jpg)
+<use graphics/hertz2.jpg>
+Package pdftex.def Info: graphics/hertz2.jpg  used on input line 61.
+(pdftex.def)             Requested size: 177.30179pt x 142.26378pt.
+
+Overfull \hbox (25.07956pt too wide) in paragraph at lines 61--64
+ [][] 
+ []
+
+
+Overfull \hbox (2.20999pt too wide) in paragraph at lines 56--65
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: Marginpar on page 79 moved.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+[79
+
+]
+
+LaTeX Warning: File `figure_ray.PNG' not found on input line 73.
+
+
+! Package pdftex.def Error: File `figure_ray.PNG' not found: using draft settin
+g.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ludegraphics[height=4.3cm]{figure_ray.PNG}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+
+LaTeX Warning: Reference `fig:yo' on page 80 undefined on input line 80.
+
+
+LaTeX Warning: Reference `fig:yo2' on page 80 undefined on input line 80.
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 81--81
+\T1/pplj/m/n/8 en di-sant cela : cer-taines di-rec-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+<graphics/lol2.PNG, id=777, 446.8695pt x 313.17pt>
+File: graphics/lol2.PNG Graphic file (type png)
+<use graphics/lol2.PNG>
+Package pdftex.def Info: graphics/lol2.PNG  used on input line 86.
+(pdftex.def)             Requested size: 324.80737pt x 227.62204pt.
+
+Overfull \hbox (20.3629pt too wide) in paragraph at lines 86--89
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (8.80298pt too wide) in paragraph at lines 91--92
+\T1/pplj/m/n/10 émises, nous for-mu-lons que l'am-pli-tude du champ élec-trique
+ rayonné[]
+ []
+
+
+LaTeX Warning: Marginpar on page 80 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+[80 <./graphics/hertz1.jpg> <./graphics/hertz2.jpg>]
+Underfull \hbox (badness 1577) in paragraph at lines 96--96
+\T1/pplj/m/n/8 ex-pli-ca-tion plus for-melle en-core est
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 96--96
+\T1/pplj/m/n/8 dis-po-nible dans les notes com-plé-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 96--96
+\T1/pplj/m/n/8 men-taires du cours. A nou-veau, ce
+ []
+
+
+Underfull \hbox (badness 4752) in paragraph at lines 96--96
+\T1/pplj/m/n/8 n'est pas ma-tière de l'exa-men. Il
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 96--96
+\T1/pplj/m/n/8 est néan-moins in-té-res-sant de lire
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 96--96
+\T1/pplj/m/n/8 ces do-cu-ments. Une ani-ma-tion est
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 96--96
+\T1/pplj/m/n/8 dis-po-nible sur ce site pour mieux
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 96--96
+\T1/pplj/m/n/8 vi-sua-li-ser le phé-no-mène de rayon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+<graphics/radiation.PNG, id=783, 423.984pt x 298.11375pt>
+File: graphics/radiation.PNG Graphic file (type png)
+<use graphics/radiation.PNG>
+Package pdftex.def Info: graphics/radiation.PNG  used on input line 100.
+(pdftex.def)             Requested size: 242.79906pt x 170.71652pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 106--106
+\T1/pplj/m/n/8 vante []$\T1/fvm/m/n/8 http : / / www . physics . sfsu . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+\T1/fvm/m/n/8 ~lea / courses / ugrad / 460notes5 . PDF$[]
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 106--106
+\T1/pplj/m/n/8 à l'ex-pres-sion d'un champ rayonné
+ []
+
+
+LaTeX Warning: Marginpar on page 81 moved.
+
+[81 <./graphics/lol2.PNG>]
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+
+LaTeX Warning: Reference `fig:dipo' on page 82 undefined on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+LaTeX Warning: Marginpar on page 82 moved.
+
+[82 <./graphics/radiation.PNG>]
+
+LaTeX Warning: Marginpar on page 83 moved.
+
+<graphics/representation.jpg, id=801, 602.25pt x 491.8375pt>
+File: graphics/representation.jpg Graphic file (type jpg)
+<use graphics/representation.jpg>
+Package pdftex.def Info: graphics/representation.jpg  used on input line 131.
+(pdftex.def)             Requested size: 202.06973pt x 165.02606pt.
+
+Underfull \hbox (badness 2426) in paragraph at lines 141--141
+[][]\T1/pplj/m/n/8 .Il y au-rait eu équi-va-lence si les
+ []
+
+
+Overfull \hbox (10.1353pt too wide) in paragraph at lines 141--142
+[]\T1/pplj/m/n/10 Reprenons l'idée (voire an-no-ta-tion $\OT1/pplx/m/n/10 6$\T1
+/pplj/m/n/10 ) d'un en-semble de deux charges
+ []
+
+[83 <./graphics/representation.jpg>]
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+<graphics/idea.PNG, id=807, 669.702pt x 368.577pt>
+File: graphics/idea.PNG Graphic file (type png)
+<use graphics/idea.PNG>
+Package pdftex.def Info: graphics/idea.PNG  used on input line 144.
+(pdftex.def)             Requested size: 217.12941pt x 119.50148pt.
+
+LaTeX Warning: Marginpar on page 84 moved.
+
+
+Overfull \hbox (22.48508pt too wide) detected at line 151
+\OML/zplm/m/it/10 I[] \OT1/zplm/m/n/10 ^^A \OML/zplm/m/it/10 z \OT1/zplm/m/n/10
+ = \OML/zplm/m/it/10 I[] h \OT1/zplm/m/n/10 = \OT1/pplx/m/n/10 2\OML/zplm/m/it/
+10 I[] z[] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 ! z[] \OT1/zplm/m/n/10 ^^A \OML
+/zplm/m/it/10 q \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 ! z[] \OT1/zplm/m/n/10 (\O
+ML/zplm/m/it/10 q \OMS/zplm/m/n/10 ^^@ \OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\O
+ML/zplm/m/it/10 q\OT1/zplm/m/n/10 )) = \OT1/pplx/m/n/10 2\OML/zplm/m/it/10 ! z[
+] q \OMS/zplm/m/n/10 ) \OML/zplm/m/it/10 I[] h \OT1/zplm/m/n/10 = \OML/zplm/m/i
+t/10 ! p[]
+ []
+
+
+Overfull \hbox (4.47849pt too wide) detected at line 154
+\OML/zplm/m/it/10 E[] \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 ^^@[]\OML/zplm/m/it/1
+0 !I[]h[] []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 !t \OMS/zplm/m/n/10 ^^@ \OML/zp
+lm/m/it/10 k r\OT1/zplm/m/n/10 ) = \OMS/zplm/m/n/10 ^^@[][]\OML/zplm/m/it/10 I[
+][][] []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 !t \OMS/zplm/m/n/10 ^^@ \OML/zplm/m
+/it/10 k r\OT1/zplm/m/n/10 )
+ []
+
+
+Overfull \hbox (33.13649pt too wide) detected at line 161
+\OML/zplm/m/it/10 r[] \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 r[] \OT1/zplm/m/n/
+10 = \OML/zplm/m/it/10 h []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^R\OT1/zplm/m/n
+/10 ) \OMS/zplm/m/n/10 ) []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 !t \OMS/zplm/m/n
+/10 ^^@ \OML/zplm/m/it/10 kr[]\OT1/zplm/m/n/10 ) = [] []\OML/zplm/m/it/10 !t \O
+MS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 kr[] \OT1/zplm/m/n/10 + \OT1/pplx/m/n/10 2
+\OML/zplm/m/it/10 ^^Y[] []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^R\OT1/zplm/m/n/
+10 )[]
+ []
+
+[84 <./graphics/idea.PNG>]
+<graphics/loll.PNG, id=815, 423.38174pt x 235.47975pt>
+File: graphics/loll.PNG Graphic file (type png)
+<use graphics/loll.PNG>
+Package pdftex.def Info: graphics/loll.PNG  used on input line 173.
+(pdftex.def)             Requested size: 230.21196pt x 128.0374pt.
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 178.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
+
+ []
+
+
+Overfull \hbox (16.19601pt too wide) detected at line 190
+[]
+ []
+
+[85 <./graphics/loll.PNG>]
+Overfull \hbox (8.49074pt too wide) detected at line 191
+\OMS/zplm/m/n/10 ) \OML/zplm/m/it/10 E[] \OT1/zplm/m/n/10 = \OMS/zplm/m/n/10 <\
+OT1/zplm/m/n/10 (\OT1/zplm/b/n/10 E[]\OT1/zplm/m/n/10 ) = \OMS/zplm/m/n/10 ^^@[
+] [] []  []\OT1/zplm/m/n/10 (\OML/zplm/m/it/10 ^^R\OT1/zplm/m/n/10 )  [] [][]  
+[](\OML/zplm/m/it/10 ^^R\OT1/zplm/m/n/10 )[]  [](\OML/zplm/m/it/10 ! t \OMS/zpl
+m/m/n/10 ^^@ \OML/zplm/m/it/10 k r\OT1/zplm/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Overfull \hbox (0.61598pt too wide) in paragraph at lines 197--198
+\T1/pplj/m/n/10 Par exemple, en pro-cé-dant clas-si-que-ment en dé-ve-lop-pant 
+deux ondes
+ []
+
+<graphics/hehe.PNG, id=825, 787.743pt x 318.59026pt>
+File: graphics/hehe.PNG Graphic file (type png)
+<use graphics/hehe.PNG>
+Package pdftex.def Info: graphics/hehe.PNG  used on input line 200.
+(pdftex.def)             Requested size: 316.5941pt x 128.0374pt.
+
+Overfull \hbox (12.14963pt too wide) in paragraph at lines 200--203
+ [][] 
+ []
+
+[86 <./graphics/hehe.PNG>]
+
+LaTeX Warning: Marginpar on page 87 moved.
+
+<graphics/ex.PNG, id=832, 302.3295pt x 350.5095pt>
+File: graphics/ex.PNG Graphic file (type png)
+<use graphics/ex.PNG>
+Package pdftex.def Info: graphics/ex.PNG  used on input line 210.
+(pdftex.def)             Requested size: 140.5566pt x 162.95314pt.
+
+LaTeX Warning: Marginpar on page 87 moved.
+
+
+Overfull \hbox (0.80522pt too wide) in paragraph at lines 232--234
+\T1/pplj/m/n/10 Les sources élé-men-taires que nous étu-dions émettent des onde
+s sphé-
+ []
+
+[87 <./graphics/ex.PNG>]
+Overfull \hbox (3.58931pt too wide) detected at line 234
+[] \OT1/zplm/m/n/10 = [] \OMS/zplm/m/n/10 ^^B [] \OT1/zplm/m/n/10 = \OML/zplm/m
+/it/10 E[][] \OMS/zplm/m/n/10 ^^B \OML/zplm/m/it/10 H[][] \OT1/zplm/m/n/10 = \O
+ML/zplm/m/it/10 E[]H[][] \OT1/zplm/m/n/10 = []\OML/zplm/m/it/10 E[][] \OT1/zplm
+/m/n/10 = []\OML/zplm/m/it/10 H[][] \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 I[]
+ []
+
+
+Overfull \hbox (22.96776pt too wide) detected at line 257
+[]
+ []
+
+<graphics/ant_refl_2.png, id=840, 79.79813pt x 58.71938pt>
+File: graphics/ant_refl_2.png Graphic file (type png)
+<use graphics/ant_refl_2.png>
+Package pdftex.def Info: graphics/ant_refl_2.png  used on input line 263.
+(pdftex.def)             Requested size: 140.5566pt x 103.4297pt.
+
+Overfull \hbox (1.768pt too wide) in paragraph at lines 262--264
+ [] 
+ []
+
+[88 <./graphics/ant_refl_2.png>]
+<graphics/ant_refl_1.png, id=847, 103.38625pt x 52.69687pt>
+File: graphics/ant_refl_1.png Graphic file (type png)
+<use graphics/ant_refl_1.png>
+Package pdftex.def Info: graphics/ant_refl_1.png  used on input line 269.
+(pdftex.def)             Requested size: 140.5566pt x 71.64989pt.
+
+Overfull \hbox (1.768pt too wide) in paragraph at lines 268--270
+ [] 
+ []
+
+) (./contents/annexe.tex [89 <./graphics/ant_refl_1.png>]
+Chapitre 9.
+
+LaTeX Warning: Reference `fig:yo' on page 90 undefined on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--7
+
+ []
+
+[90
+
+]
+
+LaTeX Warning: File `figure_ray.PNG' not found on input line 8.
+
+
+! Package pdftex.def Error: File `figure_ray.PNG' not found: using draft settin
+g.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...cludegraphics[height=4.3cm]{figure_ray.PNG}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `fig:yo' on page 91 undefined on input line 13.
+
+
+LaTeX Warning: Reference `fig:yo' on page 91 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:yo' on page 91 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:yo2' on page 91 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:yo' on page 91 undefined on input line 14.
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 15--15
+\T1/pplj/m/n/8 en di-sant cela : cer-taines di-rec-tions
+ []
+
+)
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--105
+
+ []
+
+
+LaTeX Warning: Marginpar on page 91 moved.
+
+[91]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+ (./Syllabus-EPL1203.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+
+
+Package rerunfilecheck Warning: File `Syllabus-EPL1203.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Syllabus-EPL1203.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  93BC3B8C49AA5EFCD283BD20A5ABBEA9;10400.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+ ) 
+Here is how much of TeX's memory you used:
+ 36088 strings out of 492982
+ 651413 string characters out of 6134897
+ 729327 words of memory out of 5000000
+ 38643 multiletter control sequences out of 15000+600000
+ 625602 words of font info for 180 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,24n,92p,10358b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/esint-type1/esint10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmbb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpaz
+o/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/upl
+bi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Syllabus-EPL1203.pdf (91 pages, 10835454 bytes).
+PDF statistics:
+ 967 PDF objects out of 1000 (max. 8388607)
+ 639 compressed objects within 7 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 2556 words of extra memory for PDF output out of 10000 (max. 10000000)
+
