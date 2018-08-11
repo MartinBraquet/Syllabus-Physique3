@@ -1,1 +1,1 @@
-Voici des modifications du syllabus.
+Quelques modifications du syllabus.
