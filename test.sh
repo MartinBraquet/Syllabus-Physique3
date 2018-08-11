@@ -11,7 +11,7 @@ cd $1
 
 
 # build pdf from source
-pdflatex $2.tex
+pdflatex -shell-escape $2.tex
 
 # exit successfully if pdf is present or with error if not present
 [ -f $2.pdf ] && exit 0 || exit 1
