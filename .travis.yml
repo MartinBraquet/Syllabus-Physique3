@@ -3,7 +3,7 @@ before_install:
 - sudo apt-get install texlive-latex-extra texlive-latex-base texlive-latex-recommended
 script:
 - mkdir _build
-- pdflatex -halt-on-error -interaction=nonstopmode file -output-directory _build ./tex/Syllabus-EPL1203.tex
+- pdflatex -halt-on-error -interaction=nonstopmode -output-directory _build ./tex/Syllabus-EPL1203.tex
 deploy:
   provider: releases
   api_key:
