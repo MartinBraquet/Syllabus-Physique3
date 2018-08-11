@@ -1,6 +1,6 @@
 before_install:
 - sudo apt-get update 
-- sudo apt-get install texlive-latex-extra texlive-latex-base texlive-latex-recommended
+- sudo apt-get install texlive-latex-extra texlive-latex-base texlive-latex-recommended texlive-fonts-recommended
 script:
 - mkdir _build
 - pdflatex -halt-on-error -interaction=nonstopmode -output-directory _build ./tex/Syllabus-EPL1203.tex
