@@ -1,7 +1,9 @@
-pdf:
-  image: rekka/tectonic
-  script:
-    - tectonic Syllabus-EPL1203.tex
-  artifacts:
-    paths:
-      - my-document.pdf
+sudo: required
+
+services:
+  - docker
+
+script:
+  # We use the docker image from https://hub.docker.com/r/rekka/tectonic/
+  - docker pull rekka/tectonic
+  - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind rekka/tectonic tectonic Syllabus-EPL1203.tex
