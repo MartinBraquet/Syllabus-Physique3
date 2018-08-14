@@ -38,7 +38,7 @@ Analysons tout d'abord le comportement de l'onde résultante sous forme graphiqu
 
 L'onde émise en $S_1$ prend moins de temps à atteindre le point rouge ($P_1$) que l'onde émise en $S_2$. Le retard de l'une par rapport à l'autre est tel que les maxima de l'une correspondent aux minima de l'autre, et la résultante est nulle (fig. @P1) : l'interférence est destructive. En $P_2$ par contre, le retard de la première onde par rapport à la seconde est tel que les maxima (et les minima) des deux ondes coïncident. Les ondes interfèrent de manière constructive, et l'amplitude de l'onde résultante est double de celle de chacune des ondes primaires. Enfin, en $P_3$, la situation est intermédiaire.\\
 
-Passons à une description mathématique de ces interférences dans laquelle nous écrivons le champ total en un point $P$ quelconque de l'espace. Les relations ci-dessous conviennent pour le cas simplifié de deux sources ponctuelles cohérentes, de même amplitude, de même longueur d'onde\footnote{dans la cuve à ondes, c'est trivial puisque les ondes se propagent dans le même milieu} et de même polarisation\footnote{dans la cuve à ondes, la polarisation n'a pas de sens puisque la grandeur analysée est scalaire: le déplacement vertical}. Nous considérerons également que les ondes primaires sont des ondes circulaires, polarisée dans la direction de l'axe des $z$ et de forme sinusoïdale.
+Passons à une description mathématique de ces interférences dans laquelle nous écrivons le champ total en un point $P$ quelconque de l'espace. Les relations ci-dessous conviennent pour le cas simplifié de deux sources ponctuelles cohérentes, de même amplitude, de même longueur d'onde\footnote{dans la cuve à ondes, c'est trivial puisque les ondes se propagent dans le même milieu} et de même polarisation\footnote{dans la cuve à ondes, la polarisation n'a pas de sens puisque la grandeur analysée est scalaire: le déplacement vertical}. Nous considérerons également que les ondes primaires sont des ondes circulaires, polarisées dans la direction de l'axe des $z$ et de forme sinusoïdale.
 Le champ créé en $P$ par la première onde est de la forme 
 $$A \cos (kr_1-\omega t)\overset\rightarrow{\mbox{l}_z},$$
 où $r_1$ est la distance entre la première source et le point $P$, et $k=2\pi/\lambda$ est le nombre d'onde. 
@@ -50,7 +50,7 @@ où $r_2$ est la distance entre la seconde source et le point $P$, et $\phi_2$ e
 En $P$, le champ résultant total est donc:
 
 \begin{align*}
-y(P)&=A \cos (kr_1-\omega t)\overset\rightarrow{\mbox{l}_z} + A \cos (kr_2-\omega t +\phi_2)\:\overset\rightarrow{\mbox{l}_z} \\&
+\overset\rightarrow{E}(P)&=A \cos (kr_1-\omega t)\overset\rightarrow{\mbox{l}_z} + A \cos (kr_2-\omega t +\phi_2)\:\overset\rightarrow{\mbox{l}_z} \\&
 =A \bigg(\cos (kr_1-\omega t)+ \cos (kr_2-\omega t +\phi_2)\bigg)\:\overset\rightarrow{\mbox{l}_z}\\&
 =A \bigg(2\cos \Big(\frac{\phi_2 +kr_2-kr_1}{2}\Big)\cos \Big(\frac{\phi_2 +kr_2+kr_1}{2}-\omega t\Big)\bigg)\:\overset\rightarrow{\mbox{l}_z}\\&
 =\underbrace{2A\cos \Big(\frac{\phi}{2}\Big)}_\textrm{amplitude}\underbrace{\cos (\phi'-\omega t)}_\textrm{oscillation}\:\overset\rightarrow{\mbox{l}_z}
@@ -102,7 +102,7 @@ L'intensité dans ces régions vaut 4 fois celle de chacune des ondes primaires,
 	\label{fm7}
 \end{marginfigure}
 
-Cette redistribution d'énergie permet de diriger l'onde dans une direction préférentielle. Un premier exemple d'application de ce principe sont les casques anti-bruits qui atténuent fortement l'ensemble des bruits extérieurs. Ils possèdent un micro qui analyse le bruit extérieur et qui crée une source qui compense le bruit externe dans la direction du tympan de l'oreille. Une autre application de ce principe se retrouve dans le domaine des télécommunications. En transmission satellite, et plus récemment dans les standards de transmission Wi-fi et 4G, plusieurs antennes sont utilisées conjointement pour choisir des directions préférentielles dans lesquelles on transmet l'information avec une plus grande puissance. Pour ces groupes d'antennes (ou pour les antennes directives telles que les antennes paraboliques), on définit généralement un diagramme de rayonnement (fig \ref{fm7}) qui représente l'intensité qui est envoyée en fonction de la direction. En d'autres termes, la longueur de l'ellipse reflète l'intensité émise ou perçue\footnote{Grâce au principe de réciprocité valable en électromagnétisme, ce diagramme de rayonnement est toujours le même, pour une antenne ou un groupe d'antenne donné, en émission et en réception.} dans cette direction.   Un déphasage\footnote{\includegraphics[scale=0.51]{M8}} entre les sources permet alors d'ajuster la direction d'intensité maximale de rayonnement. L'augmentation du nombre d'antennes permet un direction de plus en plus ciblée.
+Cette redistribution d'énergie permet de diriger l'onde dans une direction préférentielle. Un premier exemple d'application de ce principe sont les casques anti-bruits qui atténuent fortement l'ensemble des bruits extérieurs. Ils possèdent un micro qui analyse le bruit extérieur et qui crée une source qui compense le bruit externe dans la direction du tympan de l'oreille. Une autre application de ce principe se retrouve dans le domaine des télécommunications. En transmission satellite, et plus récemment dans les standards de transmission Wi-fi et 4G, plusieurs antennes sont utilisées conjointement pour choisir des directions préférentielles dans lesquelles on transmet l'information avec une plus grande puissance. Pour ces groupes d'antennes (ou pour les antennes directives telles que les antennes paraboliques), on définit généralement un diagramme de rayonnement (fig \ref{fm7}) qui représente l'intensité qui est envoyée en fonction de la direction. En d'autres termes, la longueur de l'ellipse reflète l'intensité émise ou perçue\footnote{Grâce au principe de réciprocité valable en électromagnétisme, ce diagramme de rayonnement est toujours le même, pour une antenne ou un groupe d'antenne donné, en émission et en réception.} dans cette direction.   Un déphasage\footnote{\includegraphics[scale=0.51]{M8}} entre les sources permet alors d'ajuster la direction d'intensité maximale de rayonnement. L'augmentation du nombre d'antennes permet une direction de plus en plus ciblée.
 Les systèmes de radioastronomie utilisent aussi depuis longtemps ce procédé pour capter de l'information dans des directions spécifiques en provenance de très longues distances. Des réseaux d'antennes paraboliques sont couramment utilisés.\\
 
 Revenons à notre problème à deux sources. Si les deux sources sont en phase ($\phi_2=0$), le déphasage en $P$ s'écrit $\phi=2\pi(r_2-r_1)/\lambda$, ce qui permet d'écrire les conditions encadrées ci-dessus de la façon suivante:
@@ -148,13 +148,13 @@ Le problème auquel on s'intéresse est celui d'un écran percé de deux fentes 
 \label{3}
 \end{figure}
 
-Dans ce dessin, les lignes rouges et les lignes bleues n'ont pas d'existence physique réelle. Elles correspondent à des "rayons", qui sont des droites perpendiculaires aux fronts d'onde. Les lignes noires, roses et brunes sont des lignes d'égale phase, par exemple des lignes correspondant aux endroits où le champ est maximal. Ces lignes avancent à la vitesse\footnote{dans le vide; sinon, il faut diviser $c$ par l'indice de réfraction} $c$. Par la principe de Huygens, l'onde plane arrivant vers la plaque se comporte comme deux sources d'ondes se propageant à droite de la plaque. Cette technique est utilisée entre autres pour obtenir deux sources d'ondes exactement à la même fréquence (sources cohérentes) car les ondes sont issues du même front d'onde. Obtenir la même fréquence dans un appareil n'est pas une chose aisée et une différence infime de fréquence peut parfois engendrer des résultats conséquents.\\
+Dans ce dessin, les lignes rouges et les lignes bleues n'ont pas d'existence physique réelle. Elles correspondent à des "rayons", qui sont des droites perpendiculaires aux fronts d'onde. Les lignes noires, roses et brunes sont des lignes d'égale phase, par exemple des lignes correspondant aux endroits où le champ est maximal. Ces lignes avancent à la vitesse\footnote{dans le vide; sinon, il faut diviser $c$ par l'indice de réfraction} $c$. Par le principe de Huygens, l'onde plane arrivant vers la plaque se comporte comme deux sources d'ondes se propageant à droite de la plaque. Cette technique est utilisée entre autres pour obtenir deux sources d'ondes exactement à la même fréquence (sources cohérentes) car les ondes sont issues du même front d'onde. Obtenir la même fréquence dans un appareil n'est pas une chose aisée et une différence infime de fréquence peut parfois engendrer des résultats conséquents.\\
 
 Si le point $P$ est situé très loin de l'écran, alors les lignes bleues connectant chacune des fentes au point P sont presque parallèles. 
 
 L'\textit{approximation de Fraunhofer} consiste à considérer que ces droites sont réellement parallèles, une approximation que nous accepterons dans presque tous les exercices de ce cours.
 
-Le déphasage d'une onde à un endroit donné, par rapport à la source, peut s'exprimer facilement en fonction de se position. Nous le démontrons formellement dans le cas unidimensionnel d'une onde progressive se déplaçant vers la gauche
+Le déphasage d'une onde à un endroit donné, par rapport à la source, peut s'exprimer facilement en fonction de sa position. Nous le démontrons formellement dans le cas unidimensionnel d'une onde progressive se déplaçant vers la gauche
 $$\xi(x,t)=\xi_1\sin(\omega t+kx).$$
 En $x=d$, l'onde a pour équation 
 $$ \xi(d,t)=\xi_1\sin(\omega t+kd).$$ 
@@ -216,7 +216,7 @@ $$ n_0\sin \theta_0=n_1\sin \theta_1=n_2\sin \theta_2.$$
 
 Dans la figure \ref{fig:film_mince}, trois rayons particuliers appartenant à l'onde sont tracés \sidenote[][-2cm]{il en existe une infinité, mais la situation se reproduit avec la même géométrie pour chacun des autres rayons pris deux à deux}. Les lignes noires sont les lignes de crête \sidenote[][0cm]{elles ne sont pas représentées pour les ondes réfléchies et réfractées, pour ne pas encombrer le dessin}. Concentrons-nous sur deux rayons, le rouge et le bleu, et à leurs deux réflexions qui interfèrent en émergeant du film. 
 
-Pour atteindre le film, le rayon bleu parcourt une distance $a$ supplémentaire par rapport au rayon rouge. Par contre, le faisceau réfléchi rouge atteindra le même point d'émergence que le premier faisceau réfléchi bleu, après avoir effectué un zig-zag\footnote{
+Pour atteindre le film, le rayon bleu parcourt une distance $a$ supplémentaire par rapport au rayon rouge. Par contre, le faisceau rouge (qui est réfracté, réfléchi puis de nouveau réfracté) atteindra le même point d'émergence que le premier faisceau réfléchi bleu, après avoir effectué un zig-zag\footnote{
 \includegraphics[scale=1]{4}} supplémentaire dans le film, de longueur totale $b=b_1+b_2 = 2b_1$. 
 
 La situation se présente donc comme suit:
@@ -240,7 +240,7 @@ En plus de $\phi_1$, il faut rajouter un éventuel déphasage que subirait les o
 
 En fin de compte, le déphasage total s'écrit:
 $$\phi=\frac{4\pi dn_1}{n_0\lambda_0 }\cos \theta_1+(0\mbox{ ou }\pi).$$
-Les conditions d'interférence constructive/destructive correspondent aux cas pour lesquels cette différence de phase est un multiple pair/impair de pi. En connaissant l'angle d'incidence, il est donc possible de calculer les longueurs d'onde éteintes par interférence destructive, ou celles qui sont renforcées par interférence constructive, et expliquer les couleurs du film en fonction de l'angle sous lequel on le regarde. C'est en se basant sur ce principe que l'on peut
+Les conditions d'interférence constructive/destructive correspondent aux cas pour lesquels cette différence de phase est un multiple pair/impair de $\pi$. En connaissant l'angle d'incidence, il est donc possible de calculer les longueurs d'onde éteintes par interférence destructive, ou celles qui sont renforcées par interférence constructive, et expliquer les couleurs du film en fonction de l'angle sous lequel on le regarde. C'est en se basant sur ce principe que l'on peut
 fabriquer des couches anti-reflets ou, au contraire, des couches réflectrices.\\
 
 Pour les fréquences dont le déphasage $\phi$ vaut un multiple de $2\pi$, l'onde interfère constructivement et la couleur liée à cette fréquence est mieux perçue. A l'opposé, les ondes qui interfèrent de manière destructive ont leur couleur associée qui est peu visible après la réflexion.
@@ -256,7 +256,7 @@ Dans le cas contraire, les ailes de certains papillons\footnote{\includegraphics
 
 \subsection{L'interféromètre de Michelson-Morley}
 
-Michelson était un scientifique de la fin du 19e siècle qui s'est beaucoup intéressé au calcul la vitesse de la lumière. A cette époque, les gens pensaient que celle-ci se déplaçaient dans un certain milieu\footnote{Personne n'avait encore réussi à le détecter} appelé l'éther. Michelson a donc essayé de calculer la vitesse de la lumière dans cette éther pour prouver son existence. Son raisonnement est établi par analogie avec la vitesse du son qui diffère suivant la direction du vent. Le temps pour faire un aller-retour est légèrement plus court pour la direction perpendiculaire au vent que la direction parallèle. 
+Michelson était un scientifique de la fin du 19e siècle qui s'est beaucoup intéressé au calcul de la vitesse de la lumière. A cette époque, les gens pensaient que celle-ci se déplaçaient dans un certain milieu\footnote{Personne n'avait encore réussi à le détecter} appelé l'éther. Michelson a donc essayé de calculer la vitesse de la lumière dans cet éther pour prouver son existence. Son raisonnement est établi par analogie avec la vitesse du son qui diffère suivant la direction du vent. Le temps pour faire un aller-retour est légèrement plus court pour la direction perpendiculaire au vent que la direction parallèle. 
 
 \begin{figure}[htb]
 \centering
@@ -376,7 +376,7 @@ La figure \ref{M4} représente graphiquement l'intensité pour $10$ fentes.
 \begin{figure}[htb]
 \centering
 \includegraphics[scale=0.33]{M4}
-\caption{Graphique de de l'intensité selon l'angle de direction par rapport à la normale d'une onde passant à travers un réseau de 10 fentes }
+\caption{Graphique de l'intensité selon l'angle de direction par rapport à la normale d'une onde passant à travers un réseau de 10 fentes }
 \label{M4}
 \end{figure}
 
