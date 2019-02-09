@@ -150,9 +150,9 @@ Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibra
 \label{decomp}
 \end{marginfigure}
  Commençons par écrire les ondes \textit{réfléchie} et \textit{transmise} en fonction de l'onde \textit{incidente}.\\
-\textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{//}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{//} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
-\textbf{Réfléchie:}  $$ \vec{E}_{1r} (\vec{r},t) = (E^{//}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\perp} \hat{y} - E_{1r}^{//} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
-\textbf{Transmise:}$$ \vec{E}_{2t} (\vec{r},t) = (E^{//}_{2t} \cos(\theta_{2})  \hat{x} + E_{2t}^{\perp} \hat{y} + E_{2t}^{//} \sin(\theta_{2}) \hat{z} ) \sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$ 
+\textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{\parallelsum}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
+\textbf{Réfléchie:}  $$ \vec{E}_{1r} (\vec{r},t) = (E^{\parallelsum}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\perp} \hat{y} - E_{1r}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
+\textbf{Transmise:}$$ \vec{E}_{2t} (\vec{r},t) = (E^{\parallelsum}_{2t} \cos(\theta_{2})  \hat{x} + E_{2t}^{\perp} \hat{y} + E_{2t}^{\parallelsum} \sin(\theta_{2}) \hat{z} ) \sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$ 
 
  
 Notons que $\vec{k_{1r,z}} = - \vec{k_{1i,z}}$ et que $\vec{k_{2t}}$ prolonge l'angle de \textit{réfraction} en ayant, pour rappel, une norme de $\frac{\omega}{v_{2}}$.
@@ -162,15 +162,15 @@ Toutefois, il nous faut également les expressions des champs $\vec{H}(\vec{r},t
 Etant donné que $\hat{k_{1i}} = (\sin(\theta_{1}),0,-\cos(\theta_{1})) $, l'expression du champ magnétique incident se calcule et donne :
 \begin{equation*}
 \begin{split}
-\vec{H}_{1i}(\vec{r},t)& = \frac{1}{Z_1} (\hat{k_{1i}} \times \vec{E}_{1i}(\vec{r},t))\\ &= \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)(E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} - E^{//}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} )
+\vec{H}_{1i}(\vec{r},t)& = \frac{1}{Z_1} (\hat{k_{1i}} \times \vec{E}_{1i}(\vec{r},t))\\ &= \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)(E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} - E^{\parallelsum}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} )
 \end{split}
 \end{equation*}
 Les ondes incidente, réfléchie et transmise sont donc :\\ 
-\textbf{Incidente} $$ \vec{H}_{1i} (\vec{r},t) = (E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} + E^{//}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)$$
+\textbf{Incidente} $$ \vec{H}_{1i} (\vec{r},t) = (E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} + E^{\parallelsum}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)$$
 
-\textbf{Réfléchie} $$ \vec{H}_{1r} (\vec{r},t) = (-E^{\perp}_{1r} \cos(\theta_{1})  \hat{x} - E_{1r}^{//} \hat{y} + E_{1r}^{\perp} \sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
+\textbf{Réfléchie} $$ \vec{H}_{1r} (\vec{r},t) = (-E^{\perp}_{1r} \cos(\theta_{1})  \hat{x} - E_{1r}^{\parallelsum} \hat{y} + E_{1r}^{\perp} \sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
 
-\textbf{Transmise} $$ \vec{H}_{2t} (\vec{r},t) = (E^{\perp}_{2t} \cos(\theta_{2})  \hat{x} - E_{2t}^{//} \hat{y} + E_{2t}^{\perp} \sin(\theta_{2}) \hat{z} ) \frac{1}{Z_2}\sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$
+\textbf{Transmise} $$ \vec{H}_{2t} (\vec{r},t) = (E^{\perp}_{2t} \cos(\theta_{2})  \hat{x} - E_{2t}^{\parallelsum} \hat{y} + E_{2t}^{\perp} \sin(\theta_{2}) \hat{z} ) \frac{1}{Z_2}\sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$
  
 Nous abordons alors réellement les équations de Fresnel.
 %\footnote{Si vous désirez de plus amples informations sur ce qui a été dit et tout ce qui suivra, vous pouvez consulter le site suivant : \url{http://www.edu.upmc.fr/physique/phys325/Documents/Reflexion-Refraction.pdf}.}.
@@ -188,14 +188,14 @@ du milieu 1 (à savoir ceux dans cette même direction pour l'onde incidente et 
 Nous écrivons sans peine en partant des composantes en $\hat{x}$ et des $\hat{y}$ les 4 conditions de continuité à l'interface du dioptre. Pour cela, il faut se rappeler le chapitre 1, dans lequel nous avons mentionné que les conditions limites aux interfaces imposaient que la partie tangentielle du champ E et du champ H soit conservée (en l'absence de charges et de courants à l'interface, ce qui est bien le cas ici). Nous devons donc imposer la continuité selon les axes $\hat{x}$ et $\hat{y}$. %\footnote{Claude dit NON: Nous adoptons la convention dénotée à la page précédente; celle du cours sera donnée juste après en titre de conclusion.} :  
 \begin{equation*}
 \begin{split}
-\mbox{Continuité de $\vec{E}(\vec{r},t)$ selon $\hat{x}$ : }&\hspace{5pt} E^{//}_{1i} \cos(\theta_{1}) +E^{//}_{1r} \cos(\theta_{1}) = E^{//}_{2t} \cos(\theta_{2})\\
+\mbox{Continuité de $\vec{E}(\vec{r},t)$ selon $\hat{x}$ : }&\hspace{5pt} E^{\parallelsum}_{1i} \cos(\theta_{1}) +E^{\parallelsum}_{1r} \cos(\theta_{1}) = E^{\parallelsum}_{2t} \cos(\theta_{2})\\
 \mbox{Continuité de $\vec{E}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} E_{1i}^{\perp} + E_{1r}^{\perp} = E_{2t}^{\perp}  \\
 \mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{x}$ : }&\hspace{5pt} Z_2E^{\perp}_{1i}\cos(\theta_{1}) - Z_2E^{\perp}_{1r} \cos(\theta_{1}) = Z_1E^{\perp}_{2t} \cos(\theta_{2})   \\
-\mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} Z_2E^{//}_{1i} - Z_2E_{1r}^{//} = -Z_1E_{2t}^{//}
+\mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} Z_2E^{\parallelsum}_{1i} - Z_2E_{1r}^{\parallelsum} = -Z_1E_{2t}^{\parallelsum}
 \end{split}
 \end{equation*}
   
-où $E_{1i}^{//}$, $E_{1i}^{\perp}$, $\theta_{1}$,$\theta_{2}$, $Z_1$ et $Z_2$ sont connus. \\
+où $E_{1i}^{\parallelsum}$, $E_{1i}^{\perp}$, $\theta_{1}$,$\theta_{2}$, $Z_1$ et $Z_2$ sont connus. \\
 Nous pouvons établir un système matriciel étant donné le caractère \textit{linéaire} des équations.
 %\begin{fullwidth}
 %\begin{center}
@@ -208,33 +208,33 @@ Nous pouvons établir un système matriciel étant donné le caractère \textit{
 	\end{pmatrix}
 	\cdot
 	\begin{pmatrix}
-	E_{1r}^{//}\\
+	E_{1r}^{\parallelsum}\\
 	E_{1r}^{\perp}\\
-	E_{2t}^{//} \\ 
+	E_{2t}^{\parallelsum} \\ 
 	E_{2t}^{\perp}
 	\end{pmatrix}
 	=
 	\begin{pmatrix}
-	E_{1i}^{//} \cos \theta_{1}\\
+	E_{1i}^{\parallelsum} \cos \theta_{1}\\
 	E_{1i}^{\perp} \\
 	Z_2E_{1i}^{\perp} \cos \theta_{1} \\
-	Z_2E_{1i}^{//}
+	Z_2E_{1i}^{\parallelsum}
 	\end{pmatrix}
 	$$
 %\end{center}
 %\end{fullwidth}
 %\vspace{10pt}
 Nous pouvons résoudre ce système d'équations et obtenir les 4 coefficients de Fresnel suivants:
-\[r_{//} \overset{\Delta}= \frac{E_{1r}^{//}}{E_{1i}^{//}} = \frac{Z_{2}\cos \theta_{2} - Z_{1} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1} } \]
+\[r_{\parallelsum} \overset{\Delta}= \frac{E_{1r}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{Z_{2}\cos \theta_{2} - Z_{1} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1} } \]
 \[r_{\perp} \overset{\Delta}= \frac{E_{1r}^{\perp}}{E_{1i}^{\perp}} = \frac{Z_{2}\cos \theta_{1} - Z_{1} \cos \theta_{2} }{Z_{2} \cos \theta_{1} + Z_{1} \cos \theta_{2}}\]
-\[t_{//} \overset{\Delta}= \frac{E_{2t}^{//}}{E_{1i}^{//}} = \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1}} \]
+\[t_{\parallelsum} \overset{\Delta}= \frac{E_{2t}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1}} \]
 \[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{1} + Z_{1} \cos \theta_{2}}\]
 Ces coefficients sont valables dans les milieux avec une permittivité électrique et une perméabilité magnétique constantes. La forme des équations de Fresnel ici présentes n'est pas unique. En effet, il existe des équations de Fresnel sous une forme plus restrictive. Cette forme n'utilise pas les impédances des deux milieux mais leur indice de réfraction. Elle est utilisée couramment chez des opticiens pour cette raison. L'inconvénient est que ladite forme n'est valable que pour des milieux dont la perméabilité magnétique est celle du vide (autrement dit, pour des matériaux non-magnétiques). Pour les opticiens, il ne s'agit pas d'un problème car la plupart des matériaux utilisés en optique sont non-magnétiques. Dans le cadre de ce cours, nous utiliserons toujours de préférence les formules énoncées plus haut. Néanmoins, voici les équations de Fresnel avec les indices de réfraction: 
 \sidenote[][-5cm]{Afin de visualiser la réflexion et la réfraction au mieux,  il existe deux animations \textit{Matlab} très bien réalisées disponibles sur le site Moodle du cours.}% En prime\footnote{Disponible dans le fichier .zip}, un autre programme \textit{Matlab} vous permettant  de calculer rapidement les coefficients de \textit{Fresnel} suivant la convention du cours. Il est conseillé d'analyser la notice d'utilisation. \textbf{Notez} que si vous désirez afficher les graphes de l'évolution des coefficients de \textit{Fresnel} par rapport à l'angle incident; il vous faut simplement appeler la fonction avec le rapport $\frac{n_{1}}{n_{2}}$ souhaité entre les deux milieux. Enfin, ce programme est rapidement fait et n'est certainement pas optimisé ni défensif; il a pour but d'être le substitut à une calculette un peu longue à manier pour des calculs de \textit{coefficients de Fresnel}.}:  
 
-\[r_{//} \overset{\Delta}= \frac{E_{1r}^{//}}{E_{1i}^{//}} = \frac{n_{1}\cos \theta_{2} - n_{2} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = \frac{\tan(\theta_{1}-\theta_{2})}{\tan(\theta_{1}+\theta_{2})}\]
+\[r_{\parallelsum} \overset{\Delta}= \frac{E_{1r}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{n_{1}\cos \theta_{2} - n_{2} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = \frac{\tan(\theta_{1}-\theta_{2})}{\tan(\theta_{1}+\theta_{2})}\]
 \[r_{\perp} \overset{\Delta}= \frac{E_{1r}^{\perp}}{E_{1i}^{\perp}} = \frac{n_{1}\cos \theta_{1} - n_{2} \cos \theta_{2} }{n_{2} \cos \theta_{2} + n_{1} \cos \theta_{1}} = -\frac{\sin(\theta_{1} - \theta_{2})}{\sin(\theta_{1} + \theta_{2})} \]
-\[t_{//} \overset{\Delta}= \frac{E_{2t}^{//}}{E_{1i}^{//}} = \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2}} \]
+\[t_{\parallelsum} \overset{\Delta}= \frac{E_{2t}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2}} \]
 \[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{2} + n_{1} \cos \theta_{1}}\]
 
 %\subsection{Convention du cours: NON: il faut directeemnt utiliser la bonne convention, dit Claude}
@@ -264,7 +264,7 @@ Dans le cas inverse, visible à la figure \ref{fig_ref3}, où $n_1>n_2$ (lucite 
 
 \subsection{Angle de \textit{Brewster} et transmission totale}
 
-Nous pouvons remarquer que le coefficient $r_{//}$ peut s'annuler dans le cas particulier où $Z_2\cos\theta_{2} = Z_1\cos\theta_{1}$, autrement dit lorsque 
+Nous pouvons remarquer que le coefficient $r_{\parallelsum}$ peut s'annuler dans le cas particulier où $Z_2\cos\theta_{2} = Z_1\cos\theta_{1}$, autrement dit lorsque 
 \[\sin^2\theta_1 = \frac{\mu_2\epsilon_1/\mu_1\epsilon_2 - 1}{(\epsilon_1/\epsilon_2)^2-1}\]
 
 Pour des milieux non-magnétiques ($\mu_1 = \mu_2 = \mu_0$), cela revient à 
@@ -272,7 +272,7 @@ Pour des milieux non-magnétiques ($\mu_1 = \mu_2 = \mu_0$), cela revient à
 
 Cet angle $\theta_1$ est appelé \textit{angle de Brewster} et se note $\theta_{B}$. \\
 
-Nous pouvons également retrouver cet angle (pour des milieux non-magnétiques) à partir de l'expression optique du coefficient $r_{//}$ : 
+Nous pouvons également retrouver cet angle (pour des milieux non-magnétiques) à partir de l'expression optique du coefficient $r_{\parallelsum}$ : 
 \[\frac{n_{2}\cos \theta_{1} - n_{1} \cos \theta_{2} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = 0 \Leftrightarrow n_{2} \cos \theta_{1} = n_{1} \cos \theta_{2} \Rightarrow \cos^{2} \theta_{2} = \left(\frac{n_{2} \cos \theta}{n_{1}}\right)^{2}\]
 En utilisant la loi de \textit{Snell-Descartes} : 
 \[n_{1} \sin \theta_{1} = n_{2} \sin \theta_{2} \Rightarrow \sin^{2} \theta_{2} = \left(\frac{n_{1} \sin \theta}{n_{2}}\right)^{2} \] 
@@ -300,7 +300,7 @@ Ces principes sont à la base du fonctionnement des polariseurs, c'est-a-dire de
 	\includegraphics[width=\linewidth]{trans1}
 	\caption{Coefficients de transmission parallèle et perpendiculaire lorsque $n_1>n_2$ (lucite $\rightarrow$ air)}
 \end{marginfigure} 
-Lorsque le milieu où s'opère la \textit{transmission} admet un indice de réfraction $n_{2}<n_{1}$, il existe un \textit{angle critique} d'incidence à partir duquel la réflexion est \textit{\textbf{totale}}, c'est-à-dire un angle au-delà duquel l'angle $\theta_2$ devient complexe et n'existe donc pas (pour un angle d'incidence égal à cet angle critique, $r_{//}$ et $r_{\perp}$ sont égaux à  -1 et 1 respectivement; au delà de cet angle critique, les coefficients de Fresnel ne sont évidemment pas définis). 
+Lorsque le milieu où s'opère la \textit{transmission} admet un indice de réfraction $n_{2}<n_{1}$, il existe un \textit{angle critique} d'incidence à partir duquel la réflexion est \textit{\textbf{totale}}, c'est-à-dire un angle au-delà duquel l'angle $\theta_2$ devient complexe et n'existe donc pas (pour un angle d'incidence égal à cet angle critique, $r_{\parallelsum}$ et $r_{\perp}$ sont égaux à  -1 et 1 respectivement; au delà de cet angle critique, les coefficients de Fresnel ne sont évidemment pas définis). 
 
 Il faut noter que ce phénomène intervient quelle que soit la polarisation de l'onde incidente, pour des milieux magnétiques ou non, mais n'est possible qu'en passant d'un milieu plus réfringent à un milieu moins réfringent ($n_{2} < n_1$), par exemple, de la lucite (ou de l'eau, ...) vers l'air.\\ 
 
