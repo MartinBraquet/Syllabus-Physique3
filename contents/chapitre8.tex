@@ -249,11 +249,11 @@ Pour une antenne linéaire courte, nous supposons que la longueur de l'antenne e
 \omega^2(hI_0)^2=\frac{\pi}{3}\sqrt{\frac{\mu_0}{\epsilon_{0}}}\left(\frac{h}{\lambda}\right)^2I_0^2
 \]
 Pour une antenne linéaire longue, le champ électrique ne peut pas être assimilé à celui des dipôles. On calcule le champ électrique maximum (sur la variable $t$):
-\[E_{\theta,max}=\frac{1}{2\pi}\frac{I_0}{r}\tan \theta\sin\left(\frac{kh}{2}\cos\theta\right).\]
+\[E_{\theta,max}=\frac{1}{2\pi}\sqrt{\frac{\epsilon_{0}}{\mu_0}}\frac{I_0}{r}\tan \theta\sin\left(\frac{kh}{2}\cos\theta\right).\]
 Il faut ensuite résoudre numériquement l'intégrale 
 \begin{align*}
-P_{moy}&=&\sqrt{\frac{\epsilon_{0}}{\mu_0}}\int_0^{\pi}\int_0^{2\pi}\bigg(\frac{1}{2\pi}\sqrt{\frac{\mu_0}{\epsilon_{0}}}\frac{I_0}{r}\tan \theta\sin\left(\frac{kh}{2}\cos\theta\right)\bigg)^2\frac{r^2}{2}\sin(\theta)\textrm{d}\theta\:\textrm{d}\phi\\
-&=&\frac{1}{4\pi} \sqrt{\frac{\mu_0}{\epsilon_{0}}}I_0^2\int_0^{\pi}\frac{\sin^3\theta}{\cos^2\theta}\sin^2\left(\frac{kh}{2}\cos\theta\right)\textrm{d}\theta
+P_{moy}&=\sqrt{\frac{\epsilon_{0}}{\mu_0}}\int_0^{\pi}\int_0^{2\pi}\bigg(\frac{1}{2\pi}\sqrt{\frac{\mu_0}{\epsilon_{0}}}\frac{I_0}{r}\tan \theta\sin\left(\frac{kh}{2}\cos\theta\right)\bigg)^2\frac{r^2}{2}\sin(\theta)\textrm{d}\theta\:\textrm{d}\phi\\
+&=\frac{1}{4\pi} \sqrt{\frac{\mu_0}{\epsilon_{0}}}I_0^2\int_0^{\pi}\frac{\sin^3\theta}{\cos^2\theta}\sin^2\left(\frac{kh}{2}\cos\theta\right)\textrm{d}\theta
 \end{align*}
 car elle ne possède pas de solution analytique.
 
