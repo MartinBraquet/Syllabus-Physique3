@@ -18,7 +18,7 @@ Avec la définition que nous venons de donner, nous pouvons simplement écrire (
 
 où $\vec{r} = (x,y,z)$ représente les coordonnées cartésiennes du point considéré, \\ $\phi$ est le \textbf{déphasage} angulaire entre 
 la composante en Y
-et la composante en X.\\
+et la composante en X.
 
 Si $A_{x},A_{y}, \phi$ 
 sont quelconques, la polarisation est dite
@@ -33,9 +33,7 @@ nous avons affaire, par le même genre de raisonnement, à une polarisation \tex
 En effet, le second terme devient ici un cosinus de même pulsation angulaire et son amplitude vaut $\pm A_{x}$. 
 
 
-
 \section{Réflexion et réfraction} 
-
 
 \subsection{Mise en route: réflexion et transmission d'une onde mécanique le long d'une corde} 
 
@@ -45,7 +43,6 @@ En effet, le second terme devient ici un cosinus de même pulsation angulaire et
 \end{figure*}
 Avant de développer le cas des ondes EM, étudions la transmission (et la réflexion qui en résulte forcément) d'une onde \textit{mécanique} transversale d'un milieu défini par les paramètres $({F}_1,{\mu_1})$ à un autre défini par $({F}_2,{\mu_2})$ (pour rappel, $F$ est la tension dans la corde et $\mu_i$, dans le contexte de la corde, représente sa masse par unité de longueur; la vitesse de phase s'exprime par $v_i = \sqrt{\frac{F_i}{\mu_i}}$, et le nombre d'onde $k_i = \omega/v_i$, $i = 1, 2$). Cette vitesse change d'un milieu à un autre.\\
 L'onde \textit{incidente} (c.-à-d. l'onde avant qu'elle ne rencontre l'interface) peut s'écrire sous forme scalaire
-
 
 \[ \xi_{1i}(x,t) = I \sin(k_{1}r - \omega t) \]
 
@@ -67,12 +64,10 @@ Nous obtenons trivialement pour chaque inconnue les relations suivantes :
 On observe que tant l'onde transmise que l'onde réfléchie dépendent des caractéristiques des deux tronçons de corde !
 
 
-
 \subsection{Réflexion et réfraction d'une onde EM} 
 
-
 Nous pouvons transposer l'analyse ci-dessus aux ondes électromagnétiques, afin de décrire leur comportement à l'interface entre un milieu 1 ($\epsilon_{1}, \mu_{1}$) et un milieu 2 ($\epsilon_{2},\mu_{2}$), chaque milieu étant caractérisé par sa \textit{\textbf{perméabilité magnétique}} $\mu_i$
-et sa \textbf{\textit{permittivité électrique}} $\epsilon_i$.  \\
+et sa \textbf{\textit{permittivité électrique}} $\epsilon_i$.
 
 Pour rappel, la vitesse\footnote{Vitesse dite de \textit{phase}.} d'une onde électromagnétique vaut  
 
@@ -82,7 +77,7 @@ et l'impédance caractéristique est définie par
 
 \[Z = \sqrt{\frac{\mu}{\epsilon}} = \sqrt{\frac{\mu_0\mu_r}{\epsilon_0\epsilon_r}} = Z_0 \sqrt{\frac{\mu_r}{\epsilon_r}}.  \]
 
-On peut également définir l'indice de réfraction comme le rapport $n = c/v = \sqrt{\epsilon_{r}\mu_r}$.  \\
+On peut également définir l'indice de réfraction comme le rapport $n = c/v = \sqrt{\epsilon_{r}\mu_r}$.
 
 Une onde, lorsqu'elle passe d'un milieu à un autre, conserve sa \textbf{fréquence}. La longueur d'onde (et donc le nombre d'onde) sont quant à eux tous affectés 
 par le changement de milieu car ils dépendent directement de la vitesse de l'onde.
@@ -108,7 +103,6 @@ De plus, les conditions aux interfaces imposent que la vitesse et donc le dépla
 Dès lors, (voir photo) les deux longueurs $L$ sont identiques. Par trigonométrie élémentaire, nous reportons les angles $\theta_{1}$ et $\theta_{2}$ 
 dans les triangles rectangles et écrivons : $\mathcal{L} = \frac{\lambda_{1}}{\sin(\theta_{1})} = \frac{\lambda_{2}}{\sin(\theta_{2})}$
 
-
 \begin{marginfigure}
 \includegraphics[width = \linewidth]{snell.png}
 \caption{Illustration de la loi de Snell, les deux longueurs doivent être identiques}
@@ -122,14 +116,14 @@ Cette loi prédit les \textit{directions} des ondes réfléchies et transmises, 
 \subsection{Equations de Fresnel}
 
 Les \textbf{équations de Fresnel}, sur base des conditions aux interfaces pour les champs électriques et magnétiques, permettent de caractériser les amplitudes des ondes réfléchies et transmises. \\ 
-Il est important de se souvenir de l'\textit{impédance caractéristique} qui quantifie le rapport des normes des champs électriques et magnétiques. Nous allons traiter uniquement du cas le plus courant, celui des ondes planes \textit{transverses}, afin de faciliter la compréhension de cette matière\footnote{Un raisonnement analogue peut-être entrepris concernant les ondes longitudinales. \\Enormément de paramètres seraient inversés et les conditions de continuité seraient différentes.}. \\
+Il est important de se souvenir de l'\textit{impédance caractéristique} qui quantifie le rapport des normes des champs électriques et magnétiques. Nous allons traiter uniquement du cas le plus courant, celui des ondes planes \textit{transverses}, afin de faciliter la compréhension de cette matière\footnote{Un raisonnement analogue peut-être entrepris concernant les ondes longitudinales. \\Enormément de paramètres seraient inversés et les conditions de continuité seraient différentes.}.
 
 Tout d'abord, la relation permettant de calculer (de \textit{manière générale} ici) un champ en fonction de l'autre\footnote{Par convention, la direction de $\vec{H}$ est ($\hat{k} \times \vec{E}$) et la direction de $\vec{E}$ est 
 ($ \vec{H} \times \hat{k}$) } : 
 
 \[\vec{H}(\vec{r},t) = \frac{1}{Z}\vec{1_k} \times \vec{E}(\vec{r},t) \]%= \frac{n}{c\epsilon}\vec{H}(\vec{r},t) = \frac{c\mu}{n}\vec{H}(\vec{r},t)\]
 
-Nous pouvons alors décomposer ce dernier en une composante \textit{parallèle} au plan d'incidence et une autre \textit{perpendiculaire} à ce dernier. La composante appartenant au plan d'incidence peut elle même être décomposée comme montré sur la figure \ref{decomp}, dans le plan $xz$.\\ 
+Nous pouvons alors décomposer ce dernier en une composante \textit{parallèle} au plan d'incidence et une autre \textit{perpendiculaire} à ce dernier. La composante appartenant au plan d'incidence peut elle même être décomposée comme montré sur la figure \ref{decomp}, dans le plan $xz$.
 
 Nous pouvons décomposer chaque onde selon trois composantes polarisées linéairement dans les directions $\hat{x}, \hat{y}, \hat{z}$ sur la figure. \\
 Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibrante concernant l'amplitude de chacune de ces composantes. Il est avant tout important de spécifier les conventions prises pour la suite. Celles-ci sont précisées aux figures \ref{fig_convention1}, \ref{fig_convention2} et \ref{decomp}.
@@ -153,7 +147,6 @@ Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibra
 \textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{\parallelsum}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
 \textbf{Réfléchie:}  $$ \vec{E}_{1r} (\vec{r},t) = (E^{\parallelsum}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\perp} \hat{y} - E_{1r}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
 \textbf{Transmise:}$$ \vec{E}_{2t} (\vec{r},t) = (E^{\parallelsum}_{2t} \cos(\theta_{2})  \hat{x} + E_{2t}^{\perp} \hat{y} + E_{2t}^{\parallelsum} \sin(\theta_{2}) \hat{z} ) \sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$ 
-
  
 Notons que $\vec{k_{1r,z}} = - \vec{k_{1i,z}}$ et que $\vec{k_{2t}}$ prolonge l'angle de \textit{réfraction} en ayant, pour rappel, une norme de $\frac{\omega}{v_{2}}$.
 Notons également que résoudre le problème pour le champ électrique nous permettra également de calculer le champ magnétique par la relation énoncée plus haut.
@@ -270,7 +263,7 @@ Nous pouvons remarquer que le coefficient $r_{\parallelsum}$ peut s'annuler dans
 Pour des milieux non-magnétiques ($\mu_1 = \mu_2 = \mu_0$), cela revient à 
 \[\sin\theta_1 = (\epsilon_1/\epsilon_2+1)^{-1/2}\]
 
-Cet angle $\theta_1$ est appelé \textit{angle de Brewster} et se note $\theta_{B}$. \\
+Cet angle $\theta_1$ est appelé \textit{angle de Brewster} et se note $\theta_{B}$.
 
 Nous pouvons également retrouver cet angle (pour des milieux non-magnétiques) à partir de l'expression optique du coefficient $r_{\parallelsum}$ : 
 \[\frac{n_{2}\cos \theta_{1} - n_{1} \cos \theta_{2} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = 0 \Leftrightarrow n_{2} \cos \theta_{1} = n_{1} \cos \theta_{2} \Rightarrow \cos^{2} \theta_{2} = \left(\frac{n_{2} \cos \theta}{n_{1}}\right)^{2}\]
@@ -302,7 +295,7 @@ Ces principes sont à la base du fonctionnement des polariseurs, c'est-a-dire de
 \end{marginfigure} 
 Lorsque le milieu où s'opère la \textit{transmission} admet un indice de réfraction $n_{2}<n_{1}$, il existe un \textit{angle critique} d'incidence à partir duquel la réflexion est \textit{\textbf{totale}}, c'est-à-dire un angle au-delà duquel l'angle $\theta_2$ devient complexe et n'existe donc pas (pour un angle d'incidence égal à cet angle critique, $r_{\parallelsum}$ et $r_{\perp}$ sont égaux à  -1 et 1 respectivement; au delà de cet angle critique, les coefficients de Fresnel ne sont évidemment pas définis). 
 
-Il faut noter que ce phénomène intervient quelle que soit la polarisation de l'onde incidente, pour des milieux magnétiques ou non, mais n'est possible qu'en passant d'un milieu plus réfringent à un milieu moins réfringent ($n_{2} < n_1$), par exemple, de la lucite (ou de l'eau, ...) vers l'air.\\ 
+Il faut noter que ce phénomène intervient quelle que soit la polarisation de l'onde incidente, pour des milieux magnétiques ou non, mais n'est possible qu'en passant d'un milieu plus réfringent à un milieu moins réfringent ($n_{2} < n_1$), par exemple, de la lucite (ou de l'eau, ...) vers l'air.
 
 Par l'approche des coefficients de \textit{Fresnel}, nous remarquons tout de suite que \textit{l'angle critique} est l'angle d'incidence $\theta_{1} = \theta_{c}$ pour lequel l'angle de réfraction vaut $\frac{\pi}{2}$, ce qui nous donne: 
 \[\sin \theta_{c} = \frac{n_{2}}{n_{1}} \Rightarrow \theta_{c} = \arcsin \frac{n_{2}}{n_{1}}\]

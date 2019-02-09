@@ -19,7 +19,7 @@
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{pdfpages}
-\usepackage[version=3]{mhchem}
+\usepackage{parskip}
 
 \usepackage{booktabs} % book-quality tables
 \usepackage{multicol} % multiple column layout facilities
@@ -64,29 +64,29 @@
 		July\or August\or September\or October\or November\or
 		December\fi\space\number\year
 	}
-	
-	
-	% Prints an epigraph and speaker in sans serif, all-caps type.
-	\newcommand{\openepigraph}[2]{%
-		%\sffamily\fontsize{14}{16}\selectfont
-		\begin{fullwidth}
-			\sffamily\large
-			\begin{doublespace}
-				\noindent\allcaps{#1}\\% epigraph
-				\noindent\allcaps{#2}% author
-			\end{doublespace}
-		\end{fullwidth}
-	}
-	
+    
 	\maketitle
 	\vfill
-	\openepigraph{
-		Ce syllabus a été réalisé à l'issue du premier comité de  quadrimestre 2015 dans l'optique de créer un support de cours davantage formel et complet qui puisse aider les étudiants à approfondir leur compréhension de la matière. Il a été décidé qu' une collaboration étroite entre les étudiants et les professeurs du cours de Physique 3 soit établie afin de rendre ce document 
+	\begin{fullwidth}
+		Ce syllabus a été réalisé à l'issue du premier comité de quadrimestre 2015 dans l'optique de créer un support de cours davantage formel et complet qui puisse aider les étudiants à approfondir leur compréhension de la matière. Il a été décidé qu' une collaboration étroite entre les étudiants et les professeurs du cours de Physique 3 soit établie afin de rendre ce document 
 		le plus valable possible. \\
 		Ce document est par conséquent modifiable par les étudiants et les professeurs; ces derniers vérifieront de temps à autre 
 		son contenu et ajouteront des notes si nécessaire. \\
-		Sous la supervision des professeurs, ce syllabus a été rédigé en majorité par trois étudiants: Martin Braquet (chapitres 5 et 6), Balazs Udvarhelyi (chapitres 4, 7 et l'annexe) et Guillaume Van Dessel (chapitres 1,2,3,4 et 8).
-	}{ }
+		Sous la supervision des professeurs, ce syllabus a été rédigé en majorité par trois étudiants: 
+		\begin{itemize}
+		 \item Martin Braquet (chapitres 5 et 6)
+		 \item Balazs Udvarhelyi (chapitres 4, 7 et l'annexe)
+		 \item Guillaume Van Dessel (chapitres 1,2,3,4 et 8)
+		\end{itemize}
+	\end{fullwidth}
+	\vspace{2cm}
+	\begin{fullwidth}
+        Le code source de ce document est disponible à l'adresse
+		\begin{center}
+            \url{https://github.com/MartinBraquet/Syllabus-Physique3}.
+        \end{center}
+		Toute amélioration est la bienvenue, sur GitHub ou sur le forum Moodle du cours.
+    \end{fullwidth}
 	\vfill
 	\begin{figure*}
 		\centering

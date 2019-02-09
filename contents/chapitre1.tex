@@ -77,7 +77,7 @@ Comme nous allons le voir très bientôt, cette Loi, formulée comme ci-dessous 
 
 Nous avons découvert au quadrimestre passé, les concepts de \textit{rotationnel}, \textit{divergence} pour un champ vectoriel et \textit{gradient} pour un champ scalaire.
 Nous n'allons pas revenir sur ces concepts fondamentaux mais seulement rappeler deux définitions importantes qui nous permettront de construire les \textbf{lois de Maxwell}. 
-Ces dernières sont réellement le ciment de notre connaissance concernant l'électricité et ses phénomènes. \\ 
+Ces dernières sont réellement le ciment de notre connaissance concernant l'électricité et ses phénomènes.
 
 \subsection{Divergence} 
 \begin{marginfigure}[-5cm]
@@ -114,13 +114,12 @@ mais au delà de 3, il perd son sens.
 \subsection{Propriétés des opérateurs différentiels}
 
 Dans ce paragraphe, nous rappelons diverses propriétés des opérateurs différentiels que nous avons étudiées au second quadrimestre. 
-\\  
 
 \textit{Le rotationnel d'un champ vectoriel dérivant d'un potentiel scalaire est le champ "nul".} 
 
 \[\nabla \times \nabla V = \vec{0} \] 
 
-\textbf{NOTE : } Le rotationnel du champ électrostatique défini par $\vec{E} = -\nabla V$ est donc par conséquent nul!  \\ 
+\textbf{NOTE : } Le rotationnel du champ électrostatique défini par $\vec{E} = -\nabla V$ est donc par conséquent nul !
 
 \textit{La divergence d'un champ vectoriel rotationnel est  "nulle".}  
 
@@ -128,7 +127,7 @@ Dans ce paragraphe, nous rappelons diverses propriétés des opérateurs différ
 
 \section{Equations de Maxwell}
 Désormais, nous avons toutes les informations pour commencer à compléter les équations de Maxwell \sidenote{Enlever les intégrales revient à dire : \textit{\textbf{localement}}, l'équation est valable!}. 
-Seule la Loi d'Ampère nécessitera une légère modification à la fin. \\
+Seule la Loi d'Ampère nécessitera une légère modification à la fin.
 
 \begin{center}
 
@@ -180,17 +179,16 @@ Prenons désormais une demi-sphère de cercle principal le cercle autour du cond
 
 où $I_{out}(t)$ représente le courant sortant de la borne \textbf{positive} du condensateur vers l'autre borne. 
 Il est évidemment nul, par définition! Dès lors, nous sommes confrontés à une contradiction : $I_{c}(t) = I_{out}(t) = 0?$ 
-\\ 
 
 Cette contradiction peut être réglée par le développement suivant tiré des slides :
 \[I_{c}(t) = \int_{S} \vec{J} \cdot d\vec{s} = -\frac{dQ_{out}(t)}{dt} = - \int \frac{d \sigma(t)}{dt} ds\] 
-où $Q_{out}$ représente la charge de la borne \textbf{négative} du condensateur par où le courant $I_{c}(t)$ est "restitué". \\ 
+où $Q_{out}$ représente la charge de la borne \textbf{négative} du condensateur par où le courant $I_{c}(t)$ est "restitué".
 
 Comme nous avons pour un condensateur plan les relations suivantes \sidenote{Certaines lettres représentent les normes de vecteurs qui leurs sont associés : Ex : E = || $\vec{E}$ ||} 
 
 \[ E \simeq \frac{V}{d} = \frac{Q}{Cd} = \frac{Qd}{\epsilon S d} = \frac{\sigma}{\epsilon} \Rightarrow \frac{\partial E}{\partial t} = \frac{1}{\epsilon} \frac{\partial \sigma}{\partial t} \]
 où $d,V,Q,C,S,\sigma,E$ sont respectivement pour le condensateur la distance entre les deux plaques, la différence de potentiel électrique entre les deux plaques, la charge en valeur absolue de chacune des plaques, 
-la capacité, la surface d'une des deux plaques, la densité de charge par plaque et le champ électrique entre les deux plaques. \\ 
+la capacité, la surface d'une des deux plaques, la densité de charge par plaque et le champ électrique entre les deux plaques.
 Nous pouvons maintenant écrire :
 
 \[ I_{c}(t) = \int_{S} \vec{J} \cdot d\vec{s} = -\int_{SurfOut}( \epsilon \frac{\partial \vec{E}}{\partial t} )\cdot d\vec{s} = \]
@@ -227,28 +225,20 @@ Nous supposons alors qu'il s'agit bien du potentiel électrique $\mathcal{V}$. N
  
  \subsection{Conditions aux interfaces}
  
- Les lois de Maxwell gouvernent aussi la continuité des champs électromagnétiques aux interfaces entre deux milieux aux propriétés électromagnétiques différentes. \\
+ Les lois de Maxwell gouvernent aussi la continuité des champs électromagnétiques aux interfaces entre deux milieux aux propriétés électromagnétiques différentes.
  
  \begin{marginfigure}[-10cm]\\
  	\normalsize 
  	\label{interface1}
  	\caption{\textit{\textbf{En absence de charges et de courants de surface}} à l'interface: }
 	\begin{center}
-	
 	\begin{tabular}{|ccc|}
-		
 		\hline
-		
-		$\vec{D}_{1,n} $ & = & $\vec{D}_{2,n} $ \\ 
-		
-		$\vec{B}_{1,n} $ & = & $\vec{B}_{2,n} $ \\ 
-		
-		$\vec{E}_{1,t} $ & = & $\vec{E}_{2,t} $ \\ 
-		
-		$\vec{H}_{1,t} $ & = & $\vec{H}_{2,t} $ \\ 
-		
+		$\vec{D}_{1,n} $ & = & $\vec{D}_{2,n} $ \\
+		$\vec{B}_{1,n} $ & = & $\vec{B}_{2,n} $ \\
+		$\vec{E}_{1,t} $ & = & $\vec{E}_{2,t} $ \\
+		$\vec{H}_{1,t} $ & = & $\vec{H}_{2,t} $ \\
 		\hline
-		
 	\end{tabular}
 	
 	%%%%% /!\ PROFESSEURS : Puisque D et E et B et H sont, dans notre théorie, égaux à une constante de proportionnalité près. Pourquoi dans le cas du déplacement électrique et de 
@@ -276,21 +266,13 @@ Nous supposons alors qu'il s'agit bien du potentiel électrique $\mathcal{V}$. N
  	\normalsize 
  	\caption{Les conditions aux limites deviennent alors (en toute généralité):}
  	\begin{center}
- 		
  		\begin{tabular}{|ccc|}
- 			
  			\hline
- 			
- 			$\vec{n} \cdot (\vec{D}_{1} - \vec{D}_{2}) $ & = & $ \rho_S$ \\ 
- 			
- 			$\vec{n} \cdot (\vec{B}_{1} - \vec{B}_{2}) $ & = & $ 0 $ \\ 
- 			
- 			$\vec{n} \times (\vec{E}_{1} - \vec{E}_{2}) $ & = & $ 0$ \\ 
- 			
- 			$\vec{n} \times (\vec{H}_{1} - \vec{H}_{2}) $ & = & $ \vec{K}$ \\ 
- 			
+ 			$\vec{n} \cdot (\vec{D}_{1} - \vec{D}_{2}) $ & = & $ \rho_S$ \\
+ 			$\vec{n} \cdot (\vec{B}_{1} - \vec{B}_{2}) $ & = & $ 0 $ \\
+ 			$\vec{n} \times (\vec{E}_{1} - \vec{E}_{2}) $ & = & $ 0$ \\
+ 			$\vec{n} \times (\vec{H}_{1} - \vec{H}_{2}) $ & = & $ \vec{K}$ \\
  			\hline
- 			
  		\end{tabular}
  	\end{center}
  	
@@ -303,7 +285,7 @@ Nous supposons alors qu'il s'agit bien du potentiel électrique $\mathcal{V}$. N
 
 % \includegraphics[height = 150pt, width = 250pt]{interface.png} 
 Ces lois sont en fait valables si les champs ne sont pas purement normaux ou tangentiels: il suffit de prendre la projection normale ou tangentielle des champs.\sidenote[][-8cm]{\normalsize \textbf{NOTE : } Il y a une infinité de directions tangentielles à l'interface: dès lors, on ne spécifie pas de vecteur tangentiel comme on le fait pour le vecteur normal, noté $\vec{n}$ et pris par convention comme pointant du milieu 2 vers le milieu 1; quand on parle de direction tangentielle à l'interface (Ex : $\vec{H}_{1,t}$), 
-	on veut bien signifier la projection sur l'interface du champ vectoriel: pour la partie tangentielle à l'interface, la condition de continuité s'applique. Une manière élégante de représenter cette projection est d'écrire, par exemple, ${H}_{1,t}\vec{t} = \vec{n} \times \vec{H}_{1}$. } \\ 
+	on veut bien signifier la projection sur l'interface du champ vectoriel: pour la partie tangentielle à l'interface, la condition de continuité s'applique. Une manière élégante de représenter cette projection est d'écrire, par exemple, ${H}_{1,t}\vec{t} = \vec{n} \times \vec{H}_{1}$. }
 % /!\ COMMENT & /!\ PROFESSEURS
   %  Quid de cette phrase ? :) (voir en dessous) 
  %Les champs ne sont donc pas, en toute généralité, continus à une interface ! \\ \\

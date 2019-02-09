@@ -122,8 +122,9 @@ où $c^{2}$ est la \textit{vitesse de la lumière} au carré ($c = 299 792 458 [
 
 Nous allons traiter ici du \textit{cas particulier du \textbf{vide}} en une seule dimension spatiale.  \\
 C'est à dire que nous allons considérer que le champ électrique ne dépend que d'une seule variable spatiale et du temps et pointe dans une seule direction (qui n'est pas celle de la variable pour éviter la confusion par après).
-Nous écrivons alors $\vec{E}(x,y,z,t) \Rightarrow \vec{E_{y}}(x,t)$. \\Il en est de même pour le champ magnétique d'excitation (ou d'induction) nous considérons qu'il est 
-\textit{orthogonal} au champ électrique et dépend aussi de $x$ et $t$ seulement ; $\vec{H}(x,y,z,t) \Rightarrow \vec{H_{z}}(x,t)$. \\ 
+Nous écrivons alors $\vec{E}(x,y,z,t) \Rightarrow \vec{E_{y}}(x,t)$. \\
+Il en est de même pour le champ magnétique d'excitation (ou d'induction) nous considérons qu'il est 
+\textit{orthogonal} au champ électrique et dépend aussi de $x$ et $t$ seulement ; $\vec{H}(x,y,z,t) \Rightarrow \vec{H_{z}}(x,t)$. 
 
 \begin{itemize}
 	\item
@@ -137,7 +138,7 @@ qui se résout de manière \textit{scalaire} pour la direction unitaire de la va
 
 \item Soit nous repartons de zéro et adoptons une méthode plus \textit{faible} mathématiquement parlant et faisons les hypothèses suivantes.\\
 Nous admettrons pour ce qui suit que la matrice \textit{Hessienne} des uniques fonctions scalaires liées à $\vec{E}$ et $\vec{H}$ soit symétrique. 
-Plus particulièrement, nous pouvons imposer que ces fonctions soient de classe $\mathcal{C}^{2}$ ce qui vérifie la condition sur la \textit{Hessienne}. \\ 
+Plus particulièrement, nous pouvons imposer que ces fonctions soient de classe $\mathcal{C}^{2}$ ce qui vérifie la condition sur la \textit{Hessienne}.
 
 Nous pouvons dès lors écrire, tout en se basant sur les équations de Maxwell : 
 
@@ -184,7 +185,7 @@ liées par des équations de type
 
 elles \textbf{obéissent toutes deux à une même équation d'onde de type} : $\frac{1}{c^{2}} \frac{\partial^{2} A,B}{\partial t^{2}} = \frac{\partial^{2} A,B}{\partial x^{2}}$. 
 Le paramètre $c$ représente toujours la \textit{vitesse} de propagation de la grandeur scalaire et vaut : $c = \sqrt{\frac{\beta}{\alpha}}$. 
-Le rapport entre ces deux grandeurs est nommé \textit{impédance caractéristique} et vaut quant à elle : $\mathcal{Z} = \sqrt{\alpha\beta}$.\footnote{Les grands voyageurs parmi vous auront immédiatement reconnu la fameuse enseigne grecque :\\ le supermarché low-cost Alpha-Beta}\\ 
+Le rapport entre ces deux grandeurs est nommé \textit{impédance caractéristique} et vaut quant à elle : $\mathcal{Z} = \sqrt{\alpha\beta}$.\footnote{Les grands voyageurs parmi vous auront immédiatement reconnu la fameuse enseigne grecque :\\ le supermarché low-cost Alpha-Beta} 
 
 Nous pouvons prouver l'existence d'un tel $\mathcal{Z}$ comme marqué dans les slides. Soient donc deux solutions à l'équation d'onde et aux équations couplées données par les expressions suivantes :
 
@@ -229,7 +230,7 @@ Si nous considérons des \textbf{phénomènes physiques} de \textit{propagation}
 
 
 Etant donnée la symétrie des équations, nous pouvons tirer la même conclusion quant aux grandeurs $\mathcal{S}_{1},\mathcal{S}_{2}$. 
-Immédiatement, il vient que l'\textit{impédance caractéristique} d'une onde\\ électromagnétique en considérant le vecteur $\vec{J}$ nul vaut 
+Immédiatement, il vient que l'\textit{impédance caractéristique} d'une onde\\ électromagnétique, en considérant le vecteur $\vec{J}$ nul, vaut 
 $\mathcal{Z} = \sqrt{\frac{\mu}{\epsilon}} \simeq120 \pi \simeq 377 [\Omega] $. 
 
 \section{Représentation du cas particulier 1D}
@@ -244,9 +245,6 @@ est la période du signal), le temps, le nombre d'onde ($k = \frac{2\pi}{\lambda
 \includegraphics[width = \linewidth]{onde.png}
 \caption{\textit{\textbf{Représentation d'une onde EM plane monochromatique polarisée linéairement ($\vec{E}$ vers $\hat{x}$).}}}
 \end{marginfigure}
-
-
-
 
 \section{Intensité d'une onde EM}  %%%%% /!\ PROFESSEURS : Avez-vous une démonstration plus complète que les slides quant à l'intensité d'une onde EM?
 
@@ -288,7 +286,7 @@ Cette expression n'est pas encore très pratique en application directe car nos 
 \[I_{moy} = S_{av} = \frac{ E_{max} H_{max}}{2} = \frac{E_{max}^{2}}{2\mu_0c} = \frac{1}{2} \sqrt{\frac{\epsilon_0}{\mu_0}} E_{max}^{2} = \frac{1}{2}\epsilon_0 c E_{max}^{2}\]
 toujours en $\frac{W}{m^{2}}$.
 
-Tous les résultats peuvent facilement être adaptés dans des milieux de propagation non-vides. Il est nécessaire d'appliquer les substitutions $\epsilon_0 \rightarrow \epsilon$, $\mu_0 \rightarrow \mu$ et $c \rightarrow v $.\\
+Tous les résultats peuvent facilement être adaptés dans des milieux de propagation non-vides. Il est nécessaire d'appliquer les substitutions $\epsilon_0 \rightarrow \epsilon$, $\mu_0 \rightarrow \mu$ et $c \rightarrow v $.
 
 %%%% COMMENT écrire directement sous cette forme les équations?
 
