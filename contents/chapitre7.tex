@@ -82,7 +82,7 @@ Dans ce cas, il n'y a aucune particule d'air qui peut traverser la paroi. Dès l
 \section{Modes propres}
 Les conditions limites déterminent des valeurs possibles pour les coefficients $A', B', C', D'$ et le nombre d'onde $k$ (et $\omega$ par conséquent). La manière dont ces conditions aux limites sont définies déterminera aussi les fréquences auxquelles le système produira des ondes stationnaires.
 Nous allons montrer deux exemples pour illustrer l'application des conditions limites. Dans les deux cas, notre condition initiale sera $\Phi(x,t=0)=0$. En premier, prenons par exemple une corde vibrante \sidenote{Cet exemple peut être adapté à beaucoup de cas, notamment avec les ondes acoustiques et électromagnétiques et les résultats seront identiques. Il faut néanmoins être prudent avant d'utiliser le résultat suivant et vérifier si les conditions limites sont compatibles.} avec les conditions limites $\xi(x=0)=\xi(x=L)=0$. Le fait d'imposer zéro en $x=0$ a pour conséquence de garder une fonction sinus et non cosinus pour la partie dépendante de la position. La condition initiale garde elle aussi la fonction sinus, c'est à dire $D'=0$. Ensuite, imposer un zéro en $x=L$ demande des valeurs de $k$ particulières: 
-\[\xi(L,t)=C'\sin(kL)\sin(\omega t)=0\]
+\[\xi(L,t)=A'C'\sin(kL)\sin(\omega t)=0\]
 \[ kL = m\pi \leftrightarrow k=\frac{m\pi}{L},\] 
 où $m$ est un entier positif. Les valeurs de $m$ sont les modes propres du système. Le premier mode possible, à savoir quand $m=1$, est appelé le mode fondamental. Tous les modes supérieurs à partir de $m=2$ sont appelés des harmoniques. Nous venons de montrer que seul certains nombres d'ondes sont des solutions de l'équation d'onde avec les conditions limites énoncées plus haut. Nous pouvons donc déterminer la liste des nombres d'ondes admis : 
 $$ m = 1,2,3,4,5,...$$
@@ -169,4 +169,4 @@ $$f_{audible}=f_a-f_b.$$
 \includegraphics[width=\linewidth]{battement2}
 \caption{Illustration du battement. Les deux ondes sources en bleu et noir. L'onde résultante en rouge. Nous pouvons observer la variation d'amplitude de l'onde résultante ainsi que son enveloppe.}
 \label{fig:battement}
-\end{marginfigure} 
+\end{marginfigure}
