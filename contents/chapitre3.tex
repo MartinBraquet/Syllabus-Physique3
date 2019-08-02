@@ -3,11 +3,13 @@
 
 Ce troisième chapitre est consacré aux ondes dites \textit{\textbf{mécaniques}}. Nous verrons ainsi toutes les analogies entre ondes EM et ondes mécaniques ainsi que certaines différences qui subsistent entre ces deux types d'onde.
 
-Il est important de mentionner que les ondes EM se propagent sans l'aide d'un \textit{support matériel}, c'est là leur grande différence en comparaison avec les ondes mécaniques, qui ont besoin de "matière" pour qu'il y ait propagation. 
+Il est important de mentionner que les ondes EM se propagent sans l'aide d'un \textit{support matériel}, c'est là leur grande différence en comparaison avec les ondes mécaniques, qui ont besoin de «matière» pour qu'il y ait propagation. 
 
 \section{Ondes mécaniques : Exemple de la corde vibrante}
 
-Admettons qu'il existe une corde \textit{parfaitement souple et élastique}\footnote{Pas de couple de torsion.} dans un référentiel exempt de \textit{potentiel gravitationnel} \footnote{Ou alors dont l'effet de la pesanteur est \textit{\textbf{négligeable.}}}. La \textit{tension} longitudinale $F$ le long de la corde est supposée \textit{constante} et les déplacements longitudinaux sont considérés comme \textit{\textbf{négligeables}}. \\Seuls les déplacements verticaux sont pris en compte et nous noterons : $\vec{\xi}(x,t) = y(x,t) \vec{a}_{y}$.
+Admettons qu'il existe une corde \textit{parfaitement souple et élastique}\footnote{Pas de couple de torsion.} dans un référentiel exempt de \textit{potentiel gravitationnel} \footnote{Ou alors dont l'effet de la pesanteur est \textit{\textbf{négligeable.}}}. La \textit{tension} longitudinale $F$ le long de la corde est supposée \textit{constante} et les déplacements longitudinaux sont considérés comme \textit{\textbf{négligeables}}.
+
+Seuls les déplacements verticaux sont pris en compte et nous noterons : $\vec{\xi}(x,t) = y(x,t) \vec{a}_{y}$.
 
 Nous admettrons aussi que lorsqu'une déformation se déplace le long de la corde, le reste de la corde n'est pas visé par la déformation et se trouve dès lors au \textit{repos} en ce sens où chacun des points du reste de la corde présente un déplacement vertical nul : $\vec{\xi}(x_{r},t) = \vec{0}$.
 
@@ -75,19 +77,23 @@ Nous pouvons dès lors mettre en exergue la relation liant l'équation \eqref{Fo
 \label{EqOnde}
 \end{equation}
 
-ce qui représente exactement le même type d'équation que nous avons abordé à la section précédente! 
-En effet, le scalaire $\sqrt{\frac{F}{\mu}}$ équivaut ici à la vitesse de propagation de l'onde.  \\
-De même, nous observons que nous retrouvons des \textbf{EDP couplées} en $F_{y}$ et $u$. \\
+ce qui représente exactement le même type d'équation que nous avons abordé à la section précédente ! 
+En effet, le scalaire $\sqrt{\frac{F}{\mu}}$ équivaut ici à la vitesse de propagation de l'onde.
+
+De même, nous observons que nous retrouvons des \textbf{EDP couplées} en $F_{y}$ et $u$.
+
 Afin de s'en convaincre, nous utilisons les équations \eqref{Force4}, \eqref{ForceLOL} et \eqref{EqOnde} :
 
 \[ \frac{\partial F_{y}}{\partial t} = - F (\frac{\partial u}{\partial x})\]
 
 \[ \frac{\partial F_{y}}{\partial x} = -F \frac{\partial^{2} y}{\partial x^{2}} = -\mu \frac{\partial^{2} y}{\partial t^{2}} = -\mu \frac{\partial u}{\partial t} \]
 
-La résolution de l'équation \eqref{EqOnde} s'établit de la même manière que pour les ondes EM. \\ 
+La résolution de l'équation \eqref{EqOnde} s'établit de la même manière que pour les ondes EM.
+ 
 Bien entendu, les deux grandeurs scalaires impliquées dans les équations couplées admettent cette même propriété
 d'\textit{impédance caractéristique}. En effet, étant donnée leur caractéristique physique, il convient que le paramètre $\mathcal{K}$ 
-dans $F_{y}(x,t) = \mathcal{Z}u(x,t) + \mathcal{K}$ soit \textit{nul}. \\ 
+dans $F_{y}(x,t) = \mathcal{Z}u(x,t) + \mathcal{K}$ soit \textit{nul}.
+
 Nous avons alors, 
 
 \[\frac{F_{y}(x,t)}{u(x,t)} = \mathcal{Z} = \sqrt{F\mu} \hspace{8pt} [N\cdot s / m]\]
@@ -103,7 +109,8 @@ nous pouvons entreprendre de calculer la valeur moyenne (sur une période) de la
 
 Soit donc $\vec{y}(x,t) = \xi_{0} \cos(kx-\omega t) \vec{y}$ et dès lors $\vec{u}(x,t) = \omega \xi_{0} \sin(kx-\omega t) \vec{y}$, la \textit{valeur moyenne de ce signal \textbf{au carré}} sur un nombre entier de périodes vaut $\frac{\xi_{0}}{2}$, dès lors : 
 \[ \overline{P(x,t)} = \frac{\mathcal{Z} u^{2}_{max}}{2} = \frac{\omega^{2} \xi_{0}^{2}}{2} \mathcal{Z}\]
-Nous pouvons aussi définir des concepts comme celui d'\textit{énergie cinétique} de la corde en un \textit{tronçon infinitésimal} et un temps donnés. \\
+Nous pouvons aussi définir des concepts comme celui d'\textit{énergie cinétique} de la corde en un \textit{tronçon infinitésimal} et un temps donnés.
+
 Cette énergie cinétique vaut le produit de la masse de ce très petit tronçon, considéré comme un point de masse équivalente au tronçon, et du carré de sa vitesse
 verticale en $t$. 
 \[\Delta U_{k}(x,t) = \frac{(\mu \Delta x)u^{2}(x,t)}{2} \] 
@@ -142,7 +149,8 @@ de l'onde.
 Afin de pouvoir écrire les équations qui vont suivre sereinement, il nous faut dresser une liste d'hypothèses qui justifieront les écritures. 
 Tout d'abord, il faudra admettre que nous travaillons avec un milieu (\textit{par exemple ici de l'air}) aux propriétés thermodynamiques \textit{parfaites}. \footnote{Source : \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Équation_d\%27onde}}
 Nous considérons les déplacements longitudinaux comme respectant la condition $L = \sqrt{DT} << \lambda^{2}$ où $\lambda^{2}$ est le carré de la longueur d'onde, $D$ le coefficient de diffusion de l'onde et 
-$T$ une période de l'onde. Ceci implique l'isentropie et l'absence de phénomènes thermodynamiques irréversibles dont l'effet sur les équations est difficilement abordable dans le cadre de ce cours. \footnote{Pour plus de formalisme, se référer à \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Hypothèse_acoustique}} \\ 
+$T$ une période de l'onde. Ceci implique l'isentropie et l'absence de phénomènes thermodynamiques irréversibles dont l'effet sur les équations est difficilement abordable dans le cadre de ce cours. \footnote{Pour plus de formalisme, se référer à \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Hypothèse_acoustique}}
+
 Une fois tout ceci dit, nous pouvons posément commencer. Nous allons nous attarder sur le cas d'une propagation dans l'air et, sans le démontrer, accepter que ce raisonnement tienne pour la propagation dans 
 d'autres milieux.
 
@@ -151,7 +159,7 @@ d'autres milieux.
 Nous considérons le mouvement (en avant et en arrière) des particules  lors de la compression et de la dilatation (réversible) d'un gaz parfait dans un cylindre de section $A$. On note par $p_{y}$ la pression différentielle $\Delta p$ par rapport à la pression au repos.\\
 
 \textbf{Loi de \textit{Newton}} : Sous forme \textit{scalaire} car la direction de déplacement des particules est supposée tout le temps horizontale et en phase avec le déplacement
-de droite à gauche du piston, la loi de Newton nous fournit une relation entre la force exercée sur le gaz par le piston (la pression "\textit{locale}" aux points d'application, en notant que la pression est une force par unité de surface) et la dérivée de la vitesse des particules à ces endroits.
+de droite à gauche du piston, la loi de Newton nous fournit une relation entre la force exercée sur le gaz par le piston (la pression «\textit{locale}» aux points d'application, en notant que la pression est une force par unité de surface) et la dérivée de la vitesse des particules à ces endroits.
 
 Nous écrirons ceci : 
 
@@ -178,7 +186,8 @@ Dans notre cas, $\Delta p = p_y$, $V = A \Delta x$ et $\delta V = A \Delta y$, p
 
 Une fois de plus, nous avons affaire à des EDP linéaires couplées du premier ordre. Il en résulte que les grandeurs physiques \textit{force} ou \textit{pression} (selon que l'on multiplie par $A$ ou non) et 
 \textit{vitesse longitudinale} sont liées et vérifient l'équation d'onde. La vitesse de propagation du signal vaut donc machinalement : $v = \sqrt{\frac{B}{\rho_{0}}}$\footnote{Si nous considérons la vitesse du son à travers un solide : $v = \sqrt{\frac{Y}{\rho_{0}}}$ où $Y$ est le module de \textit{Young}.}.  Si nous travaillons bien avec des
-gaz \textbf{parfaits}, nous pouvons écrire : $$p_{0} = \frac{nRT}{V_{0}}= \frac{mR^{*}T}{V_{0}} = \rho_{0}R^{*}T \Rightarrow v = \sqrt{\frac{\gamma RT}{M}}$$ où $M$ est la \textit{masse molaire} du gaz. \\
+gaz \textbf{parfaits}, nous pouvons écrire : $$p_{0} = \frac{nRT}{V_{0}}= \frac{mR^{*}T}{V_{0}} = \rho_{0}R^{*}T \Rightarrow v = \sqrt{\frac{\gamma RT}{M}}$$ où $M$ est la \textit{masse molaire} du gaz.
+
 Prenons le cas de l'air, $\gamma$ est considéré comme une constante (voir \textit{Transformations adiabatiques réversibles}) et vaut approximativement $1.4$, $M$ quant à elle
 vaut à peu près $0.02896 [kg/mol]$. Nous avons alors une expression approchée de la \textit{vitesse du son dans l'air} à température $T$. 
 
@@ -237,9 +246,11 @@ où $\hat{u}_{r}$ est un vecteur unitaire dont la direction est orthogonale au v
 \subsection{Ondes cylindriques} 
 
 L'intensité perçue à une distance $r = \sqrt{x^{2} + y^{2}}$ de la source est proportionnelle à $\frac{1}{r}$ car la relation impliquant le vecteur de Poynting nous 
-donne $P_{tot} = 2 \pi r h I$. \\ En effet, il faut s'imaginer un exemple de source \textbf{non plus ponctuelle} mais \textit{linéique} à l'instar d'un champ magnétique à une 
-distance $r$ d'un courant linéique. Chaque source ponctuelle présente sur le "fil" donne lieu à une propagation sphérique mais toutes ces propagations sphériques mises bout à bout donnent 
-des \textit{fronts d'onde} sous forme d'enveloppes cylindriques concentriques autour de ce même "fil" de source linéique. Si nous imaginons un "fil" infini, à la limite,
+donne $P_{tot} = 2 \pi r h I$.
+
+En effet, il faut s'imaginer un exemple de source \textbf{non plus ponctuelle} mais \textit{linéique} à l'instar d'un champ magnétique à une 
+distance $r$ d'un courant linéique. Chaque source ponctuelle présente sur le «fil» donne lieu à une propagation sphérique mais toutes ces propagations sphériques mises bout à bout donnent 
+des \textit{fronts d'onde} sous forme d'enveloppes cylindriques concentriques autour de ce même «fil» de source linéique. Si nous imaginons un «fil» infini, à la limite,
 nous avons bien la relation liant la puissance totale à l'enveloppe d'un cylindre de hauteur $h$. Si le fil est fini, cette relation est une approximation tout à fait valable sauf 
 aux bords.
 
@@ -260,7 +271,8 @@ où $\hat{u}_{r}$ est ici un vecteur unitaire dont la direction est orthogonale 
 
 \subsection{Ondes planes} 
 
-Le cas d'une propagation plane tout comme celui d'une propagation cylindrique est "\textit{idéal}" et n'est pas réellement envisageable physiquement. \\
+Le cas d'une propagation plane tout comme celui d'une propagation cylindrique est «\textit{idéal}» et n'est pas réellement envisageable physiquement.
+
 Quoi qu'il en soit, nous pouvons tout de même faire l'expérience d'esprit qu'une onde puisse, pour tous les $\vec{r}$ présents sur un plan dont la normale est la direction 
 de propagation, avoir la même intensité pour ses composantes (champ électrique ou magnétique). Nous y reviendrons à la prochaine section.
 
@@ -278,8 +290,8 @@ où $\hat{u}_{r}$ est un vecteur unitaire dont la direction est orthogonale au v
 Considérons des référentiels galiléens et \textit{négligeons les effets relativistes}. 
 Si la source d'une onde ou bien son observateur se déplacent l'un par rapport à l'autre, l'observateur, malgré une \textit{pulsation identique}, verra les fronts d'onde avec une fréquence différente de celle de la source!
 
-Nous allons uniquement étudier ce phénomène en régime dit "\textit{stationnaire}" car si la fréquence de la source varie ou que la vitesse de la source varie ou que celle-ci 
-passe à proximité directe de l'observateur et le dépasse, l'observateur aura droit à une phase "\textit{transitoire}" qui ne respectera pas à la lettre la loi que nous allons énoncer.
+Nous allons uniquement étudier ce phénomène en régime dit «\textit{stationnaire}» car si la fréquence de la source varie ou que la vitesse de la source varie ou que celle-ci 
+passe à proximité directe de l'observateur et le dépasse, l'observateur aura droit à une phase «\textit{transitoire}» qui ne respectera pas à la lettre la loi que nous allons énoncer.
 
 Nous garderons à l'esprit qu'une vitesse \textbf{positive} est une vitesse dans le sens \textit{source $\rightarrow$ observateur}.
 

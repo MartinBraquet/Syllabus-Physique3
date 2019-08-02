@@ -1,10 +1,10 @@
-\chapter{Polarisation, réflexion, réfraction}
+﻿\chapter{Polarisation, réflexion, réfraction}
 
 \section{Polarisation} 
 
 La \textit{polarisation d'une onde électromagnétique} est le lieu décrit au cours du temps à un endroit donné de l'espace par l'extrémité du vecteur champ
 électrique associé à cette onde. Ce concept est inhérent aux ondes \textbf{transverses}. 
-Dans le cadre de ce cours, nous allons nous intéresser aux ondes EM transverses planes afin d'analyser la polarisation de l'onde "facilement" étant donné que le vecteur champ électrique sera toujours
+Dans le cadre de ce cours, nous allons nous intéresser aux ondes EM transverses planes afin d'analyser la polarisation de l'onde «facilement» étant donné que le vecteur champ électrique sera toujours
 contenu dans un plan et que les plans successifs sont tous parallèles. 
 
 \subsection{Expression générale du champ électrique d'une onde EM transverse plane}
@@ -16,7 +16,7 @@ Avec la définition que nous venons de donner, nous pouvons simplement écrire (
 
 \[\vec{E}(\vec{r},t) = A_{x} \sin(\vec{k}\cdot \vec{r} - \omega t) \hat{x} + A_{y} \sin(\vec{k}\cdot \vec{r} - \omega t + \phi) \hat{y}\] 
 
-où $\vec{r} = (x,y,z)$ représente les coordonnées cartésiennes du point considéré, \\ $\phi$ est le \textbf{déphasage} angulaire entre 
+où $\vec{r} = (x,y,z)$ représente les coordonnées cartésiennes du point considéré, $\phi$ est le \textbf{déphasage} angulaire entre 
 la composante en Y
 et la composante en X.
 
@@ -25,9 +25,11 @@ sont quelconques, la polarisation est dite
  \textit{\textbf{elliptique}}
 et cela se vérifie facilement.\\
 Dans le cas particulier où $\phi = n \pi$, l'effet du déphasage n'est plus perceptible réellement car nous aurions, en fonction 
-de $n$ pair ou impair, un second terme valant en norme $\pm A_{y} \sin(\vec{k}\cdot \vec{r} - \omega t)$ \\
+de $n$ pair ou impair, un second terme valant en norme $\pm A_{y} \sin(\vec{k}\cdot \vec{r} - \omega t)$.
+
 Dès lors, nous pourrions regrouper les deux sinus en un seul dans une direction de pente 1 en X et Y car nous aurions une combinaison 
-des vecteurs unitaires $\hat{x}$ et $\hat{y}$. Dans ce cas-là, la polarisation devient \textit{\textbf{linéaire}}. \\
+des vecteurs unitaires $\hat{x}$ et $\hat{y}$. Dans ce cas-là, la polarisation devient \textit{\textbf{linéaire}}.
+
 Dans le cas particulier où $\phi = \frac{(2n+1) \pi }{2}$ \textbf{et} la valeur absolue des amplitudes $A_{x}, A_{y}$ est identique, 
 nous avons affaire, par le même genre de raisonnement, à une polarisation \textit{\textbf{circulaire}} (voir image\footnote{Source: \url{https://fr.wikipedia.org/wiki/Onde_plane}}). 
 En effet, le second terme devient ici un cosinus de même pulsation angulaire et son amplitude vaut $\pm A_{x}$. 
@@ -99,7 +101,8 @@ On peut tout d'abord montrer que l'angle d'\textit{incidence} vaut l'angle de \t
 \subsection{Loi de Snell}
 
 Tout d'abord, nous avons les relations  $c = n_{1} v_{1} = n_{2} v_{2}$ et donc $\lambda_{1} n_{1}= \lambda_{2} n_{2}$.
-De plus, les conditions aux interfaces imposent que la vitesse et donc le déplacement tangentiel à l'interface doit être le même. \\
+De plus, les conditions aux interfaces imposent que la vitesse et donc le déplacement tangentiel à l'interface doit être le même.
+
 Dès lors, (voir photo) les deux longueurs $L$ sont identiques. Par trigonométrie élémentaire, nous reportons les angles $\theta_{1}$ et $\theta_{2}$ 
 dans les triangles rectangles et écrivons : $\mathcal{L} = \frac{\lambda_{1}}{\sin(\theta_{1})} = \frac{\lambda_{2}}{\sin(\theta_{2})}$
 
@@ -116,7 +119,9 @@ Cette loi prédit les \textit{directions} des ondes réfléchies et transmises, 
 \subsection{Equations de Fresnel}
 
 Les \textbf{équations de Fresnel}, sur base des conditions aux interfaces pour les champs électriques et magnétiques, permettent de caractériser les amplitudes des ondes réfléchies et transmises. \\ 
-Il est important de se souvenir de l'\textit{impédance caractéristique} qui quantifie le rapport des normes des champs électriques et magnétiques. Nous allons traiter uniquement du cas le plus courant, celui des ondes planes \textit{transverses}, afin de faciliter la compréhension de cette matière\footnote{Un raisonnement analogue peut-être entrepris concernant les ondes longitudinales. \\Enormément de paramètres seraient inversés et les conditions de continuité seraient différentes.}.
+Il est important de se souvenir de l'\textit{impédance caractéristique} qui quantifie le rapport des normes des champs électriques et magnétiques. Nous allons traiter uniquement du cas le plus courant, celui des ondes planes \textit{transverses}, afin de faciliter la compréhension de cette matière\footnote{Un raisonnement analogue peut-être entrepris concernant les ondes longitudinales.
+
+Enormément de paramètres seraient inversés et les conditions de continuité seraient différentes.}.
 
 Tout d'abord, la relation permettant de calculer (de \textit{manière générale} ici) un champ en fonction de l'autre\footnote{Par convention, la direction de $\vec{H}$ est ($\hat{k} \times \vec{E}$) et la direction de $\vec{E}$ est 
 ($ \vec{H} \times \hat{k}$) } : 
@@ -132,6 +137,16 @@ Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibra
 \caption{Convention prise pour les champs électriques incidents parallèles à l'interface}
 \label{fig_convention1}
 \end{marginfigure}
+
+ Commençons par écrire les ondes \textit{réfléchie} et \textit{transmise} en fonction de l'onde \textit{incidente}.\\
+\textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{\parallelsum}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
+\textbf{Réfléchie:}  $$ \vec{E}_{1r} (\vec{r},t) = (E^{\parallelsum}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\perp} \hat{y} - E_{1r}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
+\textbf{Transmise:}$$ \vec{E}_{2t} (\vec{r},t) = (E^{\parallelsum}_{2t} \cos(\theta_{2})  \hat{x} + E_{2t}^{\perp} \hat{y} + E_{2t}^{\parallelsum} \sin(\theta_{2}) \hat{z} ) \sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$ 
+ 
+Notons que $\vec{k_{1r,z}} = - \vec{k_{1i,z}}$ et que $\vec{k_{2t}}$ prolonge l'angle de \textit{réfraction} en ayant, pour rappel, une norme de $\frac{\omega}{v_{2}}$.
+Notons également que résoudre le problème pour le champ électrique nous permettra également de calculer le champ magnétique par la relation énoncée plus haut.
+Toutefois, il nous faut également les expressions des champs $\vec{H}(\vec{r},t)$ afin de posséder assez d'équations.
+
 \begin{marginfigure}
 \includegraphics[width=\linewidth]{convention2}
 \caption{Convention prise pour les champs H incidents parallèles à l'interface}
@@ -143,14 +158,6 @@ Dès lors, nous allons pouvoir réappliquer les concepts vus avec la corde vibra
 \caption{Décomposition du vecteur champ électrique par rapport au plan incident (haut) et projection du vecteur // au plan incident sur le plan xz (bas)}
 \label{decomp}
 \end{marginfigure}
- Commençons par écrire les ondes \textit{réfléchie} et \textit{transmise} en fonction de l'onde \textit{incidente}.\\
-\textbf{Incidente:} $$ \vec{E}_{1i} (\vec{r},t) = (E^{\parallelsum}_{1i} \cos(\theta_{1})  \hat{x} + E_{1i}^{\perp} \hat{y} + E_{1i}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t) $$  
-\textbf{Réfléchie:}  $$ \vec{E}_{1r} (\vec{r},t) = (E^{\parallelsum}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\perp} \hat{y} - E_{1r}^{\parallelsum} \sin(\theta_{1}) \hat{z} ) \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
-\textbf{Transmise:}$$ \vec{E}_{2t} (\vec{r},t) = (E^{\parallelsum}_{2t} \cos(\theta_{2})  \hat{x} + E_{2t}^{\perp} \hat{y} + E_{2t}^{\parallelsum} \sin(\theta_{2}) \hat{z} ) \sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$ 
- 
-Notons que $\vec{k_{1r,z}} = - \vec{k_{1i,z}}$ et que $\vec{k_{2t}}$ prolonge l'angle de \textit{réfraction} en ayant, pour rappel, une norme de $\frac{\omega}{v_{2}}$.
-Notons également que résoudre le problème pour le champ électrique nous permettra également de calculer le champ magnétique par la relation énoncée plus haut.
-Toutefois, il nous faut également les expressions des champs $\vec{H}(\vec{r},t)$ afin de posséder assez d'équations.
 
 Etant donné que $\hat{k_{1i}} = (\sin(\theta_{1}),0,-\cos(\theta_{1})) $, l'expression du champ magnétique incident se calcule et donne :
 \begin{equation*}
@@ -188,7 +195,8 @@ Nous écrivons sans peine en partant des composantes en $\hat{x}$ et des $\hat{y
 \end{split}
 \end{equation*}
   
-où $E_{1i}^{\parallelsum}$, $E_{1i}^{\perp}$, $\theta_{1}$,$\theta_{2}$, $Z_1$ et $Z_2$ sont connus. \\
+où $E_{1i}^{\parallelsum}$, $E_{1i}^{\perp}$, $\theta_{1}$,$\theta_{2}$, $Z_1$ et $Z_2$ sont connus.
+
 Nous pouvons établir un système matriciel étant donné le caractère \textit{linéaire} des équations.
 %\begin{fullwidth}
 %\begin{center}
@@ -238,18 +246,19 @@ Les deux formes des coefficients de Fresnel sont évidemment équivalentes si $\
 \section{Conséquences des équations de Fresnel}
 Supposons une interface entre deux milieux non-magnétiques (pour simplifier l'analyse), par exemple, une interface air-lucite (la lucite est le nom correct du plexiglas, qui est à la base une marque de produit).
 
-Lorsqu'une onde EM passe de l'air vers la lucite, à incidence normale ($\theta_1=0^\circ$ sur la figure \ref{fig_ref2}), nous remarquons que les coefficients de réfraction sont négatifs. \textit{La réflexion change donc le sens du champ électrique} en lui appliquant un déphasage de $180^\circ$.\sidenote{Attention, il ne s'agit pas d'une histoire de conventions, le déphasage est bien réel. Pour s'en convaincre, il suffit de regarder les figures \ref{fig_convention1} et \ref{fig_convention2} en imaginant $\theta_1=0^\circ$. Nous pouvons remarquer que dans ce cas les vecteurs se confondent.} Avec une analyse similaire, on peut déterminer que la transmission ne change pas le sens du champ électrique.\\
+Lorsqu'une onde EM passe de l'air vers la lucite, à incidence normale ($\theta_1=0^\circ$ sur la figure \ref{fig_ref2}), nous remarquons que les coefficients de réfraction sont négatifs. \textit{La réflexion change donc le sens du champ électrique} en lui appliquant un déphasage de $180^\circ$.\sidenote{Attention, il ne s'agit pas d'une histoire de conventions, le déphasage est bien réel. Pour s'en convaincre, il suffit de regarder les figures \ref{fig_convention1} et \ref{fig_convention2} en imaginant $\theta_1=0^\circ$. Nous pouvons remarquer que dans ce cas les vecteurs se confondent.} Avec une analyse similaire, on peut déterminer que la transmission ne change pas le sens du champ électrique.
+
 Toujours dans le même cas (air $\rightarrow$ lucite), nous observons qu'à incidence rasante ($\theta_1$ proche de $90^\circ$), le coefficient de réfléxion tend vers 1 et le coefficient de transmission vers zéro. \textit{A incidence rasante, la réflexion est totale.}\\
 
 Dans le cas inverse, visible à la figure \ref{fig_ref3}, où $n_1>n_2$ (lucite $\rightarrow$ air), nous pouvons observer que tant le champ électrique transmis que réfléchi est du même sens que le champ électrique incident. Une remarque importante s'impose quant à la définition du sens des champs. Ces champs sont des ondes sinusoïdales, dont l'orientation change toutes les demi-périodes. Par sens, on entend bien le sens pris au même moment, à l'interface. Autrement dit, si un coefficient de Fresnel est positif pour les sens définis aux figures \ref{fig_convention1} et \ref{fig_convention2}, cela signifie qu'à un moment fixé, au point de réflexion, les champs ont le sens tel qu'indiqué sur la figure. Une demi-période plus tard, les champs seront tous (en même temps) dans le sens opposé. 
 
 \section{Angles particuliers}
-\begin{marginfigure}%[-9cm]
+\begin{marginfigure}[-4cm]
 	\includegraphics[width=\linewidth]{ref2}
 	\caption{Coefficients de réflexion parallèle et perpendiculaire lorsque $n_1<n_2$ (air $\rightarrow$ lucite)}
 	\label{fig_ref2}
 \end{marginfigure} 
-\begin{marginfigure}%[-9cm]
+\begin{marginfigure}[0cm]
 	\includegraphics[width=\linewidth]{trans2}
 	\caption{Coefficients de transmission parallèle et perpendiculaire lorsque $n_1<n_2$ (air $\rightarrow$ lucite)}
 	\label{fig_trans2}
@@ -283,13 +292,14 @@ Ces principes sont à la base du fonctionnement des polariseurs, c'est-a-dire de
 %\includegraphics[height = 175pt, width = 300pt]{brewster.png}
 %\end{center}
 
-\subsection{Angle critique et réflexion totale}
-\begin{marginfigure}%[-9cm]
+\begin{marginfigure}[-19cm]
 	\includegraphics[width=\linewidth]{ref1}
 	\caption{Coefficients de réflexion parallèle et perpendiculaire lorsque $n_1>n_2$ (lucite $\rightarrow$ air)}
 	\label{fig_ref3}
 \end{marginfigure} 
-\begin{marginfigure}%[-9cm]
+
+\subsection{Angle critique et réflexion totale}
+\begin{marginfigure}[-5cm]
 	\includegraphics[width=\linewidth]{trans1}
 	\caption{Coefficients de transmission parallèle et perpendiculaire lorsque $n_1>n_2$ (lucite $\rightarrow$ air)}
 \end{marginfigure} 
@@ -299,7 +309,7 @@ Il faut noter que ce phénomène intervient quelle que soit la polarisation de l
 
 Par l'approche des coefficients de \textit{Fresnel}, nous remarquons tout de suite que \textit{l'angle critique} est l'angle d'incidence $\theta_{1} = \theta_{c}$ pour lequel l'angle de réfraction vaut $\frac{\pi}{2}$, ce qui nous donne: 
 \[\sin \theta_{c} = \frac{n_{2}}{n_{1}} \Rightarrow \theta_{c} = \arcsin \frac{n_{2}}{n_{1}}\]
-\begin{marginfigure}%[-3cm]
+\begin{marginfigure}[-3cm]
 	\includegraphics[width=\linewidth]{reflexion_tot}
 	\caption{Illustration de la réflexion totale, les deux premières raies incidentes en partant du haut sont en dessous de l'angle critique, une partie de l'onde est donc transmise. A partir de la 3ème raie, plus aucune onde n'est transmise}
 \end{marginfigure}

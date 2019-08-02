@@ -111,7 +111,7 @@ Dans le \textit{cas particulier du \textbf{vide}}, nous avons affaire à une \te
 
 \[ \Delta \vec{E} = \mu \epsilon  \frac{\partial^{2} \vec{E}}{\partial t^{2}} = \mu_{0} \epsilon_{0}  \frac{\partial^{2} \vec{E}}{\partial t^{2}} =\frac{1}{c^{2}} \frac{\partial^{2} \vec{E}}{\partial t^{2}} \]
 
-où $c^{2}$ est la \textit{vitesse de la lumière} au carré ($c = 299 792 458 [m/s]$).
+où $c^{2}$ est la \textit{vitesse de la lumière} au carré ($c = \SI{299 792 458}{[m/s]}$).
 
 \begin{center}
 \includegraphics[height = 100pt, width = 300pt]{ondeEM.png}
@@ -120,15 +120,18 @@ où $c^{2}$ est la \textit{vitesse de la lumière} au carré ($c = 299 792 458 [
 
 \section{Cas particulier du vide (1D) : équations d'Alembert}
 
-Nous allons traiter ici du \textit{cas particulier du \textbf{vide}} en une seule dimension spatiale.  \\
+Nous allons traiter ici du \textit{cas particulier du \textbf{vide}} en une seule dimension spatiale.
+
 C'est à dire que nous allons considérer que le champ électrique ne dépend que d'une seule variable spatiale et du temps et pointe dans une seule direction (qui n'est pas celle de la variable pour éviter la confusion par après).
-Nous écrivons alors $\vec{E}(x,y,z,t) \Rightarrow \vec{E_{y}}(x,t)$. \\
+Nous écrivons alors $\vec{E}(x,y,z,t) \Rightarrow \vec{E_{y}}(x,t)$.
+
 Il en est de même pour le champ magnétique d'excitation (ou d'induction) nous considérons qu'il est 
 \textit{orthogonal} au champ électrique et dépend aussi de $x$ et $t$ seulement ; $\vec{H}(x,y,z,t) \Rightarrow \vec{H_{z}}(x,t)$. 
 
 \begin{itemize}
 	\item
-Soit nous repartons de ce que nous avons déjà fait pour le cas général, l'équation d'onde est alors immédiate. \\
+Soit nous repartons de ce que nous avons déjà fait pour le cas général, l'équation d'onde est alors immédiate.
+
 En effet, en 1D, le \textbf{Laplacien} vectoriel de $\vec{E}$ donne simplement sa dérivée partielle seconde en son unique variable
 spatiale : 
 \[ \Delta \vec{E} = \mu_{0} \epsilon_{0}  \frac{\partial^{2} \vec{E}}{\partial t^{2}} \Rightarrow \frac{\partial^{2} \vec{E} }{\partial x^2} = \frac{1}{c^{2}}  \frac{\partial^{2} \vec{E}}{\partial t^{2}}\]
@@ -136,7 +139,8 @@ qui se résout de manière \textit{scalaire} pour la direction unitaire de la va
 \[\frac{\partial^{2} E_{y}}{\partial x^{2}} = \frac{1}{c^{2}}  \frac{\partial^{2} E_{y}}{\partial t^{2}}\]
 
 
-\item Soit nous repartons de zéro et adoptons une méthode plus \textit{faible} mathématiquement parlant et faisons les hypothèses suivantes.\\
+\item Soit nous repartons de zéro et adoptons une méthode plus \textit{faible} mathématiquement parlant et faisons les hypothèses suivantes.
+
 Nous admettrons pour ce qui suit que la matrice \textit{Hessienne} des uniques fonctions scalaires liées à $\vec{E}$ et $\vec{H}$ soit symétrique. 
 Plus particulièrement, nous pouvons imposer que ces fonctions soient de classe $\mathcal{C}^{2}$ ce qui vérifie la condition sur la \textit{Hessienne}.
 
@@ -156,9 +160,11 @@ Nous pouvons dès lors écrire, tout en se basant sur les équations de Maxwell 
 	\end{split}
 \end{equation*}
 
-Nous possédons alors un système d'EDP linéaires couplées deux à deux de premier ordre. \\
+Nous possédons alors un système d'EDP linéaires couplées deux à deux de premier ordre.
+
 La résolution de ce genre de système est un problème typique lié aux \textit{équations aux dérivées partielles} et est abordé dans le cours
-de mathématiques 3. Nous allons ici transformer ce système en deux EDP linéaires de second ordre dont la résolution est semblable. \\
+de mathématiques 3. Nous allons ici transformer ce système en deux EDP linéaires de second ordre dont la résolution est semblable.
+
 Nous pouvons dériver la première équation ci-dessus par rapport à $x$ et la seconde par rapport au temps $t$ : 
 
 \[  \frac{\partial^{2} \vec{H}}{\partial x \partial t} = -\frac{1}{\mu_{0}} \frac{\partial^{2} E_{y}}{\partial x^{2}} \hat{z}\]
@@ -170,7 +176,8 @@ Comme les dérivées partielles secondes sont \textit{croisées} et si nous trav
 \end{itemize}
 
 \textit{Les EPD de second ordre linéaires homogènes en 1D (et temps) de type hyperbolique} admettent une solution générale du type\footnote{A nouveau, se référer au cours de Mathématiques 3}  : 
-$ \xi(x,t) = \frac{1}{2}(f(x-ct)+f(x+ct)) $. \\ 
+$ \xi(x,t) = \frac{1}{2}(f(x-ct)+f(x+ct)) $.
+
 Dans le cas d'ondes, nous travaillerons souvent avec des fonctions $f$ sinusoïdales admettant parfois un déphasage $\phi$ çà et là. 
  
 
