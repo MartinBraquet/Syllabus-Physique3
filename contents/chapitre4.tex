@@ -166,9 +166,9 @@ Etant donné que $\hat{k_{1i}} = (\sin(\theta_{1}),0,-\cos(\theta_{1})) $, l'exp
 \end{split}
 \end{equation*}
 Les ondes incidente, réfléchie et transmise sont donc :\\ 
-\textbf{Incidente} $$ \vec{H}_{1i} (\vec{r},t) = (E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} + E^{\parallelsum}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)$$
+\textbf{Incidente} $$ \vec{H}_{1i} (\vec{r},t) = (E^{\perp}_{1i}\cos(\theta_{1}) \hat{x} - E^{\parallelsum}_{1i} \hat{y} + E^{\perp}_{1i}\sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1i}\cdot \vec{r} - \omega t)$$
 
-\textbf{Réfléchie} $$ \vec{H}_{1r} (\vec{r},t) = (-E^{\perp}_{1r} \cos(\theta_{1})  \hat{x} - E_{1r}^{\parallelsum} \hat{y} + E_{1r}^{\perp} \sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
+\textbf{Réfléchie} $$ \vec{H}_{1r} (\vec{r},t) = (-E^{\perp}_{1r} \cos(\theta_{1})  \hat{x} + E_{1r}^{\parallelsum} \hat{y} + E_{1r}^{\perp} \sin(\theta_{1}) \hat{z} ) \frac{1}{Z_1} \sin(\vec{k}_{1r}\cdot \vec{r} - \omega t) $$
 
 \textbf{Transmise} $$ \vec{H}_{2t} (\vec{r},t) = (E^{\perp}_{2t} \cos(\theta_{2})  \hat{x} - E_{2t}^{\parallelsum} \hat{y} + E_{2t}^{\perp} \sin(\theta_{2}) \hat{z} ) \frac{1}{Z_2}\sin(\vec{k}_{2t}\cdot \vec{r} - \omega t) $$
  
@@ -191,7 +191,7 @@ Nous écrivons sans peine en partant des composantes en $\hat{x}$ et des $\hat{y
 \mbox{Continuité de $\vec{E}(\vec{r},t)$ selon $\hat{x}$ : }&\hspace{5pt} E^{\parallelsum}_{1i} \cos(\theta_{1}) +E^{\parallelsum}_{1r} \cos(\theta_{1}) = E^{\parallelsum}_{2t} \cos(\theta_{2})\\
 \mbox{Continuité de $\vec{E}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} E_{1i}^{\perp} + E_{1r}^{\perp} = E_{2t}^{\perp}  \\
 \mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{x}$ : }&\hspace{5pt} Z_2E^{\perp}_{1i}\cos(\theta_{1}) - Z_2E^{\perp}_{1r} \cos(\theta_{1}) = Z_1E^{\perp}_{2t} \cos(\theta_{2})   \\
-\mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} Z_2E^{\parallelsum}_{1i} - Z_2E_{1r}^{\parallelsum} = -Z_1E_{2t}^{\parallelsum}
+\mbox{Continuité de $\vec{H}(\vec{r},t)$ selon $\hat{y}$ : }&\hspace{5pt} -Z_2E^{\parallelsum}_{1i} + Z_2E_{1r}^{\parallelsum} = -Z_1E_{2t}^{\parallelsum}
 \end{split}
 \end{equation*}
   
