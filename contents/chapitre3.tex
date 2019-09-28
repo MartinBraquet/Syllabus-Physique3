@@ -9,7 +9,7 @@ Il est important de mentionner que les ondes EM se propagent sans l'aide d'un \t
 
 Admettons qu'il existe une corde \textit{parfaitement souple et élastique}\footnote{Pas de couple de torsion.} dans un référentiel exempt de \textit{potentiel gravitationnel} \footnote{Ou alors dont l'effet de la pesanteur est \textit{\textbf{négligeable.}}}. La \textit{tension} longitudinale $F$ le long de la corde est supposée \textit{constante} et les déplacements longitudinaux sont considérés comme \textit{\textbf{négligeables}}.
 
-Seuls les déplacements verticaux sont pris en compte et nous noterons : $\vec{\xi}(x,t) = y(x,t) \vec{a}_{y}$.
+Seuls les déplacements verticaux sont pris en compte et nous noterons : $\vec{\xi}(x,t) = y(x,t) \ \vec{a}_{y}$.
 
 Nous admettrons aussi que lorsqu'une déformation se déplace le long de la corde, le reste de la corde n'est pas visé par la déformation et se trouve dès lors au \textit{repos} en ce sens où chacun des points du reste de la corde présente un déplacement vertical nul : $\vec{\xi}(x_{r},t) = \vec{0}$.
 
@@ -22,28 +22,23 @@ Considérons alors un déplacement vertical sur une portion de corde $\Delta x$ 
 Les forces verticales en $x$ et $x+\Delta x$ valent respectivement
 
 \begin{equation}
-\vec{F}_{1y}(x,t) = - F  (\frac{\partial y}{\partial x})|_{x}  \vec{a}_{y} 
+\vec{F}_{1y}(x,t) = - F  \left(\frac{\partial y}{\partial x}\right)_{x}  \vec{a}_{y} 
 \label{Force1}
 \end{equation}
 
 \begin{equation}
-\vec{F}_{2y}(x+\Delta x,t) = F (\frac{\partial y}{\partial x})|_{x+\Delta x} \vec{a}_{y}
+\vec{F}_{2y}(x+\Delta x,t) = F \left(\frac{\partial y}{\partial x}\right)_{x+\Delta x} \vec{a}_{y}
 \label{Force2}
 \end{equation}
 
 Si nous dérivons par rapport au temps, nous obtenons (en écrivant désormais $\vec{F}_{1y} = \vec{F}_{y}(x)$, puisqu'on fait tendre $\Delta x$ vers $0$, et donc qu'on s'intéresse à la force en $x$),
 
 \begin{equation}
-\frac{\partial \vec{F}_{y}}{\partial t} = - F (\frac{\partial^{2} y}{\partial t \partial x}) \vec{a}_{y}
-\label{Force3}
-\end{equation}
-
-\begin{equation}
-\frac{\partial \vec{F}_{y}}{\partial t} = - F (\frac{\partial u}{\partial x}) \vec{a}_{y}
+\frac{\partial \vec{F}_{y}}{\partial t} = - F \left(\frac{\partial^{2} y}{\partial t \partial x}\right) \vec{a}_{y} = - F \left(\frac{\partial u}{\partial x}\right) \vec{a}_{y}
 \label{Force4}
 \end{equation}
 
-où $u$ est la norme de $\vec{u}(x,t)$ qui est \textbf{la vitesse verticale de déplacement d'un point de masse de la corde en fonction de sa position longitudinale $x$ et du temps $t$}.
+où $u=\frac{\partial y}{\partial t}$ est la norme de $\vec{u}(x,t)$ qui est \textbf{la vitesse verticale de déplacement d'un point de masse de la corde en fonction de sa position longitudinale $x$ et du temps $t$}.
 
 Si nous dérivons désormais par rapport à $x$, nous obtenons une nouvelle identité intéressante : 
 
@@ -52,14 +47,14 @@ Si nous dérivons désormais par rapport à $x$, nous obtenons une nouvelle iden
 \label{ForceLOL}
 \end{equation}
 
-Etablissons un bilan des forces dans la direction verticale : 
+Établissons un bilan des forces dans la direction verticale : 
 
-\[\sum_{i} \vec{F}_{y} = \vec{F}_{1y} + \vec{F}_{2y}  = F [\frac{\partial y}{\partial x}|_{x+\Delta x} - \frac{\partial y}{\partial x}|_{x}] \vec{a}_{y} \]
+\[\sum_{i} \vec{F}_{y} = \vec{F}_{1y} + \vec{F}_{2y}  = F \left[\left(\frac{\partial y}{\partial x}\right)_{x+\Delta x} - \left(\frac{\partial y}{\partial x}\right)_{x}\right] \vec{a}_{y} \]
 
-Etant donné que $\Delta x$ est supposé tendre vers $0$, en multipliant par $\Delta x$ en haut et en bas de la fraction : 
+Étant donné que $\Delta x$ est supposé tendre vers $0$, en multipliant par $\Delta x$ en haut et en bas de la fraction : 
 
 \begin{equation}
-\sum \vec{F}_{y} \Rightarrow \lim_{\Delta x \to 0}  F \Delta x \frac{[\frac{\partial y}{\partial x}|_{x+\Delta x} - \frac{\partial y}{\partial x}|_{x}]}{\Delta x} \vec{a}_{y} = F \Delta x \frac{\partial^{2} y }{\partial x^{2}} \vec{a}_{y} 
+\sum \vec{F}_{y} \Rightarrow \lim_{\Delta x \to 0}  F \Delta x \frac{\left(\frac{\partial y}{\partial x}\right)_{x+\Delta x} - \left(\frac{\partial y}{\partial x}\right)_{x}}{\Delta x} \vec{a}_{y} = F \Delta x \frac{\partial^{2} y }{\partial x^{2}} \vec{a}_{y} 
 \label{Force5}
 \end{equation}
 
@@ -84,7 +79,7 @@ De même, nous observons que nous retrouvons des \textbf{EDP couplées} en $F_{y
 
 Afin de s'en convaincre, nous utilisons les équations \eqref{Force4}, \eqref{ForceLOL} et \eqref{EqOnde} :
 
-\[ \frac{\partial F_{y}}{\partial t} = - F (\frac{\partial u}{\partial x})\]
+\[ \frac{\partial F_{y}}{\partial t} = - F \left(\frac{\partial u}{\partial x}\right)\]
 
 \[ \frac{\partial F_{y}}{\partial x} = -F \frac{\partial^{2} y}{\partial x^{2}} = -\mu \frac{\partial^{2} y}{\partial t^{2}} = -\mu \frac{\partial u}{\partial t} \]
 
@@ -118,13 +113,11 @@ La valeur maximale de cette expression (par unité de longueur) se donne par la 
 \[U_{k,max} = \frac{\mu u_{max}^{2}}{2}\]
 Nous définissons encore le concept d'énergie \textit{potentielle de déformation} comme l'énergie du couple de forces $\vec{F}_{1y}$ et $\vec{F}_{2y}$, obtenue en multipliant la force verticale par la variation de l'angle $\alpha$
 \[\Delta W = (F_{y}(x,t) \Delta l)(-\Delta \alpha)= F_{y}(x,t) \Delta l \frac{\Delta F_{y}(x,t)}{F} \]
-\[\hspace{2cm} \Delta W = \frac{\Delta l}{F} \int_{0}^{F_{y}(x,t)} F_{y'} dF_{y'} = \frac{F_{y}^{2}(x,t)}{2F}\Delta l \]
+\[\hspace{2cm} \Delta W = \frac{\Delta l}{F} \int_{0}^{F_{y}(x,t)} F_{y'} \ \mathrm{d}F_{y'} = \frac{F_{y}^{2}(x,t)}{2F}\Delta l \]
 
-Encore une fois, la valeur maximale de cette expression (par unité de longueur) s'écrit : 
-
+Encore une fois, la valeur maximale de cette expression (par unité de longueur) s'écrit :
 \[U_{p,max} = \frac{F_{y,max}^{2}}{2F}\]
-
-Nous remarquons alors que ces deux valeurs sont \textit{équivalentes}! 
+Nous remarquons alors que ces deux valeurs sont \textit{équivalentes} ! 
 \\ En effet, comme $F_{y}^{2}(x,t)  = \mathcal{Z}^{2} u^{2}(x,t)$, nous pouvons écrire 
 
 \[ U_{k,max} = \frac{\mu u_{max}^{2}}{2} =   \frac{\mathcal{Z}^{2} u_{max}^{2}}{2F} = \frac{F_{y,max}^{2}}{2F} = U_{p,max}\]
@@ -148,10 +141,10 @@ de l'onde.
 
 Afin de pouvoir écrire les équations qui vont suivre sereinement, il nous faut dresser une liste d'hypothèses qui justifieront les écritures. 
 Tout d'abord, il faudra admettre que nous travaillons avec un milieu (\textit{par exemple ici de l'air}) aux propriétés thermodynamiques \textit{parfaites}. \footnote{Source : \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Équation_d\%27onde}}
-Nous considérons les déplacements longitudinaux comme respectant la condition $L = \sqrt{DT} << \lambda^{2}$ où $\lambda^{2}$ est le carré de la longueur d'onde, $D$ le coefficient de diffusion de l'onde et 
-$T$ une période de l'onde. Ceci implique l'isentropie et l'absence de phénomènes thermodynamiques irréversibles dont l'effet sur les équations est difficilement abordable dans le cadre de ce cours. \footnote{Pour plus de formalisme, se référer à \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Hypothèse_acoustique}}
+Nous considérons que les déplacements longitudinaux respectent la condition $L = \sqrt{DT} << \lambda$ où $\lambda$ est la longueur d'onde, $D$ le coefficient de diffusion de l'onde et 
+$T$ la période de l'onde. Cette relation est vérifiée pour les basses fréquences. Ceci implique l'isentropie et l'absence de phénomènes thermodynamiques irréversibles dont l'effet sur les équations est difficilement abordable dans le cadre de ce cours. \footnote{Pour plus de formalisme, se référer à \url{https://fr.wikiversity.org/wiki/Introduction_à_l\%27acoustique/Hypothèse_acoustique}}
 
-Une fois tout ceci dit, nous pouvons posément commencer. Nous allons nous attarder sur le cas d'une propagation dans l'air et, sans le démontrer, accepter que ce raisonnement tienne pour la propagation dans 
+Dans la prochaine section, nous allons nous attarder sur le cas d'une propagation dans l'air et, sans le démontrer, accepter que ce raisonnement tienne pour la propagation dans 
 d'autres milieux.
 
 \subsection{Équations constitutives} 
@@ -185,31 +178,30 @@ Dans notre cas, $\Delta p = p_y$, $V = A \Delta x$ et $\delta V = A \Delta y$, p
 
 
 Une fois de plus, nous avons affaire à des EDP linéaires couplées du premier ordre. Il en résulte que les grandeurs physiques \textit{force} ou \textit{pression} (selon que l'on multiplie par $A$ ou non) et 
-\textit{vitesse longitudinale} sont liées et vérifient l'équation d'onde. La vitesse de propagation du signal vaut donc machinalement : $v = \sqrt{\frac{B}{\rho_{0}}}$\footnote{Si nous considérons la vitesse du son à travers un solide : $v = \sqrt{\frac{Y}{\rho_{0}}}$ où $Y$ est le module de \textit{Young}.}.  Si nous travaillons bien avec des
+\textit{vitesse longitudinale} sont liées et vérifient l'équation d'onde. La vitesse de propagation du signal vaut donc machinalement\footnote{Si nous considérons la vitesse du son à travers un solide : $v = \sqrt{\frac{Y}{\rho_{0}}}$ où $Y$ est le module de \textit{Young}.} : $v = \sqrt{\frac{B}{\rho_{0}}}$.  Si nous travaillons bien avec des
 gaz \textbf{parfaits}, nous pouvons écrire : $$p_{0} = \frac{nRT}{V_{0}}= \frac{mR^{*}T}{V_{0}} = \rho_{0}R^{*}T \Rightarrow v = \sqrt{\frac{\gamma RT}{M}}$$ où $M$ est la \textit{masse molaire} du gaz.
 
-Prenons le cas de l'air, $\gamma$ est considéré comme une constante (voir \textit{Transformations adiabatiques réversibles}) et vaut approximativement $1.4$, $M$ quant à elle
-vaut à peu près $0.02896 [kg/mol]$. Nous avons alors une expression approchée de la \textit{vitesse du son dans l'air} à température $T$. 
+Prenons le cas de l'air, $\gamma$ est considéré comme une constante (voir \textit{Transformations adiabatiques réversibles}) et vaut approximativement $1.4$. $M$ vaut à peu près $\SI{0.02896}{[kg/mol]}$. Nous avons alors une expression approchée de la \textit{vitesse du son dans l'air} à température $T$. 
+\[ v \simeq \sqrt{\frac{\gamma R}{M}} \sqrt{T} \simeq 20.05 \sqrt{T} \Rightarrow \hspace{5 pt} \mbox{pour $T = \SI{293.15}{[K]}$ : } \hspace{5pt} v \simeq \SI{343.3}{[m/s]}\]
 
-\[ v \simeq \sqrt{\frac{\gamma R}{M}} \sqrt{T} \simeq 20.05 \sqrt{T} \Rightarrow \hspace{5 pt} \mbox{pour $T = 293.15[K]$ : } \hspace{5pt} v \simeq 343.3 [m/s]\]
+L'impédance caractérique est donnée par :
+\[
+    \mathcal{Z} = \frac{p_y(x,t)}{u(x,t)} = \sqrt{B\rho_0}
+\]
 
 \subsection{Puissance et intensité}
 
 De manière analogue\footnote{Selon les unités, le cas de la \textit{corde vibrante} renseignait sur la puissance et \textbf{non} l'intensité} aux autres cas d'ondes mécaniques, nous pouvons définir l'intensité d'une onde acoustique comme le produit de son \textit{impédance caractéristique}
 par la norme de la \textit{vitesse} de la déformation locale du milieu.
 Nous avons alors, 
-
 \[I(x,t) = \mathcal{Z} u^{2}(x,t) = \frac{p_{y}^{2}(x,t)}{\mathcal{Z}}\]
 
 dans un cas \textit{sinusoïdal}%\footnote{ C'est à dire où $y(x,t) = \xi_{max} cos(kx-\omega t)$} 
-, nous pouvons définir également une intensité \textit{moyenne} sur une période : 
-
-\[ |I_{moy}| = \frac{\mathcal{Z} u^{2}_{max}}{2} = \frac{\sqrt{B \rho_{0}} \omega^{2} \xi_{max}^{2}}{2}\]
+, nous pouvons définir également une intensité \textit{moyenne} sur une période : \[ |I_{moy}| = \frac{\mathcal{Z} u^{2}_{max}}{2} = \frac{\sqrt{B \rho_{0}} \omega^{2} \xi_{max}^{2}}{2}\]
 
 Notons que $\mathcal{Z}$ dépend de facteurs thermodynamiques comme la température, c'est pourquoi nous pouvons écrire aussi sous une autre forme l'intensité moyenne en fonction de
 la pression maximale locale : 
-
-\[ |I_{moy}| = \frac{p_{max}^{2}}{2 \mathcal{Z}} \Rightarrow \hspace{5pt} \mbox{pour $T = 293.15[K]$ , 2 $\mathcal{Z} \simeq 825.6$  : } \hspace{5pt} I_{moy} = \frac{p_{max}^{2}}{825.6}\]
+\[ |I_{moy}| = \frac{p_{max}^{2}}{2 \mathcal{Z}} \Rightarrow \hspace{5pt} \mbox{pour $T = 293.15[K]$ , $ 2 \mathcal{Z} \simeq 825.6$  : } \hspace{5pt} I_{moy} = \frac{p_{max}^{2}}{825.6}\]
 
 \begin{center}
 	\includegraphics[width = 0.9\linewidth]{pression.png}
@@ -219,7 +211,7 @@ la pression maximale locale :
 
 Nous avons introduit le \textbf{vecteur de \textit{Poynting}} à la fin de la section concernant les ondes EM. La puissance totale d'une source \textit{ponctuelle} se donne par l'expression 
 
-\[P_{tot} = \oint \vec{S} \cdot d\vec{A}\]
+\[P_{tot} = \oint \vec{S} \cdot \mathrm{d}\vec{A}\]
 
 Dans le cas de propagations symétriques dans des configurations spéciales, nous pouvons déduire l'expression des champs électriques et magnétiques et leur \textit{décroissance} apparente, comme 
 lorsque nous jetons une pierre dans une mare et voyons la propagation de type circulaire autour de la singularité. 
@@ -316,15 +308,14 @@ avec $\Delta v_{s,o}=v_s-v_0$.
 \section{Principe de l'intensité \textit{relative} et décibels} 
 
 Nous sommes tous familiers de près ou de loin à ce concept de \textit{décibels}. Nous en entendons parler lorsqu'il s'agit de musique et d'intensité sonore. Il faut toutefois repartir de la définition: le décibel est une unité relative, qui permet d'exprimer tout rapport de puissance (ou d'intensité) dans une échelle logarithmique:
-\[ (P_2/P_1)_{dB} = 10 \log_{10}(\frac{P_2}{P_1}) \]
+\[ (P_2/P_1)_{dB} = 10 \log_{10}\left(\frac{P_2}{P_1}\right) \]
 
 Par exemple, si $P_2 = 2P_1$, on dira que $P_2$ est de 3 dB supérieure à $P_1$. 
 
 Toutefois, le décibel peut devenir une unité absolue si on fixe $P_1$ à une valeur de référence: si $P_1 = 1$ W, le rapport en décibels exprime la puissance de $P_2$ en dBW (un émetteur de 3 dBW émet 2 Watts); si $P_1 = 1$ mW, le rapport en décibels exprime la puissance de $P_2$ en dBm. 
 
 Enfin, dans le cas du son, on peut exprimer l'intensité d'une onde acoustique en comparant l'intensité absolue à une valeur de référence égale au seuil d'audibilité de l'oreille humaine $I_0 = 10^{-12}$ W/m$^2$. Dans ce cas on parlera de dB(A), où le (A) se lit comme acoustique. L'intensité du son en dB(A) est naturellement donnée par 
-\[ I_{dB(A)} = 10 \log_{10}(\frac{I}{I_{0}}) \]
-\\ 
+\[ I_{dB(A)} = 10 \log_{10}\left(\frac{I}{I_{0}}\right) \]
 A titre d'exemple, l'intensité produite par un concert de rock vaut 1 W/m$^2$, autrement dit 120 dB(A), ou encore $10^{12}$ fois plus que le seuil d'audibilité. 
 \begin{marginfigure}[-5cm]
 	\includegraphics[width = \linewidth]{audition.jpg}
