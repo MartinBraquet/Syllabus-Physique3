@@ -46,17 +46,18 @@ En effet, le second terme devient ici un cosinus de même pulsation angulaire et
 Avant de développer le cas des ondes EM, étudions la transmission (et la réflexion qui en résulte forcément) d'une onde \textit{mécanique} transversale d'un milieu défini par les paramètres $({F}_1,{\mu_1})$ à un autre défini par $({F}_2,{\mu_2})$ (pour rappel, $F$ est la tension dans la corde et $\mu_i$, dans le contexte de la corde, représente sa masse par unité de longueur; la vitesse de phase s'exprime par $v_i = \sqrt{\frac{F_i}{\mu_i}}$, et le nombre d'onde $k_i = \omega/v_i$, $i = 1, 2$). Cette vitesse change d'un milieu à un autre.\\
 L'onde \textit{incidente} (c.-à-d. l'onde avant qu'elle ne rencontre l'interface) peut s'écrire sous forme scalaire
 
-\[ \xi_{1i}(x,t) = I \sin(k_{1}r - \omega t) \]
+\[ \xi_{1i}(x,t) = I \sin(k_{1}x - \omega t) \]
 
 L'onde réfléchie et l'onde transmise auront pour équations respectives\footnote{-$k_{1}$ dénote bien que l'onde réfléchie se déplace dans la direction opposée par rapport à l'onde incidente.} : 
-\[ \xi_{1ir}(x,t) = R \sin(-k_{1}r - \omega t) \]
-\[ \xi_{2t}(x,t) = T \sin(k_{2}r - \omega t) \]
+\[ \xi_{1r}(x,t) = R \sin(-k_{1}x - \omega t) \]
+\[ \xi_{2t}(x,t) = T \sin(k_{2}x - \omega t) \]
 
 \textit{Les conditions aux interfaces impliquent ici la continuité du déplacement vertical de la corde $\xi$ et la continuité de la force 
-verticale $F_y$}.  L'application de ces conditions de continuité résulte en un système de 2 équations à 2 inconnues $(R,T)$ :
-
-\[\xi_{1i}(0,t) + \xi_{1r}(0,t) = \xi_{2t}(0,t) \Leftrightarrow I + R = T\]
-\[F_{y,1i}(0,t) + F_{y,1r}(0,t) = F_{y,2t}(0,t) \Leftrightarrow k_{1}I - k_{1}R = k_{2}T\]
+verticale $F_y$}. L'application de ces conditions de continuité en $x=0$ résulte en un système de 2 équations à 2 inconnues $(R,T)$\footnote{La 2e relation s'obtient via la formule $F_y(0,t) = -F\:\frac{\partial \xi}{\partial x}(0,t)$ développée à la section \ref{corde_vibrante}, pour laquelle $y$ et $\xi$ sont identiques et correspondent au déplacement vertical de la corde.} :
+\begin{align*}
+    \xi_{1i}(0,t) + \xi_{1r}(0,t) = \xi_{2t}(0,t) &\Leftrightarrow I + R = T\\
+    F_{y,1i}(0,t) + F_{y,1r}(0,t) = F_{y,2t}(0,t) &\Leftrightarrow k_{1}I - k_{1}R = k_{2}T
+\end{align*}
 
 Nous obtenons trivialement pour chaque inconnue les relations suivantes : 
 
@@ -229,14 +230,14 @@ Nous pouvons résoudre ce système d'équations et obtenir les 4 coefficients de
 \[r_{\parallelsum} \overset{\Delta}= \frac{E_{1r}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{Z_{2}\cos \theta_{2} - Z_{1} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1} } \]
 \[r_{\perp} \overset{\Delta}= \frac{E_{1r}^{\perp}}{E_{1i}^{\perp}} = \frac{Z_{2}\cos \theta_{1} - Z_{1} \cos \theta_{2} }{Z_{2} \cos \theta_{1} + Z_{1} \cos \theta_{2}}\]
 \[t_{\parallelsum} \overset{\Delta}= \frac{E_{2t}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{2} + Z_{1} \cos \theta_{1}} \]
-\[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{1} + Z_{1} \cos \theta_{2}}\]
+\[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} = \frac{2 Z_{2} \cos \theta_{1} }{Z_{2} \cos \theta_{1} + Z_{1} \cos \theta_{2}}\]
 Ces coefficients sont valables dans les milieux avec une permittivité électrique et une perméabilité magnétique constantes. La forme des équations de Fresnel ici présentes n'est pas unique. En effet, il existe des équations de Fresnel sous une forme plus restrictive. Cette forme n'utilise pas les impédances des deux milieux mais leur indice de réfraction. Elle est utilisée couramment chez des opticiens pour cette raison. L'inconvénient est que ladite forme n'est valable que pour des milieux dont la perméabilité magnétique est celle du vide (autrement dit, pour des matériaux non-magnétiques): $Z_i = 1/n_i$. Pour les opticiens, il ne s'agit pas d'un problème car la plupart des matériaux utilisés en optique sont non-magnétiques. Dans le cadre de ce cours, nous utiliserons toujours de préférence les formules énoncées plus haut. Néanmoins, voici les équations de Fresnel avec les indices de réfraction: 
 \sidenote[][-5cm]{Afin de visualiser la réflexion et la réfraction au mieux,  il existe deux animations \textit{Matlab} très bien réalisées disponibles sur le site Moodle du cours.}% En prime\footnote{Disponible dans le fichier .zip}, un autre programme \textit{Matlab} vous permettant  de calculer rapidement les coefficients de \textit{Fresnel} suivant la convention du cours. Il est conseillé d'analyser la notice d'utilisation. \textbf{Notez} que si vous désirez afficher les graphes de l'évolution des coefficients de \textit{Fresnel} par rapport à l'angle incident; il vous faut simplement appeler la fonction avec le rapport $\frac{n_{1}}{n_{2}}$ souhaité entre les deux milieux. Enfin, ce programme est rapidement fait et n'est certainement pas optimisé ni défensif; il a pour but d'être le substitut à une calculette un peu longue à manier pour des calculs de \textit{coefficients de Fresnel}.}:  
 
 \[r_{\parallelsum} \overset{\Delta}= \frac{E_{1r}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{n_{1}\cos \theta_{2} - n_{2} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = \frac{\tan(\theta_{2}-\theta_{1})}{\tan(\theta_{1}+\theta_{2})}\]
 \[r_{\perp} \overset{\Delta}= \frac{E_{1r}^{\perp}}{E_{1i}^{\perp}} = \frac{n_{1}\cos \theta_{1} - n_{2} \cos \theta_{2} }{n_{2} \cos \theta_{2} + n_{1} \cos \theta_{1}} = -\frac{\sin(\theta_{1} - \theta_{2})}{\sin(\theta_{1} + \theta_{2})} \]
 \[t_{\parallelsum} \overset{\Delta}= \frac{E_{2t}^{\parallelsum}}{E_{1i}^{\parallelsum}} = \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2}} \]
-\[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{2} + n_{1} \cos \theta_{1}}\]
+\[t_{\perp} \overset{\Delta}= \frac{E_{2t}^{\perp}}{E_{1i}^{\perp}} = \frac{2 n_{1} \cos \theta_{1} }{n_{2} \cos \theta_{2} + n_{1} \cos \theta_{1}}\]
 
 %\subsection{Convention du cours: NON: il faut directeemnt utiliser la bonne convention, dit Claude}
 
@@ -248,7 +249,7 @@ Supposons une interface entre deux milieux non-magnétiques (pour simplifier l'a
 
 Lorsqu'une onde EM passe de l'air vers la lucite, à incidence normale ($\theta_1=0^\circ$ sur la figure \ref{fig_ref2}), nous remarquons que les coefficients de réfraction sont négatifs. \textit{La réflexion change donc le sens du champ électrique} en lui appliquant un déphasage de $180^\circ$.\sidenote{Attention, il ne s'agit pas d'une histoire de conventions, le déphasage est bien réel. Pour s'en convaincre, il suffit de regarder les figures \ref{fig_convention1} et \ref{fig_convention2} en imaginant $\theta_1=0^\circ$. Nous pouvons remarquer que dans ce cas les vecteurs se confondent.} Avec une analyse similaire, on peut déterminer que la transmission ne change pas le sens du champ électrique.
 
-Toujours dans le même cas (air $\rightarrow$ lucite), nous observons qu'à incidence rasante ($\theta_1$ proche de $90^\circ$), le coefficient de réfléxion tend vers 1 et le coefficient de transmission vers zéro. \textit{A incidence rasante, la réflexion est totale.}\\
+Toujours dans le même cas (air $\rightarrow$ lucite), nous observons qu'à incidence rasante ($\theta_1$ proche de $90^\circ$), le coefficient de réflexion tend vers 1 et le coefficient de transmission vers zéro. \textit{A incidence rasante, la réflexion est totale.}\\
 
 Dans le cas inverse, visible à la figure \ref{fig_ref3}, où $n_1>n_2$ (lucite $\rightarrow$ air), nous pouvons observer que tant le champ électrique transmis que réfléchi est du même sens que le champ électrique incident. Une remarque importante s'impose quant à la définition du sens des champs. Ces champs sont des ondes sinusoïdales, dont l'orientation change toutes les demi-périodes. Par sens, on entend bien le sens pris au même moment, à l'interface. Autrement dit, si un coefficient de Fresnel est positif pour les sens définis aux figures \ref{fig_convention1} et \ref{fig_convention2}, cela signifie qu'à un moment fixé, au point de réflexion, les champs ont le sens tel qu'indiqué sur la figure. Une demi-période plus tard, les champs seront tous (en même temps) dans le sens opposé. 
 
@@ -275,11 +276,11 @@ Pour des milieux non-magnétiques ($\mu_1 = \mu_2 = \mu_0$), cela revient à
 Cet angle $\theta_1$ est appelé \textit{angle de Brewster} et se note $\theta_{B}$.
 
 Nous pouvons également retrouver cet angle (pour des milieux non-magnétiques) à partir de l'expression optique du coefficient $r_{\parallelsum}$ : 
-\[\frac{n_{2}\cos \theta_{1} - n_{1} \cos \theta_{2} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = 0 \Leftrightarrow n_{2} \cos \theta_{1} = n_{1} \cos \theta_{2} \Rightarrow \cos^{2} \theta_{2} = \left(\frac{n_{2} \cos \theta}{n_{1}}\right)^{2}\]
+\[\frac{n_{2}\cos \theta_{1} - n_{1} \cos \theta_{2} }{n_{2} \cos \theta_{1} + n_{1} \cos \theta_{2} } = 0 \Leftrightarrow n_{2} \cos \theta_{1} = n_{1} \cos \theta_{2} \Rightarrow \cos^{2} \theta_{2} = \left(\frac{n_{2} \cos \theta_{1}}{n_{1}}\right)^{2}\]
 En utilisant la loi de \textit{Snell-Descartes} : 
-\[n_{1} \sin \theta_{1} = n_{2} \sin \theta_{2} \Rightarrow \sin^{2} \theta_{2} = \left(\frac{n_{1} \sin \theta}{n_{2}}\right)^{2} \] 
+\[n_{1} \sin \theta_{1} = n_{2} \sin \theta_{2} \Rightarrow \sin^{2} \theta_{2} = \left(\frac{n_{1} \sin \theta_{1}}{n_{2}}\right)^{2} \] 
 En se souvenant de l'identité trigonométrique de base $ \cos^{2} \alpha + \sin^{2} \alpha = 1$ : 
-\[\sin^{2} \theta_{1} + \cos^{2} \theta_{1} = \left(\frac{n_{1} \sin \theta}{n_{2}}\right)^{2} +  \left(\frac{n_{2} \cos \theta}{n_{1}}\right)^{2}\]
+\[\sin^{2} \theta_{1} + \cos^{2} \theta_{1} = \left(\frac{n_{1} \sin \theta_{1}}{n_{2}}\right)^{2} +  \left(\frac{n_{2} \cos \theta_{1}}{n_{1}}\right)^{2}\]
 \[\sin^{2} \theta_{1} \left(\frac{n_{2}^{2} - n_{1}^{2}}{n_{2}^{2}}\right) = \cos^{2} \theta_{1} \left(\frac{n_{2}^{2} - n_{1}^{2}}{n_{1}^{2}}\right)\]
 Enfin, nous pouvons écrire : 
 \[\tan^{2} \theta_{1} = \frac{n_{2}^{2}}{n_{1}^{2}} \Rightarrow \theta_{1} \overset{\Delta}= \theta_{B} = \arctan\left(\frac{n_{2}}{n_{1}}\right)\]
