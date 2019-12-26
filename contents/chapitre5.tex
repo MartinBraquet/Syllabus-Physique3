@@ -377,3 +377,18 @@ La figure \ref{M4} représente graphiquement l'intensité pour $10$ fentes.
 
 Il y a un grand nombre de possibilités de combiner les différents faisceaux pour arriver à une intensité nulle, tandis que les cas correspondant à l'interférence constructive de tous les faisceaux sont plus rares. Nous avons considéré des fentes infiniment étroites; en général, il faut prendre en compte une largeur finie de fente, et un facteur supplémentaire s'introduit dans les expressions \footnote{voir chapitre lié à la diffraction}.
 
+
+\subsection{Incidence oblique}
+
+Les calculs précédents sont réalisés dans le cas d'une onde plane arrivant perpendiculairement au réseau de fentes, il est possible de généraliser le raisonnement pour tout angle d'incidence. Ceci implique que deux sources d'ondes côte-à-côte au niveau du réseau sont déphasées spatialement de $d\sin(\theta_i)$ avec $d$ la largeur entre les fentes et $\theta_i$ l'angle d'incidence (d'arrivée vers le réseau). Le déphasage spatial après le réseau est donné comme précédemment par $d\sin(\theta)$. La différence de marche totale vaut $d\sin(\theta) - d\sin(\theta_i)$, le signe négatif provenant du fait que l'onde qui arrive en avance (de $d\sin(\theta_i)$) au niveau du réseau subit un retard (de $d\sin(\theta)$) pour revenir sur l'onde au niveau du champ lointain\footnote{Par exemple sur la figure \ref{fm3}, l'onde arrivant en $S_2$ est en avance sur l'onde arrivant en $S_1$, mais subit un retard pour revenir au niveau de l'onde plane en sortie.}.
+
+Finalement, la direction d'intensité maximale survient lorsque ce déphasage est un multiple de longueurs d'onde, auquel cas elles interfèrent constructivement:
+$$
+  d(\sin(\theta) - \sin(\theta_i))=n\lambda
+$$
+$$\theta = \arcsin\left(\sin(\theta_i) + n\frac{\lambda}{d}\right)  \qquad(\forall n\in  \mathbb{Z}).
+$$
+La première direction d'intensité maximale est donc donnée par $\theta_0 = \theta_i$ (qui est en réalité unique si on prend en compte le phénomène de diffraction vu au chapitre suivant, signifiant que les autres pics sont d'intensité inférieure). Ainsi, le premier pic se situe dans la direction de l'onde incidente, comme si elle n'était pas déviée par le réseau.
+Dans le cas classique d'incidence perpendiculaire, on retrouve bien $\theta_0 = \theta_i = 0$.
+
+Il convient de noter que ce raisonnement tient compte uniquement du déphasage spatial, il faut donc l'adapter si le réseau est à l'interface entre 2 milieux (indices de réfraction différents).
